@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Stock Chart Builder</title>  
+  
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.css">
+  <link rel="stylesheet" type="text/css" href="../css/spectrum.css">
+  <link rel="stylesheet" type="text/css" href="../css/dsc-style.css">
+  <link rel="stylesheet" type="text/css" href="../css/dsc-builder.css">  
+  
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="https://www.google.com/jsapi"></script>
+  <script src="http://yui.yahooapis.com/3.18.1/build/yui/yui-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.js"></script>
+  <script src="../js/spectrum.js"></script>
+  <script src="../js/dynamic-stock-charts.min.js"></script>
+  <script src="../js/dynamic-stock-charts-builder.js"></script>
+</head>
+<body>
+<div class="main">
+
+  <div class="ui hidden divider"></div>
+
+  <!-- Chart builder  -->
+  <div class="ui container">
+    <h3 class="ui top attached block blue center aligned header">Stock chart builder</h3>
+    <div class="ui attached segment">          
+      <div class="ui stackable padded center aligned grid">      
+        <div class="ten wide column">       
+                             
+          <p>Try out the stock chart builder yourself, build a unique stock chart!</p>
+                 
+          <form id="f-builder" class="ui centered form">
+          
+            <h4 class="ui dividing header">General options</h4>   
+                 
+            <div class="field">
+              <div class="ui big icon input">
+                <input id="i-stock-symbol" type="text" placeholder="Stock symbol or Company name...">
+                <i class="search icon"></i>
+              </div>
+              <div class="symbol-search-dropdown"></div>
+            </div>
+
+            <div class="two fields">
+              <div class="field">
+                <input id="i-start-date" type="text" placeholder="Start date">
+              </div>
+              <div class="field">
+                <input id="i-end-date" type="text" placeholder="End date (leave empty to use current)">
+              </div>
+            </div>
+            
+            <div class="two fields">
+              <div class="field">
+                <input id="i-width" type="text" placeholder="Chart container width in px">
+              </div>
+              <div class="field">
+                <input id="i-height" type="text" placeholder="Chart container height in px">
+              </div>
+            </div>        
+            
+            <div class="inline fields">
+              <div class="eight wide field">
+                <select id="i-type" class="ui dropdown">
+                  <option value="">Chart type</option>
+                  <option value="AreaChart">Area chart</option>                  
+                  <option value="LineChart">Line chart</option>
+                  <option value="CandlestickChart">Candlestick chart</option>                  
+                </select>
+              </div>
+              <div class="eight wide field">
+                <div id="navigation-chart-checkbox" class="ui toggle checkbox">
+                  <label>Show navigation chart</label>
+                  <input id="i-navigation-chart" type="checkbox" tabindex="0" class="hidden">                
+                </div>
+              </div>                     
+            </div>
+            
+            <div id="line-options" class="chart-type-options">
+              <h4 class="ui dividing header">Area/Line chart options</h4>              
+              
+              <div class="inline fields">
+                <div class="eight wide field">
+                  <select id="i-line-data-field" class="ui dropdown">
+                    <option value="">Data field for building chart</option>
+                    <option value="Open">Open</option>
+                    <option value="High">High</option>
+                    <option value="Low">Low</option>
+                    <option value="Close">Close</option>
+                    <option value="AdjClose">Adjusted Close</option>
+                  </select>
+                </div>
+                <div class="eight wide field">
+                  <div class="ui toggle checkbox">
+                    <label>Enable zoom</label>
+                    <input id="i-zoom" type="checkbox" tabindex="0" class="hidden">                
+                  </div>
+                </div>                     
+              </div>              
+            </div>              
+
+            <div id="candlestick-options" class="chart-type-options">
+              <h4 class="ui dividing header">Candlestick chart options</h4>
+              
+              <div class="inline fields">
+                <div class="six wide field">
+                  <div class="ui input">
+                    <label>Falling candle color</label>
+                    <input id="i-falling-color" type="text">                                
+                  </div>
+                </div>
+                <div class="eight wide field">
+                  <div class="ui input">
+                    <label>Falling candle border color</label>
+                    <input id="i-falling-border-color" type="text">                                
+                  </div>
+                </div>         
+                <div class="four wide field">
+                  <span>Border width</span>
+                  <input id="i-falling-border-width" type="text" placeholder="1">
+                </div>
+              </div>            
+              
+              <div class="inline fields">
+                <div class="six wide field">
+                  <div class="ui input">
+                    <label>Rising candle color</label>
+                    <input id="i-rising-color" type="text">                                
+                  </div>
+                </div>
+                <div class="eight wide field">
+                  <div class="ui input">
+                    <label>Rising candle border color</label>
+                    <input id="i-rising-border-color" type="text">                                
+                  </div>
+                </div>         
+                <div class="four wide field">
+                  <span>Border width</span>
+                  <input id="i-rising-border-width" type="text" placeholder="1" value="">
+                </div>
+              </div>
+            
+            </div>           
+            
+            <div id="navigation-options">
+              <h4 class="ui dividing header">Navigation chart options</h4>              
+              
+              <div class="inline fields">
+                <div class="eight wide field">
+                  <select id="i-navigation-type" class="ui dropdown">
+                    <option value="">Navigation chart type</option>
+                    <option value="AreaChart">Area chart</option>
+                    <option value="lineChart">Line chart</option>                    
+                  </select>
+                </div>               
+                <div class="eight wide field">
+                  <input id="i-navigation-days" type="text" placeholder="Number of days to show">                                
+                </div>                  
+              </div>              
+            </div>                 
+            
+            <h4 class="ui dividing header">Chart titles</h4>
+            
+            <div class="inline fields">
+              <div class="six wide field">
+                <input id="i-title" type="text" placeholder="Chart title" value="">
+              </div>
+              <div class="four wide field">
+                <span>Font size</span>
+                <input id="i-title-font-size" type="text" placeholder="12" value="">
+              </div>
+              <div class="field">
+                <div class="ui input">
+                  <label>Color</label>
+                  <input id="i-title-color" type="text">                                
+                </div>
+              </div>
+            </div>
+            
+            <div class="inline fields">
+              <div class="six wide field">
+                <input id="i-x-title" type="text" placeholder="X axis title" value="">
+              </div>
+              <div class="four wide field">
+                <span>Font size</span>
+                <input id="i-x-title-font-size" type="text" placeholder="12" value="">
+              </div>              
+              <div class="field">
+                <div class="ui input">
+                  <label>Color</label>
+                  <input id="i-x-title-color" type="text">                                
+                </div>
+              </div>                              
+            </div>
+            
+            <div class="inline fields">
+              <div class="six wide field">
+                <input id="i-y-title" type="text" placeholder="Y axis title" value="">
+              </div>
+              <div class="four wide field">
+                <span>Font size</span>
+                <input id="i-y-title-font-size" type="text" placeholder="12" value="">
+              </div>              
+              <div class="field">
+                <div class="ui input">
+                  <label>Color</label>
+                  <input id="i-y-title-color" type="text">                                
+                </div>
+              </div>                          
+            </div>
+            
+            <h4 class="ui dividing header">Chart colors</h4>
+            
+            <div class="inline field dsc-colors">
+              <div class="ui input">
+                <label>Line color</label>
+                <input id="i-color" type="text">                                
+              </div>
+              <div class="ui input">
+                <label>Grid color</label>
+                <input id="i-grid-color" type="text">                                
+              </div>              
+              <div class="ui input">
+                <label>Container background</label>
+                <input id="i-container-background" type="text">                                
+              </div>
+              <div class="ui input">
+                <label>Chart background</label>
+                <input id="i-chart-background" type="text">                                
+              </div>              
+            </div>       
+            
+            <h4 class="ui dividing header">Indicators</h4>
+            
+            <div class="inline fields">
+              <div class="six wide field">
+                <select id="i-indicator-type" class="ui dropdown">
+                  <option value="">Indicator type</option>
+                  <option value="simpleMovingAverage">Simple Moving Average</option>
+                  <option value="exponentialMovingAverage">Exponential Moving Average</option>
+                  <option value="weightedMovingAverage">Weighted Moving Average</option>
+                </select>
+              </div>
+              <div id="" class="two wide field indicator-settings">
+                  <input id="i-indicator-num-of-days" type="text" placeholder="Days" value="">
+              </div>
+              <div class="two wide field indicator-settings">
+                <div class="ui input">
+                  <input id="i-indicator-color" type="text">                                
+                </div>                
+              </div>        
+              <div class="two wide field">
+                <button id="b-add-indicator" class="ui right labeled icon button">
+                  <i class="right plus icon"></i>Add</button>
+              </div>                                 
+            </div>
+            
+            <div id="indicators-container" class="column">
+            </div>     
+            
+            <div class="ui hidden divider"></div>
+            <div class="ui hidden divider"></div>            
+                                           
+            <button id="b-build-chart" class="ui labeled icon big blue button">
+              <i class="line chart icon"></i>
+              Build chart
+            </button>
+            
+            <div id="f-error-msg" class="ui error message">
+              <div class="header">Error</div>
+            </div>
+          </form>
+          
+          <div class="ui hidden divider"></div>
+          
+          <button id="i-show-html" class="ui labeled icon blue button">
+            <i class="code icon"></i>
+            Show HTML snippet
+          </button>                                 
+        </div>        
+        
+        <!-- Custom chart container -->
+        <div class="sixteen wide column">        
+          <div id="custom-stock-chart"></div>    
+        </div>
+        <!-- END Custom chart -->
+        
+        <div class="ui modal">
+          <i class="close icon"></i>
+          <div class="header">
+            Dynamic stock chart builder
+          </div>
+          <div class="content">
+            <div class="description">
+              <div class="ui header">Here is your HTML snippet:</div>
+              <pre id="snippet"></pre>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="ui positive right labeled icon button">
+              Got it
+              <i class="checkmark icon"></i>
+            </div>
+          </div>
+        </div>            
+            
+      </div>
+    </div>
+  </div>
+  <!-- END chart builder  -->
+  
+</div>
+
+</body>
+</html>

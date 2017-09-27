@@ -1,0 +1,132 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+#dw_chart_preview .handlediv {
+  display: none;
+}
+#google_chart_preview {
+  height: 400px;
+}
+#poststuff .inside {
+  padding: 20px;
+}
+#poststuff .chart_data_settings h2 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+#poststuff .chart_data_settings .image_picker_selector li {
+  float: inherit;
+  display: inline-table;
+  margin: 5px;
+  text-align: center;
+}
+#poststuff .chart_data_settings .image_picker_selector li .thumbnail {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#poststuff .chart_data_settings .image_picker_selector li .thumbnail.selected,
+#poststuff .chart_data_settings .image_picker_selector li .thumbnail:hover {
+  background: #ececec;
+  border-color: #eee;
+}
+#poststuff .chart_data_settings .image_picker_selector li .thumbnail.selected {
+  border-color: #e1e1e1;
+}
+#poststuff .chart_data_settings .image_picker_selector li .thumbnail img {
+  max-width: 50px;
+}
+#poststuff .chart_data_settings .image_picker_selector li .thumbnail p {
+  margin: 0;
+  font-size: 12px;
+}
+#poststuff .chart_data_settings .show-if-geo-chart {
+  margin: 10px 0;
+}
+#poststuff .dw-option-group {
+  margin: 10px 0;
+}
+#poststuff .dw-option-group h2 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+#poststuff .dw-option-group textarea {
+  width: 100%;
+}
+#dw_advanced_settings .widget .widget-top {
+  cursor: inherit;
+}
+#dw_advanced_settings .widget .widget-top .widget-title {
+  cursor: pointer;
+}
+#dw_advanced_settings .widget .widget-inside {
+  padding: 20px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+#dw_advanced_settings .widget .widget-inside h3 {
+  margin-top: 0;
+}
+.sp-replacer {
+  border-color: #eee;
+  background-color: #f9f9f9;
+}
+.sp-replacer.sp-active,
+.sp-replacer:hover {
+  border-color: #eee;
+}
+.sp-container {
+  border: 1px solid #e6e6e6 !important;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  background: #f9f9f9;
+}
+.sp-container button {
+  background: transparent;
+  border: 1px solid #e6e6e6;
+}
+.sp-container button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e1e1;
+}
+.sp-container .sp-cancel {
+  color: #777 !important;
+}
+.sp-container .sp-cancel:hover {
+  color: #333;
+}
+.sp-picker-container {
+  border: 0 !important;
+}
+.show-if-geo-chart,
+.show-if-pie-chart,
+.show-if-scatter-chart,
+.show-if-waterfall-chart,
+.show-if-trendlines-chart {
+  display: none;
+}
+.chart_data_settings.dw-chart-geo .show-if-geo-chart,
+.chart_data_settings.dw-chart-pie .show-if-pie-chart,
+.chart_data_settings.dw-chart-scatter .show-if-scatter-chart,
+.chart_data_settings.dw-chart-waterfall .show-if-waterfall-chart,
+.chart_data_settings.dw-chart-trendlines .show-if-trendlines-chart {
+  display: table-row !important;
+}
+
+.mce-i-chart::before {
+  font-family: dashicons !important;
+  content: "\f239";
+}

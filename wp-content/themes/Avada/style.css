@@ -1,0 +1,310 @@
+/*
+Theme Name: Avada
+Description: The #1 selling theme of all time that allows you to build virtually any design style.
+Author: ThemeFusion
+Theme URI: http://avada.theme-fusion.com/
+Author URI: http://themeforest.net/user/ThemeFusion
+Version: 5.0.6
+License: Themeforest Split Licence
+License URI: -
+Text Domain: Avada
+*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+.new-flip .flip-box-front{
+min-height:180px;}
+#mysection{
+border:10px solid #4a9f99;
+padding-left:10px;
+padding-right:10px;}
+.topbar{
+	float:left;
+	width: -webkit-calc(100% - 265px);
+    width:    -moz-calc(100% - 265px);
+    width:         calc(100% - 265px);
+	background:#9cbb59;
+	color:#fff;
+	position:relative;
+	margin-left:265px;
+	z-index:10;
+	text-align:center;
+	font-family: 'Noto Sans', sans-serif;}
+.topbar h2{
+	margin:10px 0;
+	font-size:20px;
+	color:#fff;
+	font-size:14px;}
+.topbar h3{
+	margin:2px 0 0;
+	color:#fff;
+	font-size:14px;
+	padding-bottom:3px;
+	border-bottom:2px solid #fff;}
+#hclose{
+	width:30px;
+	height:30px;
+	padding:5px;
+	background:#666;
+	position:absolute;
+	top:5px;
+	cursor:pointer;
+	font-weight:bold;
+	text-align:center;
+	right:15px;
+	}
+.wpcf7-list-item input{
+	margin-top:-2px !important;}
+.side-icon{
+	float:left;
+	width:100%;}
+.side-icon img{
+	height:10px;
+	cursor:pointer;
+	margin-right:10px;
+	float:left;
+	display:none;}
+.side-icon > img.cactive{
+	display:block;}
+.side-icon i{
+	color:#069;
+	font-size:10px;
+	cursor:pointer;
+	display:none;
+	float:left;}
+.side-icon > i.cactive{
+	display:block;}
+#side-header .side-header-content-1, #side-header .side-header-content-2{
+	margin-top:5px !important;}
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline{
+	padding-top:0 !important;}
+li.active #fusion-tab-income::before{
+	background: #789735 none repeat scroll 0 0 !important;
+	content: "";
+	display: inline-block;
+	height: 5px;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 49px;
+	transition: width 400ms ease-out 0s;
+	width: 100%;}
+li.active #fusion-tab-protection::before{
+	background: #6e98b3 none repeat scroll 0 0 !important;
+	content: "";
+	display: inline-block;
+	height: 5px;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 49px;
+	transition: width 400ms ease-out 0s;
+	width: 100%;}
+li.active #fusion-tab-quality::before{
+	background: #334e72 none repeat scroll 0 0 !important;
+	content: "";
+	display: inline-block;
+	height: 5px;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 49px;
+	transition: width 400ms ease-out 0s;
+	width: 100%;}
+li.active #fusion-tab-persistence::before{
+	background: #3D8684 none repeat scroll 0 0 !important;
+	content: "";
+	display: inline-block;
+	height: 5px;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 49px;
+	transition: width 400ms ease-out 0s;
+	width: 100%;}
+#vidincome, #vidprotection, #vidquality, #vidpersistence{
+	width:100%;
+	height:auto;
+	}
+.fusion-tabs{
+margin-bottom:0 !important;}
+.view-bg{
+	background:url(images/pattern-r.png);}
+.bloom-view{
+	float:left;
+	width:100%;
+	margin:0 0 15px;
+	position:relative;
+	border-bottom:10px solid #6796BF;}
+.bloom-view h2{
+	margin:-23px 0 10px !important;
+	color:#002A5C !important;
+	font-size:32px !important;
+	font-weight:bold !important;}
+.bloom-view h2 span{
+	color:#9CBB59 !important;}
+.blue-bg .bloom-view h2 span{
+	color:#6796BF !important;}
+.item-1{
+	float:left;
+	width:100%;
+	min-height:130px;
+	background:#fff;
+	margin-top:28px;
+	padding:15px;}
+.item-1 h3{
+	font-size:16px !important;
+	font-weight:bold !important;
+	margin:5px 0 !important;
+	color:#002A5C;}
+.item-1 h3 a{
+	color:#002A5C;
+	text-decoration:none;}
+.item-1 h3 a:hover{
+	color:#6796BF;}
+.bottom-item{
+	margin-top:0;}
+.blue-bg{
+	background:url(images/pattern-blueass.png);}
+.bluenew{
+	border-bottom:none;}
+.news-item{
+	float:left;
+	margin:15px 0;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+	}
+.news-item img{
+	width:100%;
+	transition:.5s;
+	height:300px;}
+.overlay-item{
+	background:#fff;
+	position:absolute;
+	bottom:0;
+	left:0;
+	max-width:75%;
+	padding:10px;}
+.next-item .overlay-item{
+	width:100%;
+	transition:.5s;
+	max-width:100%;
+	background:rgb(255, 255, 255, 0.7);
+	bottom:-300px !important;}
+.next-item:hover .overlay-item{
+	bottom:0px !important;}
+.img-overlay{
+	width:100%;
+	height:300px;
+	position:absolute;
+	top:0;
+	opacity:.5;
+	transition:.5s;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6393c1+0,9cbb59+100 */
+background: #6393c1; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #6393c1 0%, #9cbb59 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #6393c1 0%,#9cbb59 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #6393c1 0%,#9cbb59 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6393c1', endColorstr='#9cbb59',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+.news-item:hover .img-overlay{
+	opacity:0;}
+.next-item:hover img{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	}
+.border-bg{
+	float:left;
+	width:100%;
+	height:20px;
+	background:url(images/pattern-boder.png);
+	margin-bottom:10px;}
+.small-green-bg{
+	background:url(images/small-green.png);
+	margin-top:30px;}
+.small-blue-bg{
+	background:url(images/small-blue-bg.png);
+	margin-top:30px;}
+.main-wrap{
+	float:left;
+	width:100%;
+	text-align:center;}
+.main-wrap h2{
+	color:#002A5C !important;
+	font-size:18px !important;
+	margin:10px 0 !important}
+.main-inner{
+	float:left;
+	width:100%;
+	background:#539997;
+	color:#fff;
+	font-size:16px;}
+.left-side-wrap{
+	float:left;
+	width:50%;
+	}
+.right-side-wrap{
+	float:left;
+	width:50%;
+	background:#67A3A1;}
+.main-inner span{
+	font-size:100px;
+	margin-left:15px;
+	margin-top:20px;}
+.main-inner p{
+	margin-bottom:5px !important;}
+.main-inner p.big-font{
+	line-height:30px;
+	font-size:46px;
+	line-height:80px;
+	font-family: 'PT Serif', serif;
+	font-weight:bold;}
+.intercom-link-container{
+display:none !important;}
+
+
+
+
+.rtooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.rtooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.rtooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.rtooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+#collaps{
+	display:none;}
+#cash{
+margin-left:-30px;
+margin-right:-30px;}
+
+.all-sectors-colom .fusion-column-wrapper{
+	min-height:290px;}

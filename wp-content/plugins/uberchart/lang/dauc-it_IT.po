@@ -1,0 +1,3734 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dauc\n"
+"POT-Creation-Date: 2017-03-10 14:55+0100\n"
+"PO-Revision-Date: 2017-03-10 14:56+0100\n"
+"Last-Translator: Danilo Andreini <andreini.danilo@gmail.com>\n"
+"Language-Team: DAEXT <andreini.danilo@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/assets/mceplugin/uberchart_modal_window.php:15
+#: ../admin/class-dauc-admin.php:859
+msgid "UberChart"
+msgstr "UberChart"
+
+#: ../admin/assets/mceplugin/uberchart_modal_window.php:70
+msgid "Select the Chart"
+msgstr "Seleziona il Grafico"
+
+#: ../admin/assets/mceplugin/uberchart_modal_window.php:71
+msgid "Choose a Chart"
+msgstr "Scegli un Grafico"
+
+#: ../admin/assets/mceplugin/uberchart_modal_window.php:94
+#: ../admin/view/charts.php:6565
+msgid "Add Chart"
+msgstr "Aggiungi Grafico"
+
+#: ../admin/class-dauc-admin.php:151
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../admin/class-dauc-admin.php:152
+msgid "Add Color"
+msgstr "Aggiungi"
+
+#: ../admin/class-dauc-admin.php:153 ../admin/view/charts.php:159
+#: ../admin/view/charts.php:265 ../admin/view/charts.php:3483
+msgid "Name"
+msgstr "Nome"
+
+#: ../admin/class-dauc-admin.php:154 ../admin/view/charts.php:162
+#: ../admin/view/charts.php:275 ../admin/view/charts.php:3493
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../admin/class-dauc-admin.php:155
+msgid "Labels"
+msgstr "Etichette"
+
+#: ../admin/class-dauc-admin.php:156
+msgid "Margin Top (Common)"
+msgstr "Margine Alto (Comuni)"
+
+#: ../admin/class-dauc-admin.php:157
+msgid "Margin Bottom (Common)"
+msgstr "Margine Basso (Comuni)"
+
+#: ../admin/class-dauc-admin.php:158
+msgid "Background Color (Common)"
+msgstr "Colore Sfondo (Comuni)"
+
+#: ../admin/class-dauc-admin.php:159
+msgid "Width (Common)"
+msgstr "Larghezza (Comuni)"
+
+#: ../admin/class-dauc-admin.php:160
+msgid "Height (Common)"
+msgstr "Altezza (Comuni)"
+
+#: ../admin/class-dauc-admin.php:161
+msgid "Responsive Animation Duration (Common)"
+msgstr "Durata Animazione Responsive (Comuni)"
+
+#: ../admin/class-dauc-admin.php:162
+msgid "Fixed Height (Common)"
+msgstr "Altezza Fissa (Comuni)"
+
+#: ../admin/class-dauc-admin.php:163
+msgid "Font Size (Title)"
+msgstr "Dimensione Font (Titolo)"
+
+#: ../admin/class-dauc-admin.php:164
+msgid "Font Family (Title)"
+msgstr "Famiglia Font (Titolo)"
+
+#: ../admin/class-dauc-admin.php:165
+msgid "Font Color (Title)"
+msgstr "Colore Font (Titolo)"
+
+#: ../admin/class-dauc-admin.php:166
+msgid "Padding (Title)"
+msgstr "Padding (Titolo)"
+
+#: ../admin/class-dauc-admin.php:167
+msgid "Box Width (Legend Label)"
+msgstr "Larghezza Box (Legenda)"
+
+#: ../admin/class-dauc-admin.php:168
+msgid "Font Size (Legend Label)"
+msgstr "Dimensione Font (Legenda)"
+
+#: ../admin/class-dauc-admin.php:169
+msgid "Font Color (Legend Label)"
+msgstr "Colore Font (Legenda)"
+
+#: ../admin/class-dauc-admin.php:170
+msgid "Font Family (Legend Label)"
+msgstr "Famiglia Font (Legenda)"
+
+#: ../admin/class-dauc-admin.php:171
+msgid "Padding (Legend Label)"
+msgstr "Padding (Legenda)"
+
+#: ../admin/class-dauc-admin.php:172
+msgid "Background Color (Tooltip)"
+msgstr "Colore Sfondo (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:173
+msgid "Title Font Family (Tooltip)"
+msgstr "Famiglia Font (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:174
+msgid "Title Font Size (Tooltip)"
+msgstr "Dimensione Font (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:175
+msgid "Title Font Color (Tooltip)"
+msgstr "Colore Font Titolo (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:176
+msgid "Title Margin Bottom (Tooltip)"
+msgstr "Titolo Margine Basso (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:177
+msgid "Body Font Family (Tooltip)"
+msgstr "Font Family Corpo (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:178
+msgid "Body Font Size (Tooltip)"
+msgstr "Dimensione Font Corpo (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:179
+msgid "Body Font Color (Tooltip)"
+msgstr "Colore Font Corpo (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:180
+msgid "Footer Font Family (Tooltip)"
+msgstr "Famiglia Font Footer (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:181
+msgid "Footer Font Size (Tooltip)"
+msgstr "Dimensione Font Footer (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:182
+msgid "Footer Font Color (Tooltip)"
+msgstr "Colore Font Footer (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:183
+msgid "Footer Margin Top (Tooltip)"
+msgstr "Footer Margine Alto (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:184
+msgid "X Padding (Tooltip)"
+msgstr "X Padding (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:185
+msgid "Y Padding (Tooltip)"
+msgstr "Y Padding (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:186
+msgid "Caret Size (Tooltip)"
+msgstr "Dimensione Accento Circonflesso (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:187
+msgid "Corner Radius (Tooltip)"
+msgstr "Raggio Angoli (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:188
+msgid "Multi Key Background (Tooltip)"
+msgstr "Sfondo Multi Key (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:189
+msgid "Animation Duration (Tooltip)"
+msgstr "Durata Animazione (Tooltip)"
+
+#: ../admin/class-dauc-admin.php:190
+msgid "Duration (Animation)"
+msgstr "Durata (Animazione)"
+
+#: ../admin/class-dauc-admin.php:191
+msgid "Color (X Scale Grid Line)"
+msgstr "Colore (Scala X Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:192
+msgid "Line Width (X Scale Grid Line)"
+msgstr "Larghezza Linea (Scala X Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:193
+msgid "Tick Mark Length (X Scale Grid Line)"
+msgstr "Lunghezza Tick (Scala X Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:194
+msgid "Zero Line Width (X Scale Grid Line)"
+msgstr "Larghezza Linea Zero (Scala X Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:195
+msgid "Zero Line Color (X Scale Grid Line)"
+msgstr "Colore Linea Zero (Scala X Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:196
+msgid "Font Color (X Scale Title)"
+msgstr "Colore Font (Scala X Tick)"
+
+#: ../admin/class-dauc-admin.php:197
+msgid "Font Family (X Scale Title)"
+msgstr "Famiglia Font (Scala X Titolo)"
+
+#: ../admin/class-dauc-admin.php:198
+msgid "Font Size (X Scale Title)"
+msgstr "Dimensione Font (Scala X Titolo)"
+
+#: ../admin/class-dauc-admin.php:199
+msgid "Font Color (X Scale Tick)"
+msgstr "Colore Font (Scala X Tick)"
+
+#: ../admin/class-dauc-admin.php:200
+msgid "Font Family (X Scale Tick)"
+msgstr "Famiglia Font (Scala X Tick)"
+
+#: ../admin/class-dauc-admin.php:201
+msgid "Font Size (X Scale Tick)"
+msgstr "Dimensione Font (Scala X Tick)"
+
+#: ../admin/class-dauc-admin.php:202
+msgid "Label Offset (X Scale Tick)"
+msgstr "Offset Etichette (Scala X Tick)"
+
+#: ../admin/class-dauc-admin.php:203
+msgid "Max Rotation (X Scale Tick)"
+msgstr "Rotazione Massima (Scala X Tick)"
+
+#: ../admin/class-dauc-admin.php:204
+msgid "Min Rotation (X Scale Tick)"
+msgstr "Rotazione Minima (Scala X Tick)"
+
+#: ../admin/class-dauc-admin.php:205
+msgid "Min (X Scale Options)"
+msgstr "Minimo (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:206
+msgid "Max (X Scale Options)"
+msgstr "Massimo (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:207
+msgid "Round (X Scale Options)"
+msgstr "Arrotonda (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:208
+msgid "Max Limit (X Scale Options)"
+msgstr "Limite Massimo Tick (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:209
+msgid "Step Size (X Scale Options)"
+msgstr "Dimensione Step (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:210
+msgid "Suggested Max (X Scale Options)"
+msgstr "Massimo Suggerito (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:211
+msgid "Suggested Min (X Scale Options)"
+msgstr "Minimo Suggerito (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:212
+msgid "Fixed Step Size (X Scale Options)"
+msgstr "Dimensione Step Fisso (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:213
+msgid "Category Percentage (X Scale Options)"
+msgstr "Percentuale Categoria (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:214
+msgid "Bar Percentage (X Scale Options)"
+msgstr "Barra Percentuale (Scala X Opzioni)"
+
+#: ../admin/class-dauc-admin.php:215
+msgid "Time Format (X Scale Time)"
+msgstr "Formato Tempo (Scala X Temporale)"
+
+#: ../admin/class-dauc-admin.php:216
+msgid "Tooltip Format (X Scale Time)"
+msgstr "Formato Tooltip (Scala X Temporale)"
+
+#: ../admin/class-dauc-admin.php:217
+msgid "Unit Format (X Scale Time)"
+msgstr "Formato Unità (Scala X Temporale)"
+
+#: ../admin/class-dauc-admin.php:218
+msgid "Min (X Scale Time)"
+msgstr "Minimo (Scala X Temporale)"
+
+#: ../admin/class-dauc-admin.php:219
+msgid "Max (X Scale Time)"
+msgstr "Massimo (Scala X Temporale)"
+
+#: ../admin/class-dauc-admin.php:220
+msgid "Unit Step Size (X Scale Time)"
+msgstr "Unità Larghezza Step (Scala X Temporale)"
+
+#: ../admin/class-dauc-admin.php:221
+msgid "Color (Y Scale Grid Line)"
+msgstr "Colore (Scala Y Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:222
+msgid "Line Width (Y Scale Grid Line)"
+msgstr "Larghezza Linea (Scala Y Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:223
+msgid "Tick Mark Length (Y Scale Grid Line)"
+msgstr "Lunghezza Tick (Scala Y Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:224
+msgid "Zero Line Width (Y Scale Grid Line)"
+msgstr "Larghezza Linea Zero (Scala Y Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:225
+msgid "Zero Line Color (Y Scale Grid Line)"
+msgstr "Colore Linea Zero (Scala Y Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:226
+msgid "Font Color (Y Scale Title)"
+msgstr "Colore Font (Scala Y Titolo)"
+
+#: ../admin/class-dauc-admin.php:227
+msgid "Font Family (Y Scale Title)"
+msgstr "Famiglia Font (Scala Y Titolo)"
+
+#: ../admin/class-dauc-admin.php:228
+msgid "Font Size (Y Scale Title)"
+msgstr "Dimensione Font (Scala Y Titolo)"
+
+#: ../admin/class-dauc-admin.php:229
+msgid "Font Color (Y Scale Tick)"
+msgstr "Colore Font (Scala Y Tick)"
+
+#: ../admin/class-dauc-admin.php:230
+msgid "Font Family (Y Scale Tick)"
+msgstr "Famiglia Font (Scala Y Tick)"
+
+#: ../admin/class-dauc-admin.php:231
+msgid "Font Size (Y Scale Tick)"
+msgstr "Dimensione Font (Scala Y Tick)"
+
+#: ../admin/class-dauc-admin.php:232
+msgid "Max Rotation (Y Scale Tick)"
+msgstr "Rotazione Massima (Scala Y Tick)"
+
+#: ../admin/class-dauc-admin.php:233
+msgid "Min Rotation (Y Scale Tick)"
+msgstr "Rotazione Minima (Scala Y Tick)"
+
+#: ../admin/class-dauc-admin.php:234
+msgid "Padding (Y Scale Tick)"
+msgstr "Padding (Scala Y Tick)"
+
+#: ../admin/class-dauc-admin.php:235
+msgid "Min (Y Scale Options)"
+msgstr "Minimo (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:236
+msgid "Max (Y Scale Options)"
+msgstr "Massimo (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:237
+msgid "Round (Y Scale Options)"
+msgstr "Arrotonda (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:238
+msgid "Max Limit (Y Scale Options)"
+msgstr "Limite Massimo Tick (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:239
+msgid "Step Size (Y Scale Options)"
+msgstr "Dimensione Step (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:240
+msgid "Suggested Max (Y Scale Options)"
+msgstr "Massimo Suggerito (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:241
+msgid "Suggested Min (Y Scale Options)"
+msgstr "Minimo Suggerito (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:242
+msgid "Fixed Step Size (Y Scale Options)"
+msgstr "Dimensione Step Fisso (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:243
+msgid "Category Percentage (Y Scale Options)"
+msgstr "Percentuale Categoria (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:244
+msgid "Bar Percentage (Y Scale Options)"
+msgstr "Barra Percentuale (Scala Y Opzioni)"
+
+#: ../admin/class-dauc-admin.php:245
+msgid "Color (Y2 Scale Grid Line)"
+msgstr "Colore (Scala Y2 Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:246
+msgid "Line Width (Y2 Scale Grid Line)"
+msgstr "Larghezza Linea (Scala Y2 Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:247
+msgid "Tick Mark Length (Y2 Scale Grid Line)"
+msgstr "Lunghezza Tick (Scala Y2 Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:248
+msgid "Zero Line Width (Y2 Scale Grid Line)"
+msgstr "Larghezza Linea Zero (Scala Y2 Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:249
+msgid "Zero Line Color (Y2 Scale Grid Line)"
+msgstr "Colore Linea Zero (Scala Y2 Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:250
+msgid "Font Color (Y2 Scale Title)"
+msgstr "Colore Font (Scala Y2 Titolo)"
+
+#: ../admin/class-dauc-admin.php:251
+msgid "Font Family (Y2 Scale Title)"
+msgstr "Famiglia Font (Scala Y2 Titolo)"
+
+#: ../admin/class-dauc-admin.php:252
+msgid "Font Size (Y2 Scale Title)"
+msgstr "Dimensione Font (Scala Y2 Titolo)"
+
+#: ../admin/class-dauc-admin.php:253
+msgid "Font Color (Y2 Scale Tick)"
+msgstr "Colore Font (Scala Y2 Tick)"
+
+#: ../admin/class-dauc-admin.php:254
+msgid "Font Family (Y2 Scale Tick)"
+msgstr "Famiglia Font (Scala Y2 Tick)"
+
+#: ../admin/class-dauc-admin.php:255
+msgid "Font Size (Y2 Scale Tick)"
+msgstr "Dimensione Font (Scala Y2 Tick)"
+
+#: ../admin/class-dauc-admin.php:256
+msgid "Max Rotation (Y2 Scale Tick)"
+msgstr "Rotazione Massimo (Scala Y2 Tick)"
+
+#: ../admin/class-dauc-admin.php:257
+msgid "Min Rotation (Y2 Scale Tick)"
+msgstr "Rotazione Minima (Scala Y2 Tick)"
+
+#: ../admin/class-dauc-admin.php:258
+msgid "Padding (Y2 Scale Tick)"
+msgstr "Padding (Scala Y2 Tick)"
+
+#: ../admin/class-dauc-admin.php:259
+msgid "Min (Y2 Scale Options)"
+msgstr "Minimo (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:260
+msgid "Max (Y2 Scale Options)"
+msgstr "Massimo (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:261
+msgid "Round (Y2 Scale Options)"
+msgstr "Arrotonda (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:262
+msgid "Max Limit (Y2 Scale Options)"
+msgstr "Limite Massimo Tick (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:263
+msgid "Step Size (Y2 Scale Options)"
+msgstr "Dimensione Step (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:264
+msgid "Suggested Max (Y2 Scale Options)"
+msgstr "Massimo Suggerito (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:265
+msgid "Suggested Min (Y2 Scale Options)"
+msgstr "Minimo Suggerito (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:266
+msgid "Fixed Step Size (Y2 Scale Options)"
+msgstr "Dimensione Step Fisso (Scala Y2 Opzioni)"
+
+#: ../admin/class-dauc-admin.php:267
+msgid "Color (RL Scale Grid Line)"
+msgstr "Colore (Scala RL Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:268
+msgid "Line Width (RL Scale Grid Line)"
+msgstr "Larghezza Linea (Scala RL Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:269
+msgid "Color (RL Scale Angle Line)"
+msgstr "Colore (Scala RL Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:270
+msgid "Line Width (RL Scale Angle Line)"
+msgstr "Larghezza Linea (Scala RL Linee Griglia)"
+
+#: ../admin/class-dauc-admin.php:271
+msgid "Font Size (RL Scale Point Label)"
+msgstr "Dimensione Font (Scala RL Etichetta Punto)"
+
+#: ../admin/class-dauc-admin.php:272
+msgid "Font Color (RL Scale Point Label)"
+msgstr "Colore Font (Scala RL Etichetta Punto)"
+
+#: ../admin/class-dauc-admin.php:273
+msgid "Font Family (RL Scale Point Label)"
+msgstr "Famiglia Font (Scala RL Etichetta Punto)"
+
+#: ../admin/class-dauc-admin.php:274
+msgid "Round (RL Scale Tick)"
+msgstr "Dimensione Font (Scala RL Tick)"
+
+#: ../admin/class-dauc-admin.php:275
+msgid "Font Size (RL Scale Tick)"
+msgstr "Dimensione Font (Scala RL Tick)"
+
+#: ../admin/class-dauc-admin.php:276
+msgid "Font Color (RL Scale Tick)"
+msgstr "Colore Font (Scala RL Tick)"
+
+#: ../admin/class-dauc-admin.php:277
+msgid "Font Family (RL Scale Tick)"
+msgstr "Famiglia Font (Scala RL Tick)"
+
+#: ../admin/class-dauc-admin.php:278
+msgid "Min (RL Scale Options)"
+msgstr "Minimo (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:279
+msgid "Max (RL Scale Options)"
+msgstr "Massimo (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:280
+msgid "Suggested Min (RL Scale Options)"
+msgstr "Minimo Suggerito (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:281
+msgid "Suggested Max (RL Scale Options)"
+msgstr "Massimo Suggerito (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:282
+msgid "Step Size (RL Scale Options)"
+msgstr "Dimensione Step (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:283
+msgid "Fixed Step Size (RL Scale Options)"
+msgstr "Dimensione Step Fisso (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:284
+msgid "Max Ticks Limit (RL Scale Options)"
+msgstr "Limite Massimo Tick (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:285
+msgid "Backdrop Color (RL Scale Options)"
+msgstr "Colore Sfondo Etichetta (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:286
+msgid "Backdrop Padding X (RL Scale Options)"
+msgstr "Padding X Sfondo Etichetta (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:287
+msgid "Backdrop Padding Y (RL Scale Options)"
+msgstr "Padding Y Sfondo Etichetta (Scala RL Opzioni)"
+
+#: ../admin/class-dauc-admin.php:288 ../admin/view/charts.php:6615
+msgid "Line Tension"
+msgstr "Tensione Linea"
+
+#: ../admin/class-dauc-admin.php:289 ../admin/view/charts.php:378
+#: ../admin/view/charts.php:817 ../admin/view/charts.php:3591
+#: ../admin/view/charts.php:3990 ../admin/view/charts.php:6626
+msgid "Background Color"
+msgstr "Colore Sfondo"
+
+#: ../admin/class-dauc-admin.php:290 ../admin/view/charts.php:6667
+msgid "Border Width"
+msgstr "Larghezza Bordo"
+
+#: ../admin/class-dauc-admin.php:291 ../admin/view/charts.php:6647
+msgid "Border Color"
+msgstr "Colore Bordo"
+
+#: ../admin/class-dauc-admin.php:292 ../admin/view/charts.php:6685
+msgid "Border Dash"
+msgstr "Tratto Linea"
+
+#: ../admin/class-dauc-admin.php:293 ../admin/view/charts.php:6695
+msgid "Border Dash Offset"
+msgstr "Offset Tratto Linea"
+
+#: ../admin/class-dauc-admin.php:294 ../admin/view/charts.php:6744
+msgid "Point Border Color"
+msgstr "Colore Bordo Punto"
+
+#: ../admin/class-dauc-admin.php:295 ../admin/view/charts.php:6733
+msgid "Point Background Color"
+msgstr "Colore Sfondo Punto"
+
+#: ../admin/class-dauc-admin.php:296 ../admin/view/charts.php:6755
+msgid "Point Border Width"
+msgstr "Larghezza Bordo Punto"
+
+#: ../admin/class-dauc-admin.php:297 ../admin/view/charts.php:6764
+msgid "Point Radius"
+msgstr "Raggio Punto"
+
+#: ../admin/class-dauc-admin.php:298 ../admin/view/charts.php:6794
+msgid "Point Hover Radius"
+msgstr "Raggio Punto Hover"
+
+#: ../admin/class-dauc-admin.php:299 ../admin/view/charts.php:6774
+msgid "Point Hit Radius"
+msgstr "Raggio Cattura Punto"
+
+#: ../admin/class-dauc-admin.php:300 ../admin/view/charts.php:6803
+msgid "Point Hover Background Color"
+msgstr "Colore Sfondo Punto Hover"
+
+#: ../admin/class-dauc-admin.php:301 ../admin/view/charts.php:6814
+msgid "Point Hover Border Color"
+msgstr "Colore Bordo Punto Hover"
+
+#: ../admin/class-dauc-admin.php:302 ../admin/view/charts.php:6825
+msgid "Point Hover Border Width"
+msgstr "Larghezza Bordo Punto Hover"
+
+#: ../admin/class-dauc-admin.php:303 ../admin/view/charts.php:6784
+msgid "Point Style"
+msgstr "Stile Punto"
+
+#: ../admin/class-dauc-admin.php:304 ../admin/view/charts.php:6860
+msgid "Hover Background Color"
+msgstr "Colore Sfondo Hover"
+
+#: ../admin/class-dauc-admin.php:305 ../admin/view/charts.php:6878
+msgid "Hover Border Color"
+msgstr "Colore Bordo Hover"
+
+#: ../admin/class-dauc-admin.php:306 ../admin/view/charts.php:6896
+msgid "Hover Border Width"
+msgstr "Larghezza Bordo Hover"
+
+#: ../admin/class-dauc-admin.php:307 ../admin/view/charts.php:6911
+msgid "Hit Radius"
+msgstr "Raggio Cattura"
+
+#: ../admin/class-dauc-admin.php:308 ../admin/view/charts.php:6921
+msgid "Hover Radius"
+msgstr "Raggio Hover"
+
+#: ../admin/class-dauc-admin.php:869
+msgid "Charts"
+msgstr "Grafici"
+
+#: ../admin/class-dauc-admin.php:878
+msgid "Import"
+msgstr "Importa"
+
+#: ../admin/class-dauc-admin.php:887 ../admin/view/export.php:23
+msgid "Export"
+msgstr "Esporta"
+
+#: ../admin/class-dauc-admin.php:896
+msgid "Options"
+msgstr "Opzioni"
+
+#: ../admin/class-dauc-admin.php:947
+msgid "Charts Menu Capability"
+msgstr "Capability Menu Grafici"
+
+#: ../admin/class-dauc-admin.php:961
+msgid "Import Menu Capability"
+msgstr "Capability Menu Importa"
+
+#: ../admin/class-dauc-admin.php:975
+msgid "Export Menu Capability"
+msgstr "Capability Menu Esporta"
+
+#: ../admin/class-dauc-admin.php:989
+msgid "Chart.js Library URL"
+msgstr "URL Libreria Chart.js"
+
+#: ../admin/class-dauc-admin.php:1003
+msgid "Compress Output"
+msgstr "Comprimi Output"
+
+#: ../admin/class-dauc-admin.php:1017
+msgid "Max Execution Time"
+msgstr "Tempo Massimo Esecuzione"
+
+#: ../admin/class-dauc-admin.php:1031
+msgid "Memory Limit"
+msgstr "Limite Memoria"
+
+#: ../admin/class-dauc-admin.php:1048
+msgid "The capability required to get access on the \"Charts\" menu."
+msgstr "La capability richiesta per avere accesso al menu \"Grafici\"."
+
+#: ../admin/class-dauc-admin.php:1057
+msgid ""
+"Please enter a valid capability in the \"Charts Menu Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nell'opzione \"Capability Menu "
+"Grafici\"."
+
+#: ../admin/class-dauc-admin.php:1070
+msgid "The capability required to get access on the \"Import\" menu."
+msgstr "La capability richiesta per avere accesso al menu \"Importa\"."
+
+#: ../admin/class-dauc-admin.php:1079
+msgid ""
+"Please enter a valid capability in the \"Import Menu Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nell'opzione \"Capability Menu "
+"Importa\"."
+
+#: ../admin/class-dauc-admin.php:1092
+msgid "The capability required to get access on the \"Export\" menu."
+msgstr "La capability richiesta per avere accesso al menu \"Esporta\"."
+
+#: ../admin/class-dauc-admin.php:1101
+msgid ""
+"Please enter a valid capability in the \"Export Menu Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nell'opzione \"Capability Menu "
+"Esporta\"."
+
+#: ../admin/class-dauc-admin.php:1114
+msgid "The URL where the Chart.js library is located."
+msgstr "L'URL dove la libreria Chart.js è stata posizionata"
+
+#: ../admin/class-dauc-admin.php:1131 ../admin/view/charts.php:368
+#: ../admin/view/charts.php:439 ../admin/view/charts.php:466
+#: ../admin/view/charts.php:516 ../admin/view/charts.php:545
+#: ../admin/view/charts.php:636 ../admin/view/charts.php:665
+#: ../admin/view/charts.php:706 ../admin/view/charts.php:792
+#: ../admin/view/charts.php:1245 ../admin/view/charts.php:1258
+#: ../admin/view/charts.php:1305 ../admin/view/charts.php:1348
+#: ../admin/view/charts.php:1370 ../admin/view/charts.php:1405
+#: ../admin/view/charts.php:1418 ../admin/view/charts.php:1431
+#: ../admin/view/charts.php:1476 ../admin/view/charts.php:1498
+#: ../admin/view/charts.php:1577 ../admin/view/charts.php:1590
+#: ../admin/view/charts.php:1603 ../admin/view/charts.php:1802
+#: ../admin/view/charts.php:1933 ../admin/view/charts.php:1975
+#: ../admin/view/charts.php:1997 ../admin/view/charts.php:2032
+#: ../admin/view/charts.php:2045 ../admin/view/charts.php:2058
+#: ../admin/view/charts.php:2103 ../admin/view/charts.php:2125
+#: ../admin/view/charts.php:2204 ../admin/view/charts.php:2217
+#: ../admin/view/charts.php:2230 ../admin/view/charts.php:2243
+#: ../admin/view/charts.php:2442 ../admin/view/charts.php:2484
+#: ../admin/view/charts.php:2535 ../admin/view/charts.php:2570
+#: ../admin/view/charts.php:2583 ../admin/view/charts.php:2596
+#: ../admin/view/charts.php:2641 ../admin/view/charts.php:2663
+#: ../admin/view/charts.php:2742 ../admin/view/charts.php:2755
+#: ../admin/view/charts.php:2768 ../admin/view/charts.php:2781
+#: ../admin/view/charts.php:2980 ../admin/view/charts.php:3002
+#: ../admin/view/charts.php:3024 ../admin/view/charts.php:3068
+#: ../admin/view/charts.php:3168 ../admin/view/charts.php:3181
+#: ../admin/view/charts.php:3194 ../admin/view/charts.php:3363
+#: ../admin/view/charts.php:3376 ../admin/view/charts.php:3581
+#: ../admin/view/charts.php:3651 ../admin/view/charts.php:3675
+#: ../admin/view/charts.php:3721 ../admin/view/charts.php:3747
+#: ../admin/view/charts.php:3830 ../admin/view/charts.php:3858
+#: ../admin/view/charts.php:3894 ../admin/view/charts.php:3967
+#: ../admin/view/charts.php:4390 ../admin/view/charts.php:4403
+#: ../admin/view/charts.php:4450 ../admin/view/charts.php:4493
+#: ../admin/view/charts.php:4515 ../admin/view/charts.php:4550
+#: ../admin/view/charts.php:4563 ../admin/view/charts.php:4576
+#: ../admin/view/charts.php:4621 ../admin/view/charts.php:4643
+#: ../admin/view/charts.php:4722 ../admin/view/charts.php:4735
+#: ../admin/view/charts.php:4748 ../admin/view/charts.php:4947
+#: ../admin/view/charts.php:5078 ../admin/view/charts.php:5120
+#: ../admin/view/charts.php:5142 ../admin/view/charts.php:5177
+#: ../admin/view/charts.php:5190 ../admin/view/charts.php:5203
+#: ../admin/view/charts.php:5248 ../admin/view/charts.php:5270
+#: ../admin/view/charts.php:5349 ../admin/view/charts.php:5362
+#: ../admin/view/charts.php:5375 ../admin/view/charts.php:5388
+#: ../admin/view/charts.php:5587 ../admin/view/charts.php:5629
+#: ../admin/view/charts.php:5680 ../admin/view/charts.php:5715
+#: ../admin/view/charts.php:5728 ../admin/view/charts.php:5741
+#: ../admin/view/charts.php:5786 ../admin/view/charts.php:5808
+#: ../admin/view/charts.php:5887 ../admin/view/charts.php:5900
+#: ../admin/view/charts.php:5913 ../admin/view/charts.php:5926
+#: ../admin/view/charts.php:6125 ../admin/view/charts.php:6147
+#: ../admin/view/charts.php:6169 ../admin/view/charts.php:6213
+#: ../admin/view/charts.php:6313 ../admin/view/charts.php:6326
+#: ../admin/view/charts.php:6339 ../admin/view/charts.php:6508
+#: ../admin/view/charts.php:6521 ../admin/view/charts.php:6606
+#: ../admin/view/charts.php:6837 ../admin/view/charts.php:6849
+#: ../admin/view/charts.php:6933
+msgid "No"
+msgstr "No"
+
+#: ../admin/class-dauc-admin.php:1132 ../admin/view/charts.php:369
+#: ../admin/view/charts.php:441 ../admin/view/charts.php:468
+#: ../admin/view/charts.php:518 ../admin/view/charts.php:547
+#: ../admin/view/charts.php:638 ../admin/view/charts.php:667
+#: ../admin/view/charts.php:708 ../admin/view/charts.php:794
+#: ../admin/view/charts.php:1246 ../admin/view/charts.php:1259
+#: ../admin/view/charts.php:1306 ../admin/view/charts.php:1349
+#: ../admin/view/charts.php:1371 ../admin/view/charts.php:1406
+#: ../admin/view/charts.php:1419 ../admin/view/charts.php:1432
+#: ../admin/view/charts.php:1477 ../admin/view/charts.php:1499
+#: ../admin/view/charts.php:1578 ../admin/view/charts.php:1591
+#: ../admin/view/charts.php:1604 ../admin/view/charts.php:1803
+#: ../admin/view/charts.php:1934 ../admin/view/charts.php:1976
+#: ../admin/view/charts.php:1998 ../admin/view/charts.php:2033
+#: ../admin/view/charts.php:2046 ../admin/view/charts.php:2059
+#: ../admin/view/charts.php:2104 ../admin/view/charts.php:2126
+#: ../admin/view/charts.php:2205 ../admin/view/charts.php:2218
+#: ../admin/view/charts.php:2231 ../admin/view/charts.php:2244
+#: ../admin/view/charts.php:2443 ../admin/view/charts.php:2485
+#: ../admin/view/charts.php:2536 ../admin/view/charts.php:2571
+#: ../admin/view/charts.php:2584 ../admin/view/charts.php:2597
+#: ../admin/view/charts.php:2642 ../admin/view/charts.php:2664
+#: ../admin/view/charts.php:2743 ../admin/view/charts.php:2756
+#: ../admin/view/charts.php:2769 ../admin/view/charts.php:2782
+#: ../admin/view/charts.php:2981 ../admin/view/charts.php:3003
+#: ../admin/view/charts.php:3025 ../admin/view/charts.php:3069
+#: ../admin/view/charts.php:3169 ../admin/view/charts.php:3182
+#: ../admin/view/charts.php:3195 ../admin/view/charts.php:3364
+#: ../admin/view/charts.php:3377 ../admin/view/charts.php:3582
+#: ../admin/view/charts.php:3652 ../admin/view/charts.php:3676
+#: ../admin/view/charts.php:3722 ../admin/view/charts.php:3748
+#: ../admin/view/charts.php:3831 ../admin/view/charts.php:3859
+#: ../admin/view/charts.php:3895 ../admin/view/charts.php:3968
+#: ../admin/view/charts.php:4391 ../admin/view/charts.php:4404
+#: ../admin/view/charts.php:4451 ../admin/view/charts.php:4494
+#: ../admin/view/charts.php:4516 ../admin/view/charts.php:4551
+#: ../admin/view/charts.php:4564 ../admin/view/charts.php:4577
+#: ../admin/view/charts.php:4622 ../admin/view/charts.php:4644
+#: ../admin/view/charts.php:4723 ../admin/view/charts.php:4736
+#: ../admin/view/charts.php:4749 ../admin/view/charts.php:4948
+#: ../admin/view/charts.php:5079 ../admin/view/charts.php:5121
+#: ../admin/view/charts.php:5143 ../admin/view/charts.php:5178
+#: ../admin/view/charts.php:5191 ../admin/view/charts.php:5204
+#: ../admin/view/charts.php:5249 ../admin/view/charts.php:5271
+#: ../admin/view/charts.php:5350 ../admin/view/charts.php:5363
+#: ../admin/view/charts.php:5376 ../admin/view/charts.php:5389
+#: ../admin/view/charts.php:5588 ../admin/view/charts.php:5630
+#: ../admin/view/charts.php:5681 ../admin/view/charts.php:5716
+#: ../admin/view/charts.php:5729 ../admin/view/charts.php:5742
+#: ../admin/view/charts.php:5787 ../admin/view/charts.php:5809
+#: ../admin/view/charts.php:5888 ../admin/view/charts.php:5901
+#: ../admin/view/charts.php:5914 ../admin/view/charts.php:5927
+#: ../admin/view/charts.php:6126 ../admin/view/charts.php:6148
+#: ../admin/view/charts.php:6170 ../admin/view/charts.php:6214
+#: ../admin/view/charts.php:6314 ../admin/view/charts.php:6327
+#: ../admin/view/charts.php:6340 ../admin/view/charts.php:6509
+#: ../admin/view/charts.php:6522 ../admin/view/charts.php:6607
+#: ../admin/view/charts.php:6838 ../admin/view/charts.php:6850
+#: ../admin/view/charts.php:6934
+msgid "Yes"
+msgstr "Si"
+
+#: ../admin/class-dauc-admin.php:1134
+msgid ""
+"This option determines if the JavaScript code used to create the charts in "
+"the front-end should be compressed. Please note that this function will pose "
+"an additional load on your server CPU and should be disabled if you want to "
+"decrease the time required to generate the charts."
+msgstr ""
+"Questa opzione determina se il codice JavaScript utilizzato per creare i "
+"grafici nel front-end deve essere compresso. Per favore nota che questa "
+"funzione aggiungera carico addizionale alla CPU del server e deve essere "
+"disabilitata se vuoi diminuire il tempo richiesto per generare i grafici."
+
+#: ../admin/class-dauc-admin.php:1150
+msgid ""
+"Please enter a number from 1 to 1000000. This value determines the maximum "
+"number of seconds allowed to execute the PHP scripts used by this plugin to "
+"alter or display the data of the charts."
+msgstr ""
+"Per favore inserisci un numero compreso tra 1 e 1000000. Questo valore "
+"determina il numero massimo di secondi permessi per eseguire gli script PHP "
+"utilizzati da questo plugin per alterare o mostrare i dati dei grafici."
+
+#: ../admin/class-dauc-admin.php:1160
+msgid ""
+"Please enter a number from 1 to 1000000 in the \"Max Execution Time Value\" "
+"option."
+msgstr ""
+"Per favore inserisci un numero compreso tra 1 e 1000000 nell'opzione \"Tempo "
+"Massimo Esecuzione\"."
+
+#: ../admin/class-dauc-admin.php:1174
+msgid ""
+"Please enter a number from 1 to 1000000. This value determines the PHP "
+"memory limit in megabytes allowed to execute the PHP scripts used by this "
+"plugin to alter or display the data of the charts."
+msgstr ""
+"Per favore inserisci un numero compreso tra 1 e 1000000. Questo valore "
+"determina il limite di memoria in megabyte permesso per eseguire gli script "
+"PHP utilizzati da questo plugin per alterare o mostrare i dati dei grafici."
+
+#: ../admin/class-dauc-admin.php:1184
+msgid ""
+"Please enter a number from 1 to 1000000 in the \"Memory Limit Value\" option."
+msgstr ""
+"Per favore inserisci un numero compreso tra 1 e 1000000 nell'opzione "
+"\"Limite Memoria\"."
+
+#: ../admin/class-dauc-admin.php:1296 ../admin/view/charts.php:4
+#: ../admin/view/export.php:4 ../admin/view/import.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
+
+#: ../admin/class-dauc-admin.php:1388 ../admin/view/charts.php:290
+#: ../admin/view/charts.php:3506
+msgid "Line"
+msgstr "Linea"
+
+#: ../admin/class-dauc-admin.php:1394 ../admin/view/charts.php:292
+#: ../admin/view/charts.php:3507
+msgid "Bar"
+msgstr "Barre"
+
+#: ../admin/class-dauc-admin.php:1400 ../admin/view/charts.php:294
+#: ../admin/view/charts.php:3508
+msgid "Horizontal Bar"
+msgstr "Barre Orizzontale"
+
+#: ../admin/class-dauc-admin.php:1406 ../admin/view/charts.php:296
+#: ../admin/view/charts.php:3509
+msgid "Radar"
+msgstr "Radar"
+
+#: ../admin/class-dauc-admin.php:1412 ../admin/view/charts.php:298
+#: ../admin/view/charts.php:3510
+msgid "Polar Area"
+msgstr "Area Polare"
+
+#: ../admin/class-dauc-admin.php:1418 ../admin/view/charts.php:300
+#: ../admin/view/charts.php:3511
+msgid "Pie"
+msgstr "Torta"
+
+#: ../admin/class-dauc-admin.php:1424 ../admin/view/charts.php:302
+#: ../admin/view/charts.php:3512
+msgid "Doughnut"
+msgstr "Ciambella"
+
+#: ../admin/class-dauc-admin.php:1430 ../admin/view/charts.php:304
+#: ../admin/view/charts.php:3513
+msgid "Bubble"
+msgstr "Bolle"
+
+#: ../admin/view/charts.php:35
+msgid "The chart has been successfully deleted."
+msgstr "Questo grafico è stato cancellato con successo."
+
+#: ../admin/view/charts.php:89 ../admin/view/charts.php:111
+msgid "UberChart - Charts"
+msgstr "UberChart - Grafici"
+
+#: ../admin/view/charts.php:100
+msgid "Search..."
+msgstr "Cerca..."
+
+#: ../admin/view/charts.php:165 ../admin/view/charts.php:286
+#: ../admin/view/charts.php:1329 ../admin/view/charts.php:1957
+#: ../admin/view/charts.php:2508 ../admin/view/charts.php:3503
+#: ../admin/view/charts.php:4474 ../admin/view/charts.php:5102
+#: ../admin/view/charts.php:5653
+msgid "Type"
+msgstr "Tipo"
+
+#: ../admin/view/charts.php:168 ../admin/view/charts.php:488
+#: ../admin/view/charts.php:3696
+msgid "Status"
+msgstr "Stato"
+
+#: ../admin/view/charts.php:181 ../admin/view/charts.php:494
+#: ../admin/view/charts.php:3700
+msgid "Model"
+msgstr "Modello"
+
+#: ../admin/view/charts.php:181 ../admin/view/charts.php:492
+#: ../admin/view/charts.php:3699
+msgid "Chart"
+msgstr "Grafico"
+
+#: ../admin/view/charts.php:213
+msgid "items"
+msgstr "record"
+
+#: ../admin/view/charts.php:231
+msgid "Edit Chart"
+msgstr "Modifica Grafico"
+
+#: ../admin/view/charts.php:239 ../admin/view/charts.php:3457
+msgid "Load Model"
+msgstr "Carica Modello"
+
+#: ../admin/view/charts.php:243 ../admin/view/charts.php:3461
+msgid "None"
+msgstr "Nessuno"
+
+#: ../admin/view/charts.php:259 ../admin/view/charts.php:3477
+msgid "Use this field to import the data of an existing model."
+msgstr "Utilizza questo campo per importare i dati di un modello esistente."
+
+#: ../admin/view/charts.php:269 ../admin/view/charts.php:3487
+msgid "The name of the chart."
+msgstr "Il nome del grafico."
+
+#: ../admin/view/charts.php:280 ../admin/view/charts.php:3497
+msgid "The description of the chart."
+msgstr "La descrizione del grafico."
+
+#: ../admin/view/charts.php:307 ../admin/view/charts.php:3516
+msgid "This option determines the type of the chart."
+msgstr "Questa opzione determina il tipo di grafico utilizzato."
+
+#: ../admin/view/charts.php:313 ../admin/view/charts.php:3522
+msgid "Rows"
+msgstr "Righe"
+
+#: ../admin/view/charts.php:316 ../admin/view/charts.php:3527
+msgid "The rows of the chart."
+msgstr "Le righe del grafico."
+
+#: ../admin/view/charts.php:322 ../admin/view/charts.php:3533
+msgid "Columns"
+msgstr "Colonne"
+
+#: ../admin/view/charts.php:325 ../admin/view/charts.php:3538
+msgid "The columns of the chart."
+msgstr "Le colonne del grafico."
+
+#: ../admin/view/charts.php:330 ../admin/view/charts.php:3543
+msgid "Data"
+msgstr "Dati"
+
+#: ../admin/view/charts.php:339 ../admin/view/charts.php:3552
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ../admin/view/charts.php:348 ../admin/view/charts.php:3561
+msgid "Save your changes and refresh the preview."
+msgstr "Salva i tuoi cambiamenti ed aggiorna l'anteprima."
+
+#: ../admin/view/charts.php:349 ../admin/view/charts.php:3562
+#: ../public/class-dauc-public.php:1537
+msgid "Preview not available"
+msgstr "Anteprima non disponibile"
+
+#: ../admin/view/charts.php:357 ../admin/view/charts.php:3570
+msgid "Common"
+msgstr "Comuni"
+
+#: ../admin/view/charts.php:365 ../admin/view/charts.php:3578
+msgid "Transparent"
+msgstr "Trasparente"
+
+#: ../admin/view/charts.php:372 ../admin/view/charts.php:3585
+msgid ""
+"This option determines if the canvas should have a transparent background."
+msgstr ""
+"Questa opzione determina se lo sfondo della canvas deve essere trasparente."
+
+#: ../admin/view/charts.php:385 ../admin/view/charts.php:3598
+msgid ""
+"The background color of the canvas. This value is applied only if the &quot;"
+"Transparent&quot; option is disabled."
+msgstr ""
+"Il colore di sfondo della canvas. Questo valore è applicato solamente se "
+"l'opzione &quot;Trasparente&quot; è disabilitata."
+
+#: ../admin/view/charts.php:391 ../admin/view/charts.php:3604
+msgid "Width"
+msgstr "Larghezza"
+
+#: ../admin/view/charts.php:396 ../admin/view/charts.php:3609
+msgid ""
+"The width of the chart. This option will be used only if the chart is not "
+"responsive."
+msgstr ""
+"La larghezza del grafico. Questa opzione verrà utilizzata solamente se il "
+"grafico non è responsive."
+
+#: ../admin/view/charts.php:402 ../admin/view/charts.php:3615
+msgid "Height"
+msgstr "Altezza"
+
+#: ../admin/view/charts.php:407 ../admin/view/charts.php:3620
+msgid ""
+"The height of the chart. This option will be used only if the chart is not "
+"responsive."
+msgstr ""
+"L'altezza del grafico. Questa opzione verrà utilizzata solamente se il "
+"grafico non è responsive."
+
+#: ../admin/view/charts.php:413 ../admin/view/charts.php:3626
+msgid "Margin Top"
+msgstr "Margine Alto"
+
+#: ../admin/view/charts.php:418 ../admin/view/charts.php:3631
+msgid "The top margin of the chart."
+msgstr "Il margine alto del grafico."
+
+#: ../admin/view/charts.php:424 ../admin/view/charts.php:3637
+msgid "Margin Bottom"
+msgstr "Margine Basso"
+
+#: ../admin/view/charts.php:429 ../admin/view/charts.php:3642
+msgid "The bottom margin of the chart."
+msgstr "Il margine basso del grafico."
+
+#: ../admin/view/charts.php:435 ../admin/view/charts.php:3648
+msgid "Responsive"
+msgstr "Responsive"
+
+#: ../admin/view/charts.php:444 ../admin/view/charts.php:3655
+msgid "Resizes when the canvas container does."
+msgstr "Ridimensiona in accordo con il container dell&apos;elemento canvas."
+
+#: ../admin/view/charts.php:450 ../admin/view/charts.php:3661
+msgid "Responsive Animation Duration"
+msgstr "Durata Animazione Responsive"
+
+#: ../admin/view/charts.php:456 ../admin/view/charts.php:3666
+msgid ""
+"Duration in milliseconds it takes to animate to new size after a resize "
+"event."
+msgstr "Durata dell'animazione effettuata dopo un ridimensionamento."
+
+#: ../admin/view/charts.php:462 ../admin/view/charts.php:3672
+msgid "Maintain Aspect Ratio"
+msgstr "Mantieni Rapporto Aspetto"
+
+#: ../admin/view/charts.php:471 ../admin/view/charts.php:3679
+msgid "Maintain the original canvas aspect ratio when resizing."
+msgstr ""
+"Mantiene il rapporto d&apos;aspetto originale dell&apos;elemento canvas dopo "
+"un ridimensionamento."
+
+#: ../admin/view/charts.php:477 ../admin/view/charts.php:3685
+msgid "Fixed Height"
+msgstr "Altezza Fissa"
+
+#: ../admin/view/charts.php:482 ../admin/view/charts.php:3690
+msgid ""
+"Enter the fixed height of the chart or 0 to not use a fixed height. This "
+"option will be considered only if the chart is responsive and the \"Maintain "
+"Aspect Ratio\" option is set to \"No\"."
+msgstr ""
+"Inserisci l'altezza fissa del grafico oppure 0 per non utilizzare l'altezza "
+"fissa. Questa opzione verrà considerata solamente se il grafico è responsive "
+"e se l'opzione \"Mantieni Rapporto Aspetto\" è impostata su \"No\"."
+
+#: ../admin/view/charts.php:497 ../admin/view/charts.php:3703
+msgid "This option determines if this chart can be used as a model."
+msgstr ""
+"Questa opzione determina se questo grafico può essere utilizzato come "
+"modello."
+
+#: ../admin/view/charts.php:504 ../admin/view/charts.php:3710
+msgid "Title"
+msgstr "Titolo"
+
+#: ../admin/view/charts.php:512 ../admin/view/charts.php:632
+#: ../admin/view/charts.php:1302 ../admin/view/charts.php:1367
+#: ../admin/view/charts.php:1495 ../admin/view/charts.php:1574
+#: ../admin/view/charts.php:1930 ../admin/view/charts.php:1994
+#: ../admin/view/charts.php:2122 ../admin/view/charts.php:2201
+#: ../admin/view/charts.php:2481 ../admin/view/charts.php:2532
+#: ../admin/view/charts.php:2660 ../admin/view/charts.php:2739
+#: ../admin/view/charts.php:2999 ../admin/view/charts.php:3021
+#: ../admin/view/charts.php:3065 ../admin/view/charts.php:3165
+#: ../admin/view/charts.php:3718 ../admin/view/charts.php:3827
+#: ../admin/view/charts.php:4447 ../admin/view/charts.php:4512
+#: ../admin/view/charts.php:4640 ../admin/view/charts.php:4719
+#: ../admin/view/charts.php:5075 ../admin/view/charts.php:5139
+#: ../admin/view/charts.php:5267 ../admin/view/charts.php:5346
+#: ../admin/view/charts.php:5626 ../admin/view/charts.php:5677
+#: ../admin/view/charts.php:5805 ../admin/view/charts.php:5884
+#: ../admin/view/charts.php:6144 ../admin/view/charts.php:6166
+#: ../admin/view/charts.php:6210 ../admin/view/charts.php:6310
+msgid "Display"
+msgstr "Mostra"
+
+#: ../admin/view/charts.php:520 ../admin/view/charts.php:3725
+msgid "Display the title."
+msgstr "Mostra il titolo."
+
+#: ../admin/view/charts.php:526 ../admin/view/charts.php:646
+#: ../admin/view/charts.php:1315 ../admin/view/charts.php:1943
+#: ../admin/view/charts.php:2494 ../admin/view/charts.php:3731
+#: ../admin/view/charts.php:3840 ../admin/view/charts.php:4460
+#: ../admin/view/charts.php:5088 ../admin/view/charts.php:5639
+msgid "Position"
+msgstr "Posizione"
+
+#: ../admin/view/charts.php:530 ../admin/view/charts.php:649
+#: ../admin/view/charts.php:1281 ../admin/view/charts.php:1319
+#: ../admin/view/charts.php:3734 ../admin/view/charts.php:3843
+#: ../admin/view/charts.php:4426 ../admin/view/charts.php:4464
+msgid "Top"
+msgstr "Alto"
+
+#: ../admin/view/charts.php:532 ../admin/view/charts.php:651
+#: ../admin/view/charts.php:1283 ../admin/view/charts.php:1320
+#: ../admin/view/charts.php:3735 ../admin/view/charts.php:3845
+#: ../admin/view/charts.php:4428 ../admin/view/charts.php:4465
+msgid "Bottom"
+msgstr "Basso"
+
+#: ../admin/view/charts.php:535 ../admin/view/charts.php:3738
+msgid "Position of the title."
+msgstr "Posizione del titolo."
+
+#: ../admin/view/charts.php:541 ../admin/view/charts.php:661
+#: ../admin/view/charts.php:3744 ../admin/view/charts.php:3855
+msgid "Full Width"
+msgstr "Larghezza Completa"
+
+#: ../admin/view/charts.php:550 ../admin/view/charts.php:3751
+msgid ""
+"This option determines if the title should take the full width of the canvas."
+msgstr ""
+"Questa opzione determina se il titolo può assumere l&apos;intera larghezza "
+"dell&apos;elemento canvas."
+
+#: ../admin/view/charts.php:556 ../admin/view/charts.php:676
+#: ../admin/view/charts.php:2273 ../admin/view/charts.php:2811
+#: ../admin/view/charts.php:3757 ../admin/view/charts.php:3868
+#: ../admin/view/charts.php:5418 ../admin/view/charts.php:5956
+msgid "Padding"
+msgstr "Padding"
+
+#: ../admin/view/charts.php:561 ../admin/view/charts.php:3762
+msgid "Number of pixels to add above and below the title text."
+msgstr "Numero di pixel da aggiungere sopra e sotto il testo del titolo."
+
+#: ../admin/view/charts.php:567 ../admin/view/charts.php:717
+#: ../admin/view/charts.php:1518 ../admin/view/charts.php:1673
+#: ../admin/view/charts.php:2145 ../admin/view/charts.php:2313
+#: ../admin/view/charts.php:2683 ../admin/view/charts.php:2851
+#: ../admin/view/charts.php:3109 ../admin/view/charts.php:3234
+#: ../admin/view/charts.php:3768 ../admin/view/charts.php:3904
+#: ../admin/view/charts.php:4663 ../admin/view/charts.php:4818
+#: ../admin/view/charts.php:5290 ../admin/view/charts.php:5458
+#: ../admin/view/charts.php:5828 ../admin/view/charts.php:5996
+#: ../admin/view/charts.php:6254 ../admin/view/charts.php:6379
+msgid "Font Size"
+msgstr "Dimensione Font"
+
+#: ../admin/view/charts.php:572 ../admin/view/charts.php:3773
+msgid "The font size of the title."
+msgstr "La dimensione del font del titolo."
+
+#: ../admin/view/charts.php:578 ../admin/view/charts.php:730
+#: ../admin/view/charts.php:1528 ../admin/view/charts.php:1683
+#: ../admin/view/charts.php:2155 ../admin/view/charts.php:2323
+#: ../admin/view/charts.php:2693 ../admin/view/charts.php:2861
+#: ../admin/view/charts.php:3119 ../admin/view/charts.php:3244
+#: ../admin/view/charts.php:3779 ../admin/view/charts.php:3915
+#: ../admin/view/charts.php:4673 ../admin/view/charts.php:4828
+#: ../admin/view/charts.php:5300 ../admin/view/charts.php:5468
+#: ../admin/view/charts.php:5838 ../admin/view/charts.php:6006
+#: ../admin/view/charts.php:6264 ../admin/view/charts.php:6389
+msgid "Font Color"
+msgstr "Colore Font"
+
+#: ../admin/view/charts.php:586 ../admin/view/charts.php:3786
+msgid "The font color of the title."
+msgstr "Il colore del font del titolo."
+
+#: ../admin/view/charts.php:592 ../admin/view/charts.php:746
+#: ../admin/view/charts.php:1540 ../admin/view/charts.php:1695
+#: ../admin/view/charts.php:2167 ../admin/view/charts.php:2335
+#: ../admin/view/charts.php:2705 ../admin/view/charts.php:2873
+#: ../admin/view/charts.php:3131 ../admin/view/charts.php:3256
+#: ../admin/view/charts.php:3792 ../admin/view/charts.php:3928
+#: ../admin/view/charts.php:4685 ../admin/view/charts.php:4840
+#: ../admin/view/charts.php:5312 ../admin/view/charts.php:5480
+#: ../admin/view/charts.php:5850 ../admin/view/charts.php:6018
+#: ../admin/view/charts.php:6276 ../admin/view/charts.php:6401
+msgid "Font Family"
+msgstr "Famiglia Font"
+
+#: ../admin/view/charts.php:598 ../admin/view/charts.php:3797
+msgid "The font family of the title."
+msgstr "La famiglia del font del titolo."
+
+#: ../admin/view/charts.php:604 ../admin/view/charts.php:760
+#: ../admin/view/charts.php:1065 ../admin/view/charts.php:1550
+#: ../admin/view/charts.php:1705 ../admin/view/charts.php:2177
+#: ../admin/view/charts.php:2345 ../admin/view/charts.php:2715
+#: ../admin/view/charts.php:2883 ../admin/view/charts.php:3141
+#: ../admin/view/charts.php:3266 ../admin/view/charts.php:3803
+#: ../admin/view/charts.php:3940 ../admin/view/charts.php:4695
+#: ../admin/view/charts.php:4850 ../admin/view/charts.php:5322
+#: ../admin/view/charts.php:5490 ../admin/view/charts.php:5860
+#: ../admin/view/charts.php:6028 ../admin/view/charts.php:6286
+#: ../admin/view/charts.php:6411
+msgid "Font Style"
+msgstr "Stile Font"
+
+#: ../admin/view/charts.php:608 ../admin/view/charts.php:764
+#: ../admin/view/charts.php:1069 ../admin/view/charts.php:1129
+#: ../admin/view/charts.php:1190 ../admin/view/charts.php:1553
+#: ../admin/view/charts.php:1708 ../admin/view/charts.php:2180
+#: ../admin/view/charts.php:2348 ../admin/view/charts.php:2718
+#: ../admin/view/charts.php:2886 ../admin/view/charts.php:3144
+#: ../admin/view/charts.php:3269 ../admin/view/charts.php:3806
+#: ../admin/view/charts.php:3943 ../admin/view/charts.php:4228
+#: ../admin/view/charts.php:4279 ../admin/view/charts.php:4330
+#: ../admin/view/charts.php:4698 ../admin/view/charts.php:4853
+#: ../admin/view/charts.php:5325 ../admin/view/charts.php:5493
+#: ../admin/view/charts.php:5863 ../admin/view/charts.php:6031
+#: ../admin/view/charts.php:6289 ../admin/view/charts.php:6414
+msgid "Normal"
+msgstr "Normale"
+
+#: ../admin/view/charts.php:610 ../admin/view/charts.php:766
+#: ../admin/view/charts.php:1071 ../admin/view/charts.php:1131
+#: ../admin/view/charts.php:1192 ../admin/view/charts.php:1554
+#: ../admin/view/charts.php:1709 ../admin/view/charts.php:2181
+#: ../admin/view/charts.php:2349 ../admin/view/charts.php:2719
+#: ../admin/view/charts.php:2887 ../admin/view/charts.php:3145
+#: ../admin/view/charts.php:3270 ../admin/view/charts.php:3807
+#: ../admin/view/charts.php:3944 ../admin/view/charts.php:4229
+#: ../admin/view/charts.php:4280 ../admin/view/charts.php:4331
+#: ../admin/view/charts.php:4699 ../admin/view/charts.php:4854
+#: ../admin/view/charts.php:5326 ../admin/view/charts.php:5494
+#: ../admin/view/charts.php:5864 ../admin/view/charts.php:6032
+#: ../admin/view/charts.php:6290 ../admin/view/charts.php:6415
+msgid "Bold"
+msgstr "Grassetto"
+
+#: ../admin/view/charts.php:612 ../admin/view/charts.php:768
+#: ../admin/view/charts.php:1073 ../admin/view/charts.php:1133
+#: ../admin/view/charts.php:1194 ../admin/view/charts.php:1555
+#: ../admin/view/charts.php:1710 ../admin/view/charts.php:2182
+#: ../admin/view/charts.php:2350 ../admin/view/charts.php:2720
+#: ../admin/view/charts.php:2888 ../admin/view/charts.php:3146
+#: ../admin/view/charts.php:3271 ../admin/view/charts.php:3808
+#: ../admin/view/charts.php:3945 ../admin/view/charts.php:4230
+#: ../admin/view/charts.php:4281 ../admin/view/charts.php:4332
+#: ../admin/view/charts.php:4700 ../admin/view/charts.php:4855
+#: ../admin/view/charts.php:5327 ../admin/view/charts.php:5495
+#: ../admin/view/charts.php:5865 ../admin/view/charts.php:6033
+#: ../admin/view/charts.php:6291 ../admin/view/charts.php:6416
+msgid "Italic"
+msgstr "Corsivo"
+
+#: ../admin/view/charts.php:614 ../admin/view/charts.php:770
+#: ../admin/view/charts.php:1075 ../admin/view/charts.php:1135
+#: ../admin/view/charts.php:1196 ../admin/view/charts.php:1556
+#: ../admin/view/charts.php:1711 ../admin/view/charts.php:2183
+#: ../admin/view/charts.php:2351 ../admin/view/charts.php:2721
+#: ../admin/view/charts.php:2889 ../admin/view/charts.php:3147
+#: ../admin/view/charts.php:3272 ../admin/view/charts.php:3809
+#: ../admin/view/charts.php:3946 ../admin/view/charts.php:4231
+#: ../admin/view/charts.php:4282 ../admin/view/charts.php:4333
+#: ../admin/view/charts.php:4701 ../admin/view/charts.php:4856
+#: ../admin/view/charts.php:5328 ../admin/view/charts.php:5496
+#: ../admin/view/charts.php:5866 ../admin/view/charts.php:6034
+#: ../admin/view/charts.php:6292 ../admin/view/charts.php:6417
+msgid "Oblique"
+msgstr "Obliquo"
+
+#: ../admin/view/charts.php:617 ../admin/view/charts.php:3812
+msgid "Font styling of the title."
+msgstr "Stile font del titolo."
+
+#: ../admin/view/charts.php:624 ../admin/view/charts.php:3819
+msgid "Legend"
+msgstr "Legenda"
+
+#: ../admin/view/charts.php:640 ../admin/view/charts.php:3834
+msgid "This option determines if the legend should be displayed."
+msgstr "Questa opzione determina se la legenda deve essere mostrata."
+
+#: ../admin/view/charts.php:650 ../admin/view/charts.php:1282
+#: ../admin/view/charts.php:1947 ../admin/view/charts.php:2498
+#: ../admin/view/charts.php:3844 ../admin/view/charts.php:4427
+#: ../admin/view/charts.php:5092 ../admin/view/charts.php:5643
+msgid "Right"
+msgstr "Destra"
+
+#: ../admin/view/charts.php:652 ../admin/view/charts.php:1284
+#: ../admin/view/charts.php:1948 ../admin/view/charts.php:2499
+#: ../admin/view/charts.php:3846 ../admin/view/charts.php:4429
+#: ../admin/view/charts.php:5093 ../admin/view/charts.php:5644
+msgid "Left"
+msgstr "Sinistra"
+
+#: ../admin/view/charts.php:655 ../admin/view/charts.php:3849
+msgid "The position of the legend."
+msgstr "La posizione della legenda."
+
+#: ../admin/view/charts.php:670 ../admin/view/charts.php:3862
+msgid ""
+"This option determines if the legend should take the full width of the "
+"canvas."
+msgstr ""
+"Questa opzione determina se la legenda può assumere l&apos;intera larghezza "
+"dell&apos;elemento canvas."
+
+#: ../admin/view/charts.php:683 ../admin/view/charts.php:3874
+msgid "The padding between rows of colored boxes."
+msgstr "Il padding tra le righe dei box colorati."
+
+#: ../admin/view/charts.php:689 ../admin/view/charts.php:3880
+msgid "Box Width"
+msgstr "Larghezza Box"
+
+#: ../admin/view/charts.php:696 ../admin/view/charts.php:3885
+msgid "The width of the colored box."
+msgstr "La larghezza dei box colorati."
+
+#: ../admin/view/charts.php:702 ../admin/view/charts.php:3891
+msgid "Toggle Dataset"
+msgstr "Alterna Dataset"
+
+#: ../admin/view/charts.php:711 ../admin/view/charts.php:3898
+msgid ""
+"This option activates the ability to enable or disable a dataset by clicking "
+"on its legend colored box."
+msgstr ""
+"Questa opzione attiva la possibilità di abilitare o disabilitare un dataset "
+"cliccando sulla sua legenda."
+
+#: ../admin/view/charts.php:724 ../admin/view/charts.php:3909
+msgid "The font size of the legend label."
+msgstr "La dimensione del font dell'etichetta della legenda."
+
+#: ../admin/view/charts.php:740 ../admin/view/charts.php:3922
+msgid "The font color of the legend label."
+msgstr "Il colore del font dell'etichetta della legenda."
+
+#: ../admin/view/charts.php:754 ../admin/view/charts.php:3934
+msgid "The font family of the legend label."
+msgstr "La famiglia del font dell'etichetta della legenda."
+
+#: ../admin/view/charts.php:773 ../admin/view/charts.php:3949
+msgid "The font style of the legend label."
+msgstr "Lo stile del font dell&apos;etichetta della legenda."
+
+#: ../admin/view/charts.php:780 ../admin/view/charts.php:3956
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: ../admin/view/charts.php:788 ../admin/view/charts.php:3964
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../admin/view/charts.php:796 ../admin/view/charts.php:3971
+msgid "This option determines if the tooltips should be enabled."
+msgstr "Questa opzione determina se i tooltip devono essere abilitati."
+
+#: ../admin/view/charts.php:802 ../admin/view/charts.php:3977
+msgid "Mode"
+msgstr "Modalità"
+
+#: ../admin/view/charts.php:806 ../admin/view/charts.php:3980
+msgid "Single"
+msgstr "Singolo"
+
+#: ../admin/view/charts.php:808 ../admin/view/charts.php:1508
+#: ../admin/view/charts.php:3981 ../admin/view/charts.php:4653
+#: ../admin/view/charts.php:6593
+msgid "Label"
+msgstr "Etichetta"
+
+#: ../admin/view/charts.php:811 ../admin/view/charts.php:3984
+msgid ""
+"This option determines which elements should appear in the tooltip. Single "
+"highlights the closest element and Label highlights elements in all datasets "
+"at the same X value."
+msgstr ""
+"Questa opzione determina quali elementi devono apparire nel tooltip. Singolo "
+"evidenzia gli elementi più vicini. Etichetta evidenzia gli elementi in tutti "
+"i dataset con lo stesso valore di X."
+
+#: ../admin/view/charts.php:827 ../admin/view/charts.php:3998
+msgid "The background color of the tooltip."
+msgstr "Il colore di sfondo dei tooltip."
+
+#: ../admin/view/charts.php:833 ../admin/view/charts.php:4004
+msgid "Multi Key Background"
+msgstr "Sfondo Multi Key"
+
+#: ../admin/view/charts.php:842 ../admin/view/charts.php:4012
+msgid ""
+"Color to draw behind the colored boxes when multiple items are in the "
+"tooltip."
+msgstr ""
+"Il colore dietro i box colorati quando multipli oggetti sono presenti nel "
+"tooltip."
+
+#: ../admin/view/charts.php:848 ../admin/view/charts.php:4018
+msgid "Title Margin Bottom"
+msgstr "Titolo Margine Basso"
+
+#: ../admin/view/charts.php:854 ../admin/view/charts.php:4023
+msgid "Margin to add on the bottom of the tooltip title section."
+msgstr "Margine da aggiungere sotto la sezione titolo del tooltip."
+
+#: ../admin/view/charts.php:860 ../admin/view/charts.php:4029
+msgid "Footer Margin Top"
+msgstr "Footer Margine Alto"
+
+#: ../admin/view/charts.php:867 ../admin/view/charts.php:4034
+msgid "Margin to add before drawing the tooltip footer."
+msgstr "Margine da aggiungere sopra la sezione footer del tooltip."
+
+#: ../admin/view/charts.php:873 ../admin/view/charts.php:4040
+msgid "X Padding"
+msgstr "X Padding"
+
+#: ../admin/view/charts.php:878 ../admin/view/charts.php:4046
+msgid "Padding to add on the left and right side of the tooltip."
+msgstr "Padding da aggiungere alla sinistra ed alla destra del tooltip."
+
+#: ../admin/view/charts.php:884 ../admin/view/charts.php:4052
+msgid "Y Padding"
+msgstr "Y Padding"
+
+#: ../admin/view/charts.php:889 ../admin/view/charts.php:4058
+msgid "Padding to add on the top and bottom side of the tooltip."
+msgstr "Padding da aggiungere sopra e sotto il tooltip."
+
+#: ../admin/view/charts.php:895 ../admin/view/charts.php:4064
+msgid "Caret Size"
+msgstr "Dimensione Accento Circonflesso"
+
+#: ../admin/view/charts.php:900 ../admin/view/charts.php:4070
+msgid "The size of the tooltip arrow."
+msgstr "La dimensione della freccia del tooltip."
+
+#: ../admin/view/charts.php:906 ../admin/view/charts.php:4076
+msgid "Corner Radius"
+msgstr "Raggio Angoli"
+
+#: ../admin/view/charts.php:913 ../admin/view/charts.php:4082
+msgid "The radius of the tooltip corner curves."
+msgstr "Il raggio degli angoli del tooltip."
+
+#: ../admin/view/charts.php:919 ../admin/view/charts.php:4088
+msgid "Animation Duration"
+msgstr "Durata Animazione"
+
+#: ../admin/view/charts.php:926 ../admin/view/charts.php:4093
+msgid "Duration in milliseconds it takes to animate hover style changes."
+msgstr ""
+"Durata in millisecondi dell'animazione in caso di cursore posizionato sopra "
+"elementi che richiamano il tooltip."
+
+#: ../admin/view/charts.php:932 ../admin/view/charts.php:4099
+msgid "Before Title"
+msgstr "Prima del Titolo"
+
+#: ../admin/view/charts.php:936 ../admin/view/charts.php:4103
+msgid "The text displayed before the title of the tooltip."
+msgstr "Il testo mostrato prima del titolo del tooltip."
+
+#: ../admin/view/charts.php:942 ../admin/view/charts.php:4109
+msgid "After Title"
+msgstr "Dopo il Titolo"
+
+#: ../admin/view/charts.php:946 ../admin/view/charts.php:4113
+msgid "The text displayed after the title of the tooltip."
+msgstr "Il testo mostrato dopo il titolo del tooltip."
+
+#: ../admin/view/charts.php:952 ../admin/view/charts.php:4119
+msgid "Before Body"
+msgstr "Prima del Corpo"
+
+#: ../admin/view/charts.php:956 ../admin/view/charts.php:4123
+msgid "The text displayed before the body of the tooltip."
+msgstr "Il testo mostrato prima del corpo del tooltip."
+
+#: ../admin/view/charts.php:962 ../admin/view/charts.php:4129
+msgid "After Body"
+msgstr "Dopo il Corpo"
+
+#: ../admin/view/charts.php:966 ../admin/view/charts.php:4133
+msgid "The text displayed after the body of the tooltip."
+msgstr "Il testo mostrato dopo il corpo del tooltip."
+
+#: ../admin/view/charts.php:972 ../admin/view/charts.php:4139
+msgid "Before Label"
+msgstr "Prima dell&apos;etichetta"
+
+#: ../admin/view/charts.php:976 ../admin/view/charts.php:4143
+msgid "The text displayed before the label of the tooltip."
+msgstr "Il testo mostrato prima dell'etichetta del tooltip."
+
+#: ../admin/view/charts.php:982 ../admin/view/charts.php:4149
+msgid "After Label"
+msgstr "Dopo l&apos;etichetta"
+
+#: ../admin/view/charts.php:986 ../admin/view/charts.php:4153
+msgid "The text displayed after the label of the tooltip."
+msgstr "Il testo mostrato dopo l'etichetta del tooltip."
+
+#: ../admin/view/charts.php:992 ../admin/view/charts.php:4159
+msgid "Before Footer"
+msgstr "Prima del Footer"
+
+#: ../admin/view/charts.php:996 ../admin/view/charts.php:4163
+msgid "The text displayed before the footer of the tooltip."
+msgstr "Il testo mostrato prima del footer del tooltip."
+
+#: ../admin/view/charts.php:1002 ../admin/view/charts.php:4169
+msgid "Footer"
+msgstr "Footer"
+
+#: ../admin/view/charts.php:1006 ../admin/view/charts.php:4173
+msgid "The text displayed in the footer of the tooltip."
+msgstr "Il testo mostrato nel footer del tooltip."
+
+#: ../admin/view/charts.php:1012 ../admin/view/charts.php:4179
+msgid "After Footer"
+msgstr "Dopo il Footer"
+
+#: ../admin/view/charts.php:1016 ../admin/view/charts.php:4183
+msgid "The text displayed after the footer of the tooltip."
+msgstr "Il testo mostrato dopo il footer del tooltip."
+
+#: ../admin/view/charts.php:1022
+msgid "Title Font Size"
+msgstr "La dimensione del font."
+
+#: ../admin/view/charts.php:1029 ../admin/view/charts.php:4194
+msgid "The font size of the tooltip title."
+msgstr "La dimensione del font del titolo del tooltip."
+
+#: ../admin/view/charts.php:1035 ../admin/view/charts.php:4200
+msgid "Title Font Color"
+msgstr "Colore Font Titolo"
+
+#: ../admin/view/charts.php:1045 ../admin/view/charts.php:4207
+msgid "The font color of the tooltip title."
+msgstr "Il colore del font del titolo del tooltip."
+
+#: ../admin/view/charts.php:1051 ../admin/view/charts.php:4213
+msgid "Title Font Family"
+msgstr "Famiglia del font."
+
+#: ../admin/view/charts.php:1059 ../admin/view/charts.php:4219
+msgid "The font family of the tooltip title."
+msgstr "La famiglia del font del titolo del tooltip."
+
+#: ../admin/view/charts.php:1077 ../admin/view/charts.php:4233
+msgid "The font style of the tooltip title."
+msgstr "Lo stile del font del titolo del tooltip."
+
+#: ../admin/view/charts.php:1083 ../admin/view/charts.php:4239
+msgid "Body Font Size"
+msgstr "Dimensione Font Corpo"
+
+#: ../admin/view/charts.php:1090 ../admin/view/charts.php:1119
+#: ../admin/view/charts.php:4270
+msgid "The font family of the tooltip body."
+msgstr "La famiglia del font del corpo del tooltip."
+
+#: ../admin/view/charts.php:1096 ../admin/view/charts.php:4251
+msgid "Body Font Color"
+msgstr "Colore Font Corpo"
+
+#: ../admin/view/charts.php:1106 ../admin/view/charts.php:4258
+msgid "The font color of the tooltip body."
+msgstr "Il colore del font del corpo del tooltip."
+
+#: ../admin/view/charts.php:1112 ../admin/view/charts.php:4264
+msgid "Body Font Family"
+msgstr "Font Family Corpo"
+
+#: ../admin/view/charts.php:1125 ../admin/view/charts.php:4276
+msgid "Body Font Style"
+msgstr "Stile Font Corpo"
+
+#: ../admin/view/charts.php:1137 ../admin/view/charts.php:4284
+msgid "The font style of the tooltip body."
+msgstr "La dimensione del font del corpo del tooltip."
+
+#: ../admin/view/charts.php:1143 ../admin/view/charts.php:4290
+msgid "Footer Font Size"
+msgstr "Dimensione Font Footer"
+
+#: ../admin/view/charts.php:1150 ../admin/view/charts.php:4295
+msgid "The font size of the tooltip footer."
+msgstr "La dimensione del font del footer del tooltip."
+
+#: ../admin/view/charts.php:1156 ../admin/view/charts.php:4301
+msgid "Footer Font Color"
+msgstr "Colore Font Footer"
+
+#: ../admin/view/charts.php:1166
+msgid "The font color of the tooltip footer."
+msgstr "Il colore del font del footer del tooltip."
+
+#: ../admin/view/charts.php:1172 ../admin/view/charts.php:4315
+msgid "Footer Font Family"
+msgstr "Famiglia Font Footer"
+
+#: ../admin/view/charts.php:1180 ../admin/view/charts.php:4321
+msgid "The font family of the tooltip footer."
+msgstr "La famiglia del font del footer del tootip."
+
+#: ../admin/view/charts.php:1186 ../admin/view/charts.php:4327
+msgid "Footer Font Style"
+msgstr "Stile Font Footer"
+
+#: ../admin/view/charts.php:1199 ../admin/view/charts.php:4336
+msgid "The font style of the tooltip footer."
+msgstr "Lo stile del font del footer del tooltip."
+
+#: ../admin/view/charts.php:1206 ../admin/view/charts.php:4344
+msgid "Animation"
+msgstr "Animazione"
+
+#: ../admin/view/charts.php:1214 ../admin/view/charts.php:4352
+msgid "Duration"
+msgstr "Durata"
+
+#: ../admin/view/charts.php:1219 ../admin/view/charts.php:4358
+msgid "The number of milliseconds an animation takes."
+msgstr "Il numero di millisecondi richiesti dall'animazione."
+
+#: ../admin/view/charts.php:1225 ../admin/view/charts.php:4364
+msgid "Easing"
+msgstr "Easing"
+
+#: ../admin/view/charts.php:1236 ../admin/view/charts.php:4381
+msgid "Easing function to use."
+msgstr "Funzione easing da utilizzare."
+
+#: ../admin/view/charts.php:1242 ../admin/view/charts.php:4387
+msgid "Animate Rotate"
+msgstr "Animazione di Rotazione"
+
+#: ../admin/view/charts.php:1249 ../admin/view/charts.php:4394
+msgid ""
+"If enabled, will animate the rotation of the chart. This option is applied "
+"only with Polar Area, Pie and Doughnut Chart."
+msgstr ""
+"Se abilitato, animerà la rotazione del chart. Questa opzione è applicata "
+"solo con grafici di tipo Area Polare, Torta e Ciambella."
+
+#: ../admin/view/charts.php:1255 ../admin/view/charts.php:4400
+msgid "Animate Scale"
+msgstr "Animazione Scala"
+
+#: ../admin/view/charts.php:1262 ../admin/view/charts.php:4407
+msgid ""
+"If enabled, will animate the scaling of the chart from the center. This "
+"option is applied only with Polar Area, Pie and Doughnut Chart."
+msgstr ""
+"Se abilitato, animerà l&apos;incremento di dimensione del chart dal centro. "
+"Questa opzione è applicata solo con grafici di tipo Area Polare, Torta e "
+"Ciambella."
+
+#: ../admin/view/charts.php:1270 ../admin/view/charts.php:4415
+msgid "Misc"
+msgstr "Varie"
+
+#: ../admin/view/charts.php:1278 ../admin/view/charts.php:4423
+msgid "Border Skipped"
+msgstr "Salta Bordo"
+
+#: ../admin/view/charts.php:1287 ../admin/view/charts.php:4432
+msgid ""
+"Skipped (excluded) border for the rectangle. This option is applied only to "
+"the Bar and Horizontal Bar chart."
+msgstr ""
+"Bordo saltato (escluso). Questa opzione è applicata solamente con grafici di "
+"tipo Barre e Barre Orizzontale."
+
+#: ../admin/view/charts.php:1294 ../admin/view/charts.php:4439
+msgid "X Scale Common"
+msgstr "Scala X Comuni"
+
+#: ../admin/view/charts.php:1309 ../admin/view/charts.php:1937
+#: ../admin/view/charts.php:2488 ../admin/view/charts.php:4454
+#: ../admin/view/charts.php:5082 ../admin/view/charts.php:5633
+msgid "If enabled, show the scale including grid lines, ticks and labels."
+msgstr ""
+"Se abilitato, mostra la scala incluse le linee della griglia, i tick e le "
+"etichette."
+
+#: ../admin/view/charts.php:1323 ../admin/view/charts.php:1951
+#: ../admin/view/charts.php:2502 ../admin/view/charts.php:4468
+#: ../admin/view/charts.php:5096 ../admin/view/charts.php:5647
+msgid "Position of the scale."
+msgstr "Posizione della scala."
+
+#: ../admin/view/charts.php:1333 ../admin/view/charts.php:1961
+#: ../admin/view/charts.php:2512 ../admin/view/charts.php:4478
+#: ../admin/view/charts.php:5106 ../admin/view/charts.php:5657
+msgid "Category"
+msgstr "Categoria"
+
+#: ../admin/view/charts.php:1334 ../admin/view/charts.php:1962
+#: ../admin/view/charts.php:2513 ../admin/view/charts.php:4479
+#: ../admin/view/charts.php:5107 ../admin/view/charts.php:5658
+msgid "Linear"
+msgstr "Lineare"
+
+#: ../admin/view/charts.php:1335 ../admin/view/charts.php:1963
+#: ../admin/view/charts.php:2514 ../admin/view/charts.php:4480
+#: ../admin/view/charts.php:5108 ../admin/view/charts.php:5659
+msgid "Logarithmic"
+msgstr "Logaritmica"
+
+#: ../admin/view/charts.php:1336 ../admin/view/charts.php:4481
+msgid "Time"
+msgstr "Temporale"
+
+#: ../admin/view/charts.php:1339 ../admin/view/charts.php:1966
+#: ../admin/view/charts.php:2517 ../admin/view/charts.php:4484
+#: ../admin/view/charts.php:5111 ../admin/view/charts.php:5662
+msgid "Type of scale being employed."
+msgstr "Tipo di scala utilizzata."
+
+#: ../admin/view/charts.php:1345 ../admin/view/charts.php:1972
+#: ../admin/view/charts.php:4490 ../admin/view/charts.php:5117
+msgid "Stacked"
+msgstr "Impilato"
+
+#: ../admin/view/charts.php:1352 ../admin/view/charts.php:1979
+#: ../admin/view/charts.php:4497 ../admin/view/charts.php:5124
+msgid ""
+"If enabled, lines or bars are stacked. This option is applied only with the "
+"Line and Bar chart."
+msgstr ""
+"Se abilitato, le linee o le barre risulteranno impilate. Questa opzione è "
+"applicata solamento con grafici di tipo Linea e Barre."
+
+#: ../admin/view/charts.php:1359 ../admin/view/charts.php:4504
+msgid "X Scale Grid Line"
+msgstr "Scala X Linee Griglia"
+
+#: ../admin/view/charts.php:1374 ../admin/view/charts.php:2001
+#: ../admin/view/charts.php:2539 ../admin/view/charts.php:3028
+#: ../admin/view/charts.php:4519 ../admin/view/charts.php:5146
+#: ../admin/view/charts.php:5684 ../admin/view/charts.php:6173
+msgid "If enabled, the grid lines are displayed."
+msgstr "Se abilitato, le linee della griglia vengono mostrate."
+
+#: ../admin/view/charts.php:1380 ../admin/view/charts.php:2007
+#: ../admin/view/charts.php:2545 ../admin/view/charts.php:3034
+#: ../admin/view/charts.php:3078 ../admin/view/charts.php:4525
+#: ../admin/view/charts.php:5152 ../admin/view/charts.php:5690
+#: ../admin/view/charts.php:6179 ../admin/view/charts.php:6223
+msgid "Color"
+msgstr "Colore"
+
+#: ../admin/view/charts.php:1386 ../admin/view/charts.php:2013
+#: ../admin/view/charts.php:2551 ../admin/view/charts.php:3040
+#: ../admin/view/charts.php:4531 ../admin/view/charts.php:5158
+#: ../admin/view/charts.php:5696 ../admin/view/charts.php:6185
+msgid ""
+"A color or a comma separated list of colors that will be used for the grid "
+"lines."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verranno utilizzati "
+"per le linee della griglia."
+
+#: ../admin/view/charts.php:1392 ../admin/view/charts.php:2019
+#: ../admin/view/charts.php:2557 ../admin/view/charts.php:3046
+#: ../admin/view/charts.php:3090 ../admin/view/charts.php:4537
+#: ../admin/view/charts.php:5164 ../admin/view/charts.php:5702
+#: ../admin/view/charts.php:6191 ../admin/view/charts.php:6235
+msgid "Line Width"
+msgstr "Larghezza Linea"
+
+#: ../admin/view/charts.php:1396 ../admin/view/charts.php:2023
+#: ../admin/view/charts.php:2561 ../admin/view/charts.php:3050
+#: ../admin/view/charts.php:4541 ../admin/view/charts.php:5168
+#: ../admin/view/charts.php:5706 ../admin/view/charts.php:6195
+msgid ""
+"A number or a comma separated list of numbers used to define the stroke "
+"width of the grid lines."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza delle linee griglia."
+
+#: ../admin/view/charts.php:1402 ../admin/view/charts.php:2029
+#: ../admin/view/charts.php:2567 ../admin/view/charts.php:4547
+#: ../admin/view/charts.php:5174 ../admin/view/charts.php:5712
+msgid "Draw Border"
+msgstr "Disegna Bordo"
+
+#: ../admin/view/charts.php:1409 ../admin/view/charts.php:4554
+msgid "If enabled, draw the border on the edge of the chart."
+msgstr "Se abilitato, disegna il bordo alle estremità del grafico."
+
+#: ../admin/view/charts.php:1415 ../admin/view/charts.php:2042
+#: ../admin/view/charts.php:2580 ../admin/view/charts.php:4560
+#: ../admin/view/charts.php:5187 ../admin/view/charts.php:5725
+msgid "Draw on Chart Area"
+msgstr "Disegna in Area Grafico"
+
+#: ../admin/view/charts.php:1422 ../admin/view/charts.php:2049
+#: ../admin/view/charts.php:2587 ../admin/view/charts.php:4567
+#: ../admin/view/charts.php:5194 ../admin/view/charts.php:5732
+msgid "If enabled, draw lines on the chart area inside the axis lines."
+msgstr ""
+"Se abilitato disegna le linee nell&apos;area del grafico all&apos;interno "
+"delle linee degli assi."
+
+#: ../admin/view/charts.php:1428 ../admin/view/charts.php:2055
+#: ../admin/view/charts.php:2593 ../admin/view/charts.php:4573
+#: ../admin/view/charts.php:5200 ../admin/view/charts.php:5738
+msgid "Draw Ticks"
+msgstr "Disegna Tick"
+
+#: ../admin/view/charts.php:1435 ../admin/view/charts.php:2062
+#: ../admin/view/charts.php:2600 ../admin/view/charts.php:4580
+#: ../admin/view/charts.php:5207 ../admin/view/charts.php:5745
+msgid ""
+"If enabled, draw lines beside the ticks in the axis area beside the chart."
+msgstr ""
+"Se abilitato, disegna le linee di fianco ai tick nell&apos;area degli assi "
+"di fianco al grafico."
+
+#: ../admin/view/charts.php:1441 ../admin/view/charts.php:2068
+#: ../admin/view/charts.php:2606 ../admin/view/charts.php:4586
+#: ../admin/view/charts.php:5213 ../admin/view/charts.php:5751
+msgid "Tick Mark Length"
+msgstr "Lunghezza Tick"
+
+#: ../admin/view/charts.php:1445 ../admin/view/charts.php:2072
+#: ../admin/view/charts.php:2610 ../admin/view/charts.php:4590
+#: ../admin/view/charts.php:5217 ../admin/view/charts.php:5755
+msgid "Length in pixels that the grid lines will draw into the axis area."
+msgstr ""
+"Lunghezza in pixel delle linee della griglia tracciate nell'area degli assi."
+
+#: ../admin/view/charts.php:1451 ../admin/view/charts.php:2078
+#: ../admin/view/charts.php:2616 ../admin/view/charts.php:4596
+#: ../admin/view/charts.php:5223 ../admin/view/charts.php:5761
+msgid "Zero Line Color"
+msgstr "Colore Linea Zero"
+
+#: ../admin/view/charts.php:1457 ../admin/view/charts.php:2084
+#: ../admin/view/charts.php:2622 ../admin/view/charts.php:4602
+#: ../admin/view/charts.php:5229 ../admin/view/charts.php:5767
+msgid "Stroke color of the grid line for the first index."
+msgstr "Colore della prima linea della griglia."
+
+#: ../admin/view/charts.php:1463 ../admin/view/charts.php:2090
+#: ../admin/view/charts.php:2628 ../admin/view/charts.php:4608
+#: ../admin/view/charts.php:5235 ../admin/view/charts.php:5773
+msgid "Zero Line Width"
+msgstr "Larghezza Linea Zero"
+
+#: ../admin/view/charts.php:1467 ../admin/view/charts.php:2094
+#: ../admin/view/charts.php:2632 ../admin/view/charts.php:4612
+#: ../admin/view/charts.php:5239 ../admin/view/charts.php:5777
+msgid "Stroke width of the grid line for the first index."
+msgstr "Larghezza del tratto della prima linea della griglia."
+
+#: ../admin/view/charts.php:1473 ../admin/view/charts.php:2100
+#: ../admin/view/charts.php:2638 ../admin/view/charts.php:4618
+#: ../admin/view/charts.php:5245 ../admin/view/charts.php:5783
+msgid "Offset Grid Lines"
+msgstr "Offset Linee Griglia"
+
+#: ../admin/view/charts.php:1480 ../admin/view/charts.php:4625
+msgid ""
+"If enabled, labels are shifted to be between grid lines. This is used in the "
+"Bar chart."
+msgstr ""
+"Se abilitato, le etichette vengono posizionate tra le linee della griglia. "
+"Questa opzione è utilizzata nel grafico a Barre."
+
+#: ../admin/view/charts.php:1487 ../admin/view/charts.php:4632
+msgid "X Scale Title"
+msgstr "Scala X Titolo"
+
+#: ../admin/view/charts.php:1502 ../admin/view/charts.php:2129
+#: ../admin/view/charts.php:2667 ../admin/view/charts.php:4647
+#: ../admin/view/charts.php:5274 ../admin/view/charts.php:5812
+msgid "If enabled, the scale label is displayed."
+msgstr "Se abilitato, l&apos;etichetta della scala viene mostrata."
+
+#: ../admin/view/charts.php:1512 ../admin/view/charts.php:2139
+#: ../admin/view/charts.php:2677 ../admin/view/charts.php:4657
+#: ../admin/view/charts.php:5284 ../admin/view/charts.php:5822
+msgid "The text for the title."
+msgstr "Il testo del titolo."
+
+#: ../admin/view/charts.php:1522 ../admin/view/charts.php:2149
+#: ../admin/view/charts.php:2687 ../admin/view/charts.php:4667
+#: ../admin/view/charts.php:5294 ../admin/view/charts.php:5832
+msgid "Font size for the scale title."
+msgstr "Dimensione del font del titolo della scala."
+
+#: ../admin/view/charts.php:1534 ../admin/view/charts.php:2161
+#: ../admin/view/charts.php:2699 ../admin/view/charts.php:4679
+#: ../admin/view/charts.php:5306 ../admin/view/charts.php:5844
+msgid "Font color for the scale title."
+msgstr "Colore del font del titolo della scala."
+
+#: ../admin/view/charts.php:1544 ../admin/view/charts.php:2171
+#: ../admin/view/charts.php:2709 ../admin/view/charts.php:4689
+#: ../admin/view/charts.php:5316 ../admin/view/charts.php:5854
+msgid "Font family for the scale title."
+msgstr "Famiglia del font del titolo della scala."
+
+#: ../admin/view/charts.php:1559 ../admin/view/charts.php:2186
+#: ../admin/view/charts.php:2724 ../admin/view/charts.php:4704
+#: ../admin/view/charts.php:5331 ../admin/view/charts.php:5869
+msgid "Font style for the scale title."
+msgstr "Stile del font del titolo della scala."
+
+#: ../admin/view/charts.php:1566 ../admin/view/charts.php:4711
+msgid "X Scale Tick"
+msgstr "Scala X Tick"
+
+#: ../admin/view/charts.php:1581 ../admin/view/charts.php:2208
+#: ../admin/view/charts.php:2746 ../admin/view/charts.php:3172
+#: ../admin/view/charts.php:4726 ../admin/view/charts.php:5353
+#: ../admin/view/charts.php:5891 ../admin/view/charts.php:6317
+msgid "If enabled, show the ticks."
+msgstr "Se abilitato, mostra i tick."
+
+#: ../admin/view/charts.php:1587 ../admin/view/charts.php:2214
+#: ../admin/view/charts.php:2752 ../admin/view/charts.php:3178
+#: ../admin/view/charts.php:4732 ../admin/view/charts.php:5359
+#: ../admin/view/charts.php:5897 ../admin/view/charts.php:6323
+msgid "Autoskip"
+msgstr "Autoskip"
+
+#: ../admin/view/charts.php:1594 ../admin/view/charts.php:2221
+#: ../admin/view/charts.php:2759 ../admin/view/charts.php:3185
+#: ../admin/view/charts.php:4739 ../admin/view/charts.php:5366
+#: ../admin/view/charts.php:5904 ../admin/view/charts.php:6330
+msgid ""
+"If this option is enabled the number of labels displayed will be determined "
+"automatically, if this option is disabled all the labels will be displayed."
+msgstr ""
+"Se questa opzione è abilitata il numero di etichette mostrate verrà "
+"determinato automaticamente, se questa opzione è disabilitata verranno "
+"mostrate tutte le etichette."
+
+#: ../admin/view/charts.php:1600 ../admin/view/charts.php:2227
+#: ../admin/view/charts.php:2765 ../admin/view/charts.php:3191
+#: ../admin/view/charts.php:4745 ../admin/view/charts.php:5372
+#: ../admin/view/charts.php:5910 ../admin/view/charts.php:6336
+msgid "Reverse"
+msgstr "Inverti"
+
+#: ../admin/view/charts.php:1607 ../admin/view/charts.php:2234
+#: ../admin/view/charts.php:2772 ../admin/view/charts.php:3198
+#: ../admin/view/charts.php:4752 ../admin/view/charts.php:5379
+#: ../admin/view/charts.php:5917 ../admin/view/charts.php:6343
+msgid "Reverses order of tick labels."
+msgstr "Inverti l&apos;ordine delle etichette dei tick."
+
+#: ../admin/view/charts.php:1613 ../admin/view/charts.php:4758
+msgid "Label Offset"
+msgstr "Offset Etichette"
+
+#: ../admin/view/charts.php:1617 ../admin/view/charts.php:4762
+msgid ""
+"Distance in pixels to offset the label from the centre point of the tick."
+msgstr ""
+"Distanza in pixel per impostare uno spostamento dell'etichetta dal centro "
+"del tick."
+
+#: ../admin/view/charts.php:1623 ../admin/view/charts.php:2253
+#: ../admin/view/charts.php:2791 ../admin/view/charts.php:4768
+#: ../admin/view/charts.php:5398 ../admin/view/charts.php:5936
+msgid "Min Rotation"
+msgstr "Rotazione Minima"
+
+#: ../admin/view/charts.php:1627 ../admin/view/charts.php:2257
+#: ../admin/view/charts.php:2795 ../admin/view/charts.php:4772
+#: ../admin/view/charts.php:5402 ../admin/view/charts.php:5940
+msgid ""
+"Minimum rotation for tick labels when rotating to condense labels. Note that "
+"the rotation doesn't occur until necessary."
+msgstr "Rotazione minima delle etichette dei tick."
+
+#: ../admin/view/charts.php:1633 ../admin/view/charts.php:2263
+#: ../admin/view/charts.php:2801 ../admin/view/charts.php:4778
+#: ../admin/view/charts.php:5408 ../admin/view/charts.php:5946
+msgid "Max Rotation"
+msgstr "Rotazione Massima"
+
+#: ../admin/view/charts.php:1637 ../admin/view/charts.php:2267
+#: ../admin/view/charts.php:2805 ../admin/view/charts.php:4782
+#: ../admin/view/charts.php:5412 ../admin/view/charts.php:5950
+msgid ""
+"Maximum rotation for tick labels when rotating to condense labels. Note that "
+"the rotation doesn't occur until necessary."
+msgstr "Rotazione massima delle etichette dei tick."
+
+#: ../admin/view/charts.php:1643 ../admin/view/charts.php:2283
+#: ../admin/view/charts.php:2821 ../admin/view/charts.php:3204
+#: ../admin/view/charts.php:4788 ../admin/view/charts.php:5428
+#: ../admin/view/charts.php:5966 ../admin/view/charts.php:6349
+msgid "Prefix"
+msgstr "Prefisso"
+
+#: ../admin/view/charts.php:1647 ../admin/view/charts.php:2287
+#: ../admin/view/charts.php:2825 ../admin/view/charts.php:3208
+#: ../admin/view/charts.php:4792 ../admin/view/charts.php:5432
+#: ../admin/view/charts.php:5970 ../admin/view/charts.php:6353
+msgid "Add a prefix to the tick."
+msgstr "Aggiungi un prefisso al tick."
+
+#: ../admin/view/charts.php:1653 ../admin/view/charts.php:2293
+#: ../admin/view/charts.php:2831 ../admin/view/charts.php:3214
+#: ../admin/view/charts.php:4798 ../admin/view/charts.php:5438
+#: ../admin/view/charts.php:5976 ../admin/view/charts.php:6359
+msgid "Suffix"
+msgstr "Suffisso"
+
+#: ../admin/view/charts.php:1657 ../admin/view/charts.php:2297
+#: ../admin/view/charts.php:2835 ../admin/view/charts.php:3218
+#: ../admin/view/charts.php:4802 ../admin/view/charts.php:5442
+#: ../admin/view/charts.php:5980 ../admin/view/charts.php:6363
+msgid "Add a suffix to the tick."
+msgstr "Aggiungi un suffisso al tick."
+
+#: ../admin/view/charts.php:1663 ../admin/view/charts.php:2303
+#: ../admin/view/charts.php:2841 ../admin/view/charts.php:3224
+#: ../admin/view/charts.php:4808 ../admin/view/charts.php:5448
+#: ../admin/view/charts.php:5986 ../admin/view/charts.php:6369
+#: ../admin/view/charts.php:6709 ../admin/view/charts.php:6724
+msgid "Round"
+msgstr "Arrotondato"
+
+#: ../admin/view/charts.php:1667 ../admin/view/charts.php:2307
+#: ../admin/view/charts.php:2845 ../admin/view/charts.php:3228
+#: ../admin/view/charts.php:4812 ../admin/view/charts.php:5452
+#: ../admin/view/charts.php:5990 ../admin/view/charts.php:6373
+msgid "Rounds a decimal value to a specified number of decimal places."
+msgstr ""
+"Arrotonda un valore decimale in base allo specificato numero di decimali."
+
+#: ../admin/view/charts.php:1677 ../admin/view/charts.php:2317
+#: ../admin/view/charts.php:2855 ../admin/view/charts.php:3238
+#: ../admin/view/charts.php:4822 ../admin/view/charts.php:5462
+#: ../admin/view/charts.php:6000 ../admin/view/charts.php:6383
+msgid "Font size for the tick labels."
+msgstr "Dimensione del font delle etichette dei tick."
+
+#: ../admin/view/charts.php:1689 ../admin/view/charts.php:2329
+#: ../admin/view/charts.php:2867 ../admin/view/charts.php:3250
+#: ../admin/view/charts.php:4834 ../admin/view/charts.php:5474
+#: ../admin/view/charts.php:6012 ../admin/view/charts.php:6395
+msgid "Font color for the tick labels."
+msgstr "Colore del font delle etichette dei tick."
+
+#: ../admin/view/charts.php:1699 ../admin/view/charts.php:2339
+#: ../admin/view/charts.php:2877 ../admin/view/charts.php:3260
+#: ../admin/view/charts.php:4844 ../admin/view/charts.php:5484
+#: ../admin/view/charts.php:6022 ../admin/view/charts.php:6405
+msgid "Font family for the tick labels."
+msgstr "Famiglia del font delle etichette dei tick."
+
+#: ../admin/view/charts.php:1714 ../admin/view/charts.php:2354
+#: ../admin/view/charts.php:2892 ../admin/view/charts.php:3275
+#: ../admin/view/charts.php:4859 ../admin/view/charts.php:5499
+#: ../admin/view/charts.php:6037 ../admin/view/charts.php:6420
+msgid "Font style for the tick labels."
+msgstr "Stile del font delle etichette dei tick."
+
+#: ../admin/view/charts.php:1721 ../admin/view/charts.php:4866
+msgid "X Scale Options"
+msgstr "Scala X Opzioni"
+
+#: ../admin/view/charts.php:1729 ../admin/view/charts.php:1871
+#: ../admin/view/charts.php:2369 ../admin/view/charts.php:2907
+#: ../admin/view/charts.php:3290 ../admin/view/charts.php:4874
+#: ../admin/view/charts.php:5016 ../admin/view/charts.php:5514
+#: ../admin/view/charts.php:6052 ../admin/view/charts.php:6435
+msgid "Min"
+msgstr "Minimo"
+
+#: ../admin/view/charts.php:1733 ../admin/view/charts.php:2373
+#: ../admin/view/charts.php:2911 ../admin/view/charts.php:3294
+#: ../admin/view/charts.php:4878 ../admin/view/charts.php:5518
+#: ../admin/view/charts.php:6056 ../admin/view/charts.php:6439
+msgid "The minimum item to display."
+msgstr "Il valore minimo da mostrare."
+
+#: ../admin/view/charts.php:1739 ../admin/view/charts.php:1881
+#: ../admin/view/charts.php:2379 ../admin/view/charts.php:2917
+#: ../admin/view/charts.php:3300 ../admin/view/charts.php:4884
+#: ../admin/view/charts.php:5026 ../admin/view/charts.php:5524
+#: ../admin/view/charts.php:6062 ../admin/view/charts.php:6445
+msgid "Max"
+msgstr "Massimo"
+
+#: ../admin/view/charts.php:1743 ../admin/view/charts.php:2383
+#: ../admin/view/charts.php:2921 ../admin/view/charts.php:3304
+#: ../admin/view/charts.php:4888 ../admin/view/charts.php:5528
+#: ../admin/view/charts.php:6066 ../admin/view/charts.php:6449
+msgid "The maximum item to display."
+msgstr "Il valore massimo da mostrare."
+
+#: ../admin/view/charts.php:1749 ../admin/view/charts.php:2389
+#: ../admin/view/charts.php:2927 ../admin/view/charts.php:3310
+#: ../admin/view/charts.php:4894 ../admin/view/charts.php:5534
+#: ../admin/view/charts.php:6072 ../admin/view/charts.php:6455
+msgid "Suggested Min"
+msgstr "Minimo Suggerito"
+
+#: ../admin/view/charts.php:1753 ../admin/view/charts.php:2393
+#: ../admin/view/charts.php:2931 ../admin/view/charts.php:4898
+#: ../admin/view/charts.php:5538 ../admin/view/charts.php:6076
+msgid ""
+"Minimum number for the scale, overrides minimum value except for if it is "
+"higher than the minimum value. This option is applied only to the Linear "
+"scale."
+msgstr ""
+"Valore minimo della scala, sovrascriverà il valore minimo eccetto nel casi "
+"in cui sia più alto del valore minimo. Questa opzione è applicata solo alla "
+"scala Lineare."
+
+#: ../admin/view/charts.php:1759 ../admin/view/charts.php:2399
+#: ../admin/view/charts.php:2937 ../admin/view/charts.php:3320
+#: ../admin/view/charts.php:4904 ../admin/view/charts.php:5544
+#: ../admin/view/charts.php:6082 ../admin/view/charts.php:6465
+msgid "Suggested Max"
+msgstr "Massimo Suggerito"
+
+#: ../admin/view/charts.php:1763 ../admin/view/charts.php:2403
+#: ../admin/view/charts.php:2941 ../admin/view/charts.php:4908
+#: ../admin/view/charts.php:5548 ../admin/view/charts.php:6086
+msgid ""
+"Maximum number for the scale, overrides maximum value except for if it is "
+"lower than the maximum value. This option is applied only to the Linear "
+"scale."
+msgstr ""
+"Valore massimo della scala, sovrascriverà il valore massimo eccetto nel caso "
+"in cui sia più basso del valore massimo. Questa opzione è applicata solo "
+"alla scala Lineare."
+
+#: ../admin/view/charts.php:1769 ../admin/view/charts.php:2409
+#: ../admin/view/charts.php:2947 ../admin/view/charts.php:3330
+#: ../admin/view/charts.php:4914 ../admin/view/charts.php:5554
+#: ../admin/view/charts.php:6092 ../admin/view/charts.php:6475
+msgid "Step Size"
+msgstr "Dimensione Step"
+
+#: ../admin/view/charts.php:1773 ../admin/view/charts.php:2413
+#: ../admin/view/charts.php:2951 ../admin/view/charts.php:4918
+#: ../admin/view/charts.php:5558 ../admin/view/charts.php:6096
+msgid ""
+"If defined, it can be used along with the Min and Max to give a custom "
+"number of steps. This option is applied only to the Linear scale."
+msgstr ""
+"Se definito, può essere utilizzato assieme al minimo ed al massimo per "
+"impostare un numero personalizzato di step. Questa opzione è applicata solo "
+"alla scala Lineare."
+
+#: ../admin/view/charts.php:1779 ../admin/view/charts.php:2419
+#: ../admin/view/charts.php:2957 ../admin/view/charts.php:3340
+#: ../admin/view/charts.php:4924 ../admin/view/charts.php:5564
+#: ../admin/view/charts.php:6102 ../admin/view/charts.php:6485
+msgid "Fixed Step Size"
+msgstr "Dimensione Step Fisso"
+
+#: ../admin/view/charts.php:1783 ../admin/view/charts.php:2423
+#: ../admin/view/charts.php:2961
+msgid ""
+"If set, the scale ticks will be enumerated by multiple of this value, having "
+"one tick per increment. This option is applied only to the Linear scale."
+msgstr ""
+"Se impostato, i tick verranno enumerati con multipli di questo valore, "
+"aventi un tick per incremento. Questa opzione è applicata solo alla scala "
+"Lineare."
+
+#: ../admin/view/charts.php:1789 ../admin/view/charts.php:2429
+#: ../admin/view/charts.php:2967 ../admin/view/charts.php:3350
+#: ../admin/view/charts.php:5574 ../admin/view/charts.php:6112
+#: ../admin/view/charts.php:6495
+msgid "Max Ticks Limit"
+msgstr "Limite Massimo Tick"
+
+#: ../admin/view/charts.php:1793 ../admin/view/charts.php:2433
+#: ../admin/view/charts.php:2971
+msgid ""
+"Maximum number of ticks and grid lines to show. If not defined, it will "
+"limit to 11 ticks but will show all grid lines. This option is applied only "
+"to the Linear scale."
+msgstr ""
+"Massimo numero di tick e linee griglia da mostrare. Se non definito, i tick "
+"saranno limitati a 11 ma verranno mostrate tutte le linee griglia. Questa "
+"opzione è applicata solo alla scala Lineare."
+
+#: ../admin/view/charts.php:1799 ../admin/view/charts.php:2439
+#: ../admin/view/charts.php:2977 ../admin/view/charts.php:3360
+#: ../admin/view/charts.php:4944 ../admin/view/charts.php:5584
+#: ../admin/view/charts.php:6122 ../admin/view/charts.php:6505
+msgid "Begin at Zero"
+msgstr "Inizia a Zero"
+
+#: ../admin/view/charts.php:1806 ../admin/view/charts.php:2446
+#: ../admin/view/charts.php:2984 ../admin/view/charts.php:4951
+#: ../admin/view/charts.php:6129
+msgid ""
+"If enabled, the scale will include 0 if it is not already included. This "
+"option is applied only to the Linear scale."
+msgstr ""
+"Se abilitato, la scala includera 0 se non è già incluso. Questa opzione è "
+"applicata solo alla scala Lineare."
+
+#: ../admin/view/charts.php:1812 ../admin/view/charts.php:2452
+#: ../admin/view/charts.php:4957 ../admin/view/charts.php:5597
+msgid "Category Percentage"
+msgstr "Percentuale Categoria"
+
+#: ../admin/view/charts.php:1816 ../admin/view/charts.php:4961
+msgid ""
+"Percent (0-1) of the available width (the space between the grid lines for "
+"small datasets) for each data-point to use for the bars. This option is "
+"applied only with the Bar chart."
+msgstr ""
+"Percentuale (0-1) della larghezza disponibile (lo spazio tra le linee della "
+"griglia per piccoli dataset) per ogni dato da utilizzare per le barre. "
+"Questa opzione è applicata solo ai grafici di tipo Barre."
+
+#: ../admin/view/charts.php:1822 ../admin/view/charts.php:2462
+#: ../admin/view/charts.php:4967 ../admin/view/charts.php:5607
+msgid "Bar Percentage"
+msgstr "Barra Percentuale"
+
+#: ../admin/view/charts.php:1826 ../admin/view/charts.php:4971
+msgid ""
+"Percent (0-1) of the available width each bar should be within the category "
+"percentage. 1.0 will take the whole category width and put the bars right "
+"next to each other. This option is applied only with the Bar chart."
+msgstr ""
+"Percentuale (0-1) della larghezza disponibile che ogni barra deve occupare. "
+"Il valore 1.0 occuperà l'intera larghezza della categoria ed imposterà le "
+"barre una affiancata all'altra. Questa opzione è applicata solo a grafici di "
+"tipo Barre."
+
+#: ../admin/view/charts.php:1833 ../admin/view/charts.php:4978
+msgid "X Scale Time"
+msgstr "Scala X Temporale"
+
+#: ../admin/view/charts.php:1841 ../admin/view/charts.php:4986
+msgid "Time Format"
+msgstr "Formato Tempo"
+
+#: ../admin/view/charts.php:1845 ../admin/view/charts.php:4990
+msgid ""
+"The Moment.js format string to use for the scale. This option is applied "
+"only to the Time scale."
+msgstr ""
+"La stringa formato Moment.js da utilizzare per la scala. Questa opzione è "
+"applicata solo alla scala Temporale."
+
+#: ../admin/view/charts.php:1851 ../admin/view/charts.php:4996
+msgid "Tooltip Format"
+msgstr "Formato Tooltip"
+
+#: ../admin/view/charts.php:1855 ../admin/view/charts.php:5000
+msgid ""
+"The Moment.js format string to use for the tooltip. This option is applied "
+"only to the Time scale."
+msgstr ""
+"La stringa formato Moment.js da utilizzare per il tooltip. Questa opzione è "
+"applicata solo alla scala Temporale."
+
+#: ../admin/view/charts.php:1861 ../admin/view/charts.php:5006
+msgid "Unit Format"
+msgstr "Formato Unità"
+
+#: ../admin/view/charts.php:1865 ../admin/view/charts.php:5010
+msgid ""
+"The Moment.js format string to use for the time unit. This option is applied "
+"only to the Time scale."
+msgstr ""
+"La stringa formato Moment.js da utilizzare per l'unità di tempo. Questa "
+"opzione è applicata solo alla scala Temporale."
+
+#: ../admin/view/charts.php:1875 ../admin/view/charts.php:5020
+msgid ""
+"If defined, this will override the data minimum. This option is applied only "
+"to the Time scale."
+msgstr ""
+"Se definito, questo valore sovrascriverà il dato minimo. Questa opzione è "
+"applicata solo alla scala Temporale."
+
+#: ../admin/view/charts.php:1885 ../admin/view/charts.php:5030
+msgid ""
+"If defined, this will override the data maximum. This option is applied only "
+"to the Time scale."
+msgstr ""
+"Se definito, questo valore sovrascriverà il dato massimo. Questa opzione è "
+"applicata solo alla scala Temporale."
+
+#: ../admin/view/charts.php:1891 ../admin/view/charts.php:5036
+msgid "Unit"
+msgstr "Unità"
+
+#: ../admin/view/charts.php:1894 ../admin/view/charts.php:5039
+msgid "Millisecond"
+msgstr "Millisecondo"
+
+#: ../admin/view/charts.php:1895 ../admin/view/charts.php:5040
+msgid "Second"
+msgstr "Secondo"
+
+#: ../admin/view/charts.php:1896 ../admin/view/charts.php:5041
+msgid "Minute"
+msgstr "Minuto"
+
+#: ../admin/view/charts.php:1897 ../admin/view/charts.php:5042
+msgid "Hour"
+msgstr "Ora"
+
+#: ../admin/view/charts.php:1898 ../admin/view/charts.php:5043
+msgid "Day"
+msgstr "Giorno"
+
+#: ../admin/view/charts.php:1899 ../admin/view/charts.php:5044
+msgid "Week"
+msgstr "Settimana"
+
+#: ../admin/view/charts.php:1900 ../admin/view/charts.php:5045
+msgid "Month"
+msgstr "Mese"
+
+#: ../admin/view/charts.php:1901 ../admin/view/charts.php:5046
+msgid "Quarter"
+msgstr "Quarto"
+
+#: ../admin/view/charts.php:1902 ../admin/view/charts.php:5047
+msgid "Year"
+msgstr "Anno"
+
+#: ../admin/view/charts.php:1905 ../admin/view/charts.php:5050
+msgid "The time unit. This option is applied only to the Time scale."
+msgstr ""
+"L&apos;unità di tempo. Questa opzione è applicata solo alla scala Temporale."
+
+#: ../admin/view/charts.php:1911 ../admin/view/charts.php:5056
+msgid "Unit Step Size"
+msgstr "Unita Larghezza Step"
+
+#: ../admin/view/charts.php:1915 ../admin/view/charts.php:5060
+msgid ""
+"The number of units between grid lines. This option is applied only to the "
+"Time scale."
+msgstr ""
+"Il numero di unità tra le linee griglia. Questa opzione è applicata solo "
+"alla scala Temporale."
+
+#: ../admin/view/charts.php:1922 ../admin/view/charts.php:5067
+msgid "Y Scale Common"
+msgstr "Scala Y Comuni"
+
+#: ../admin/view/charts.php:1986 ../admin/view/charts.php:5131
+msgid "Y Scale Grid Line"
+msgstr "Scala Y Linee Griglia"
+
+#: ../admin/view/charts.php:2036 ../admin/view/charts.php:2574
+#: ../admin/view/charts.php:5181 ../admin/view/charts.php:5719
+msgid "If enabled, draw border on the edge of the chart."
+msgstr "Se abilitato, disegna i bordi alle estremita del grafico."
+
+#: ../admin/view/charts.php:2107 ../admin/view/charts.php:2645
+#: ../admin/view/charts.php:5252 ../admin/view/charts.php:5790
+msgid ""
+"If enabled, labels are shifted to be between grid lines. This is used in the "
+"Horizontal Bar chart."
+msgstr ""
+"Se abilitato, le etichette saranno spostate tra le linee griglia. Questa "
+"opzione è utilizzata solo in grafici di tipo Barre Orizzontale."
+
+#: ../admin/view/charts.php:2114 ../admin/view/charts.php:5259
+msgid "Y Scale Title"
+msgstr "Scala Y Titolo"
+
+#: ../admin/view/charts.php:2135 ../admin/view/charts.php:2673
+#: ../admin/view/charts.php:5280 ../admin/view/charts.php:5818
+msgid "Label String"
+msgstr "Stringa Etichetta"
+
+#: ../admin/view/charts.php:2193 ../admin/view/charts.php:5338
+msgid "Y Scale Tick"
+msgstr "Scala Y Tick"
+
+#: ../admin/view/charts.php:2240 ../admin/view/charts.php:2778
+#: ../admin/view/charts.php:5385 ../admin/view/charts.php:5923
+msgid "Mirror"
+msgstr "Specchio"
+
+#: ../admin/view/charts.php:2247 ../admin/view/charts.php:2785
+#: ../admin/view/charts.php:5392 ../admin/view/charts.php:5930
+msgid ""
+"Flips tick labels around axis, displaying the labels inside the chart "
+"instead of outside."
+msgstr ""
+"Rovescia le etichette dei tick mostrandole all&apos;interno del grafico "
+"invece che all&apos;esterno."
+
+#: ../admin/view/charts.php:2277 ../admin/view/charts.php:2815
+#: ../admin/view/charts.php:5422 ../admin/view/charts.php:5960
+msgid "Padding between the tick label and the axis."
+msgstr "Padding tra le etichette dei tick e gli assi."
+
+#: ../admin/view/charts.php:2361 ../admin/view/charts.php:5506
+msgid "Y Scale Options"
+msgstr "Scala Y Opzioni"
+
+#: ../admin/view/charts.php:2456 ../admin/view/charts.php:5601
+msgid ""
+"Percent (0-1) of the available width (the space between the grid lines for "
+"small datasets) for each data-point to use for the bars. This option is "
+"applied only with the Horizontal Bar chart."
+msgstr ""
+"Percentuale (0-1) della larghezza disponibile (lo spazio tra le linee della "
+"griglia per piccoli dataset) per ogni dato da utilizzare per le barre. "
+"Questa opzione è applicata solo ai grafici di tipo Barre Orizzontale."
+
+#: ../admin/view/charts.php:2466 ../admin/view/charts.php:5611
+msgid ""
+"Percent (0-1) of the available width each bar should be within the category "
+"percentage. 1.0 will take the whole category width and put the bars right "
+"next to each other. This option is applied only with the Horizontal Bar "
+"chart."
+msgstr ""
+"Percentuale (0-1) della larghezza disponibile che ogni barra deve occupare. "
+"Il valore 1.0 occuperà l'intera larghezza della categoria e imposterà le "
+"barre una affiancata all'altra. Questa opzione è applicata solo a grafici di "
+"tipo Barre Orizzontale."
+
+#: ../admin/view/charts.php:2473 ../admin/view/charts.php:5618
+msgid "Y2 Scale Common"
+msgstr "Scala Y2 Comuni"
+
+#: ../admin/view/charts.php:2524 ../admin/view/charts.php:5669
+msgid "Y2 Scale Grid Line"
+msgstr "Scala Y2 Linee Griglia"
+
+#: ../admin/view/charts.php:2652 ../admin/view/charts.php:5797
+msgid "Y2 Scale Title"
+msgstr "Scala Y2 Titolo"
+
+#: ../admin/view/charts.php:2731 ../admin/view/charts.php:5876
+msgid "Y2 Scale Tick"
+msgstr "Scala Y2 Tick"
+
+#: ../admin/view/charts.php:2899 ../admin/view/charts.php:6044
+msgid "Y2 Scale Options"
+msgstr "Scala Y2 Opzioni"
+
+#: ../admin/view/charts.php:2991 ../admin/view/charts.php:6136
+msgid "RL Scale Common"
+msgstr "Scala RL Comuni"
+
+#: ../admin/view/charts.php:3006 ../admin/view/charts.php:6151
+msgid ""
+"If enabled, show the radial linear scale including grid lines, ticks and "
+"labels."
+msgstr ""
+"Se abilitato, mostra la scala radiale lineare incluse le linee della "
+"griglia, i tick e le etichette."
+
+#: ../admin/view/charts.php:3013 ../admin/view/charts.php:6158
+msgid "RL Scale Grid Line"
+msgstr "Scala RL Linee Griglia"
+
+#: ../admin/view/charts.php:3057 ../admin/view/charts.php:6202
+msgid "RL Scale Angle Line"
+msgstr "Scala RL Linee Griglia"
+
+#: ../admin/view/charts.php:3072 ../admin/view/charts.php:6217
+msgid "If enabled, the angle lines are displayed."
+msgstr "Se abilitato, le linee angolo vengono mostrate."
+
+#: ../admin/view/charts.php:3084 ../admin/view/charts.php:6229
+msgid "A color that will be used for the angle lines."
+msgstr "Il colore da utilizzare per rappresentare le linee angolo."
+
+#: ../admin/view/charts.php:3094 ../admin/view/charts.php:6239
+msgid "Stroke width of the angle lines."
+msgstr "Larghezza del tratto delle linee angolo."
+
+#: ../admin/view/charts.php:3101 ../admin/view/charts.php:6246
+msgid "RL Scale Point Label"
+msgstr "Scala RL Etichetta Punto"
+
+#: ../admin/view/charts.php:3113 ../admin/view/charts.php:6258
+msgid "Font size for the point labels."
+msgstr "Dimensione del font delle etichette dei punti."
+
+#: ../admin/view/charts.php:3125 ../admin/view/charts.php:6270
+msgid "Font color for the point labels."
+msgstr "Colore del font delle etichette dei punti."
+
+#: ../admin/view/charts.php:3135 ../admin/view/charts.php:6280
+msgid "Font family for the point labels."
+msgstr "Famiglia del font delle etichette dei punti."
+
+#: ../admin/view/charts.php:3150 ../admin/view/charts.php:6295
+msgid "Font style for the point labels."
+msgstr "Stile del font delle etichette dei punti."
+
+#: ../admin/view/charts.php:3157 ../admin/view/charts.php:6302
+msgid "RL Scale Tick"
+msgstr "Scala RL Tick"
+
+#: ../admin/view/charts.php:3282 ../admin/view/charts.php:6427
+msgid "RL Scale Options"
+msgstr "Scala RL Opzioni"
+
+#: ../admin/view/charts.php:3314 ../admin/view/charts.php:6459
+msgid ""
+"Minimum number for the scale, overrides minimum value except for if it is "
+"higher than the minimum value."
+msgstr ""
+"Valore minimo della scala, sovrascriverà il valore minimo eccetto nel casi "
+"in cui sia più alto del valore minimo."
+
+#: ../admin/view/charts.php:3324 ../admin/view/charts.php:6469
+msgid ""
+"Maximum number for the scale, overrides maximum value except for if it is "
+"lower than the maximum value."
+msgstr ""
+"Valore massimo della scala, sovrascriverà il valore massimo eccetto nel caso "
+"in cui sia più basso del valore massimo."
+
+#: ../admin/view/charts.php:3334 ../admin/view/charts.php:6479
+msgid ""
+"If defined, it can be used along with the Min and Max to give a custom "
+"number of steps."
+msgstr ""
+"Se definito, può essere utilizzato assieme al minimo ed al massimo per "
+"impostare un numero personalizzato di step."
+
+#: ../admin/view/charts.php:3344 ../admin/view/charts.php:6489
+msgid ""
+"Fixed step size for the scale. If set, the scale ticks will be enumerated by "
+"multiple of Step Size, having one tick per increment. If not set, the ticks "
+"are labeled automatically."
+msgstr ""
+"Dimensione step fisso. Se impostato, la scala verrà enumerata con multipli "
+"del valore fisso, e verrà utilizzato un tick per incremento. Se non "
+"impostato, i tick verranno generati automaticamente."
+
+#: ../admin/view/charts.php:3354 ../admin/view/charts.php:6499
+msgid ""
+"Maximum number of ticks and grid lines to show. If not defined, it will "
+"limit to 11 ticks but will show all grid lines."
+msgstr ""
+"Massimo numero di tick e linee griglia da mostrare. Se non definito, i tick "
+"saranno limitati a 11 ma verranno mostrate tutte le linee griglia."
+
+#: ../admin/view/charts.php:3367 ../admin/view/charts.php:6512
+msgid "If enabled, the scale will include 0 if it is not already included."
+msgstr "Se abilitato, la scala includera 0 se non è già incluso."
+
+#: ../admin/view/charts.php:3373 ../admin/view/charts.php:6518
+msgid "Show Label Backdrop"
+msgstr "Mostra Sfondo Etichetta"
+
+#: ../admin/view/charts.php:3380 ../admin/view/charts.php:6525
+msgid "If enabled, the label backdrop will be displayed."
+msgstr "Se abilitato, lo sfondo etichetta viene mostrato."
+
+#: ../admin/view/charts.php:3386 ../admin/view/charts.php:6531
+msgid "Backdrop Color"
+msgstr "Colore Sfondo Etichetta"
+
+#: ../admin/view/charts.php:3392 ../admin/view/charts.php:6537
+msgid "The backdrop color."
+msgstr "Il colore dello sfondo etichetta."
+
+#: ../admin/view/charts.php:3398 ../admin/view/charts.php:6543
+msgid "Backdrop Padding X"
+msgstr "Sfondo Etichetta Padding X"
+
+#: ../admin/view/charts.php:3402 ../admin/view/charts.php:6547
+msgid "The backdrop horizontal padding."
+msgstr "Il padding orizzontale dello sfondo etichetta."
+
+#: ../admin/view/charts.php:3408 ../admin/view/charts.php:6553
+msgid "Backdrop Padding Y"
+msgstr "Sfondo Etichetta Padding Y"
+
+#: ../admin/view/charts.php:3412 ../admin/view/charts.php:6557
+msgid "The backdrop vertical padding."
+msgstr "Il padding verticale dello sfondo etichetta."
+
+#: ../admin/view/charts.php:3420
+msgid "Update Chart"
+msgstr "Aggiorna Grafico"
+
+#: ../admin/view/charts.php:3450
+msgid "Create New Chart"
+msgstr "Crea Nuovo Grafico"
+
+#: ../admin/view/charts.php:4189
+msgid "Title Font size"
+msgstr "Dimensione Font Titolo"
+
+#: ../admin/view/charts.php:4225
+msgid "Title Font Style"
+msgstr "Stile Font Titolo"
+
+#: ../admin/view/charts.php:4245
+msgid "The font size of the tooltip body."
+msgstr "La dimensione del font del corpo del tooltip."
+
+#: ../admin/view/charts.php:4309
+msgid "The font color for tooltip footer."
+msgstr "Il colore del font del footer del tooltip."
+
+#: ../admin/view/charts.php:4928 ../admin/view/charts.php:5568
+#: ../admin/view/charts.php:6106
+msgid ""
+"Fixed step size for the scale. If set, the scale ticks will be enumerated by "
+"multiple of Step Size, having one tick per increment. If not set, the ticks "
+"are labeled automatically. This option is applied only to the Linear scale."
+msgstr ""
+"Dimensione step fisso. Se impostato, la scala verrà enumerata con multipli "
+"del valore fisso, e verrà utilizzato un tick per incremento. Se non "
+"impostato, i tick verranno generati automaticamente. Questa opzione è "
+"applicata solo alla scala Lineare."
+
+#: ../admin/view/charts.php:4934
+msgid "Max Limit"
+msgstr "Limite Massimo"
+
+#: ../admin/view/charts.php:4938 ../admin/view/charts.php:5578
+#: ../admin/view/charts.php:6116
+msgid ""
+"Maximum number of ticks and grid lines to show. If not defined, it will "
+"limit to 11 ticks but will show all grid lines. This option is applied only "
+"to the Linear Scale."
+msgstr ""
+"Numero massimo di tick e linee griglia da mostrare. Se non definito, i tick "
+"verranno limitati a 11 e verranno mostrare tutte le linee griglia. Questa "
+"opzione è applicata solo alla scala Lineare."
+
+#: ../admin/view/charts.php:5591
+msgid ""
+"if enabled, the scale will include 0 if it is not already included. This "
+"option is applied only to the Linear scale."
+msgstr ""
+"Se abilitato, la scala includera 0 se 0 non è già incluso. Questa opzione è "
+"applicata solo alla scala Lineare."
+
+#: ../admin/view/charts.php:6572 ../admin/view/charts.php:6952
+msgid "Please enter valid values in the following fields:"
+msgstr "Per favore inserisci valori validi nei seguenti campi:"
+
+#: ../admin/view/charts.php:6581
+msgid "Dataset"
+msgstr "Dataset"
+
+#: ../admin/view/charts.php:6597
+msgid "The label for the dataset which appears in the legend and tooltips."
+msgstr "Etichetta per i dataset che appaiono nella legenda e nei tooltip."
+
+#: ../admin/view/charts.php:6603
+msgid "Fill"
+msgstr "Riempi"
+
+#: ../admin/view/charts.php:6609
+msgid "If enabled, fill the area under the line."
+msgstr "Se abilitato, riempie l'area al di sotto della linea."
+
+#: ../admin/view/charts.php:6619
+msgid ""
+"Bezier curve tension of the line. Use for example &quot;0.4&quot; to "
+"generate a curved line or leave &quot;0&quot; to generate a straight line."
+msgstr ""
+"Curva di Bézier della linea. Utilizza ad esempio &quot;0.4&quot; per "
+"generare una linea curva oppure &quot;0&quot; per generare una linea dritta."
+
+#: ../admin/view/charts.php:6632
+msgid "A color that will be used to fill the space under the line."
+msgstr "Colore utilizzato per riempire lo spazio sotto la linea."
+
+#: ../admin/view/charts.php:6633 ../admin/view/charts.php:6634
+msgid ""
+"A color or a comma separated list of colors that will be used to fill the "
+"bars."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verrà utilizzata per "
+"riempire le barre."
+
+#: ../admin/view/charts.php:6635
+msgid "A color that will be use to fill the space under the line."
+msgstr "Colore da utilizzare per riempire lo spazio sotto le linee."
+
+#: ../admin/view/charts.php:6636 ../admin/view/charts.php:6637
+#: ../admin/view/charts.php:6638
+msgid ""
+"A color or a comma separated list of colors that will be used to fill the "
+"arcs."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verranno utilizzati "
+"per riempire gli archi."
+
+#: ../admin/view/charts.php:6639
+msgid ""
+"A color or a comma separated list of colors that will be used to fill the "
+"bubbles."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verranno utilizzare "
+"per riempire le bolle."
+
+#: ../admin/view/charts.php:6653 ../admin/view/charts.php:6656
+msgid "A color that will be used to represent the line."
+msgstr "Il colore da utilizzare per rappresentare le linee."
+
+#: ../admin/view/charts.php:6654 ../admin/view/charts.php:6655
+msgid ""
+"A color or a comma separated list of colors that will be used to represent "
+"the bar border."
+msgstr ""
+"Un colore o una lista di colori separati da virgola da utilizzare per "
+"rappresentare i bordi delle barre."
+
+#: ../admin/view/charts.php:6657 ../admin/view/charts.php:6658
+#: ../admin/view/charts.php:6659
+msgid ""
+"A color or a comma separated list of colors that will be used to represent "
+"the arc border."
+msgstr ""
+"Un colore o una lista di colori separati da virgola da utilizzare per "
+"rappresentare i bordi degli archi."
+
+#: ../admin/view/charts.php:6660
+msgid ""
+"A color or a comma separated list of colors that will be used to represent "
+"the stroke of the bubbles."
+msgstr ""
+"Un colore o una lista di colori separati da virgola da utilizzare per "
+"rappresentare i bordi delle bolle."
+
+#: ../admin/view/charts.php:6671 ../admin/view/charts.php:6674
+msgid "A number used to define the width of the line."
+msgstr "Un numero utilizzato per definire la larghezza della linea."
+
+#: ../admin/view/charts.php:6672 ../admin/view/charts.php:6673
+msgid ""
+"A number or a comma separated list of numbers used to define the border "
+"width of the bars."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza dei bordi delle barre."
+
+#: ../admin/view/charts.php:6675 ../admin/view/charts.php:6676
+#: ../admin/view/charts.php:6677
+msgid ""
+"A number or a comma separated list of numbers used to define the border "
+"width of the arcs."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza dei bordi degli archi."
+
+#: ../admin/view/charts.php:6678
+msgid ""
+"A number or a comma separated list of numbers used to define the stroke "
+"width of the bubbles."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza dei bordi delle bolle."
+
+#: ../admin/view/charts.php:6689
+msgid ""
+"A list of numbers separated by comma that specifies distances to alternately "
+"draw a line and a gap. Use for example &quot;5,10&quot; to generate a dashed "
+"line or leave &quot;0&quot; to generate a straight line."
+msgstr ""
+"Una lista di numeri separati da virgola che specifica la distanza delle "
+"linee e degli spazi vuoti. Utilizza ad esempio &quot;5,10&quot; per generare "
+"una linea tratteggiata o lascia &quot;0&quot; per generare una normale linea."
+
+#: ../admin/view/charts.php:6699
+msgid "Offset for line dashes."
+msgstr "Offset per il tratto della linea."
+
+#: ../admin/view/charts.php:6705
+msgid "Border Cap Style"
+msgstr "Stile Estremità Bordo"
+
+#: ../admin/view/charts.php:6708
+msgid "Butt"
+msgstr "Squadrato"
+
+#: ../admin/view/charts.php:6710
+msgid "Square"
+msgstr "Quadrato"
+
+#: ../admin/view/charts.php:6713
+msgid "Select the cap style of the line."
+msgstr "Scegli lo stile dell&apos;estremità della linea."
+
+#: ../admin/view/charts.php:6719
+msgid "Border Join Style"
+msgstr "Stile Incontro Bordo"
+
+#: ../admin/view/charts.php:6722
+msgid "Miter"
+msgstr "Giunto"
+
+#: ../admin/view/charts.php:6723
+msgid "Bevel"
+msgstr "Smussato"
+
+#: ../admin/view/charts.php:6727
+msgid "Select the line join style."
+msgstr "Scegli lo stile del punto d'incontro delle linee."
+
+#: ../admin/view/charts.php:6738
+msgid ""
+"A color or a comma separated list of colors that will be used for the "
+"background color of the points."
+msgstr ""
+"Un colore o una lista di colori separati da virgola da utilizzare per il "
+"colore di sfondo dei punti."
+
+#: ../admin/view/charts.php:6749
+msgid ""
+"A color or a comma separated list of colors that will be used for the border "
+"color of the points."
+msgstr ""
+"Un colore o una lista di colori separati da virgola da utilizzare per il "
+"colore del bordo dei punti."
+
+#: ../admin/view/charts.php:6758
+msgid ""
+"A number or a comma separated list of numbers used to define the border "
+"width of points."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza del bordo dei punti."
+
+#: ../admin/view/charts.php:6768
+msgid ""
+"A number or a comma separated list of numbers used to define the radius of "
+"the points."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire il raggio dei punti."
+
+#: ../admin/view/charts.php:6778 ../admin/view/charts.php:6915
+msgid ""
+"A number or a comma separated list of numbers used to define the pixel size "
+"of the non-displayed points that react to mouse events."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire il raggio dei punti non tracciati che reagiscono agli eventi del "
+"mouse."
+
+#: ../admin/view/charts.php:6788
+msgid ""
+"A point style or a comma separated list of point styles. The available "
+"options are &quot;circle&quot;, &quot;triangle&quot;, &quot;rect&quot;, "
+"&quot;rectRot&quot;, &quot;cross&quot;, &quot;crossRot&quot;, &quot;"
+"star&quot;, &quot;line&quot;, and &quot;dash&quot;."
+msgstr ""
+"Uno stile del punto o una lista di stili del punto separati da virgola. Le "
+"opzioni disponibili sono &quot;circle&quot;, &quot;triangle&quot;, &quot;"
+"rect&quot;, &quot;rectRot&quot;, &quot;cross&quot;, &quot;crossRot&quot;, "
+"&quot;star&quot;, &quot;line&quot;, e &quot;dash&quot;."
+
+#: ../admin/view/charts.php:6797
+msgid ""
+"A number or a comma separated list of numbers used to define the radius of "
+"the points when hovered."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire il raggio dei punti in stato di hover."
+
+#: ../admin/view/charts.php:6808
+msgid ""
+"A color or a comma separated list of colors that will be used for the "
+"background color of the points when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola da utilizzare per "
+"definire il colore di sfondo dei punti in stato di hover."
+
+#: ../admin/view/charts.php:6819
+msgid ""
+"A color or a comma separated list of colors that will be used for the border "
+"color of the points when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola da utilizzare per "
+"definire il colore del bordo dei punti in stato di hover."
+
+#: ../admin/view/charts.php:6828
+msgid ""
+"A number or a comma separated list of numbers used to define the border "
+"width of the points when hovered."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza del bordo dei punti nello stato di hover."
+
+#: ../admin/view/charts.php:6834
+msgid "Show Line"
+msgstr "Mostra Linea"
+
+#: ../admin/view/charts.php:6840
+msgid "If enabled, the line will be drawn for this dataset."
+msgstr "Se abilitato, la linea verrà tracciata per questo dataset."
+
+#: ../admin/view/charts.php:6846
+msgid "Span Gaps"
+msgstr "Traccia Gap"
+
+#: ../admin/view/charts.php:6853
+msgid "If enabled, lines will be drawn between points with no data."
+msgstr ""
+"Se abilitato, verranno tracciate delle linee tra i punti con valore nullo."
+
+#: ../admin/view/charts.php:6866 ../admin/view/charts.php:6867
+msgid ""
+"A color or a comma separated list of colors that will be used for the "
+"background color of the bars when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verrà utilizzata per "
+"il colore di sfondo delle barre quando in stato di hover."
+
+#: ../admin/view/charts.php:6868 ../admin/view/charts.php:6869
+#: ../admin/view/charts.php:6870
+msgid ""
+"A color or a comma separated list of colors that will be used for the "
+"background color of the arcs when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verrà utilizzata per "
+"il colore di sfondo degli archi quando in stato di hover."
+
+#: ../admin/view/charts.php:6871
+msgid ""
+"A color or a comma separated list of colors that will be used for the "
+"background color of the bubbles when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verrà utilizzata per "
+"il colore di sfondo delle bolle quando in stato di hover."
+
+#: ../admin/view/charts.php:6884 ../admin/view/charts.php:6885
+msgid ""
+"A color or a comma separated list of colors that will be used for the border "
+"color of the bars when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verrà utilizzata per "
+"il colore del bordo delle barre quando in stato di hover."
+
+#: ../admin/view/charts.php:6886 ../admin/view/charts.php:6887
+#: ../admin/view/charts.php:6888
+msgid ""
+"A color or a comma separated list of colors that will be used for the border "
+"color of the arcs when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verrà utilizzata per "
+"il colore del bordo degli archi quando in stato di hover."
+
+#: ../admin/view/charts.php:6889
+msgid ""
+"A color or a comma separated list of colors that will be used for the border "
+"color of the bubbles when hovered."
+msgstr ""
+"Un colore o una lista di colori separati da virgola che verrà utilizzata per "
+"il colore del bordo delle bolle quando in stato di hover."
+
+#: ../admin/view/charts.php:6900 ../admin/view/charts.php:6901
+msgid ""
+"A number or a comma separated list of numbers used to define the border "
+"width of bars when hovered."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza del bordo delle barre quando in stato di hover."
+
+#: ../admin/view/charts.php:6902 ../admin/view/charts.php:6903
+#: ../admin/view/charts.php:6904
+msgid ""
+"A number or a comma separated list of numbers used to define the border "
+"width of arcs when hovered."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza del bordo degli archi quando in stato di hover."
+
+#: ../admin/view/charts.php:6905
+msgid ""
+"A number or a comma separated list of numbers used to define the stroke "
+"width of the bubbles when hovered."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire la larghezza del bordo delle bolle quando in stato di hover."
+
+#: ../admin/view/charts.php:6924
+msgid ""
+"A number or a comma separated list of numbers used to define the additional "
+"radius added on hover."
+msgstr ""
+"Un numero o una lista di numeri separati da virgola da utilizzare per "
+"definire il raggio addizionale quando in stato di hover."
+
+#: ../admin/view/charts.php:6930
+msgid "Plot Y2"
+msgstr "Traccia Y2"
+
+#: ../admin/view/charts.php:6936
+msgid "This property determines if the dataset is plot on the Y2 axis."
+msgstr "Questa opzione determina se il dataset è tracciato sull'asse Y2."
+
+#: ../admin/view/charts.php:6946
+msgid "Update"
+msgstr "Aggiorna"
+
+#: ../admin/view/charts.php:6947
+msgid "Update and Globalize"
+msgstr "Aggiorna e Globalizza"
+
+#: ../admin/view/charts.php:6954
+msgid "The options have been successfully updated."
+msgstr "Le opzioni sono state aggiornate con successo."
+
+#: ../admin/view/export.php:13
+msgid "UberChart - Export"
+msgstr "UberChart - Esporta"
+
+#: ../admin/view/export.php:17
+msgid ""
+"Click the Export button to generate an XML file that includes all your "
+"charts."
+msgstr ""
+"Clicca il pulsante esporta per generare un file XML che include tutti i tuoi "
+"grafici."
+
+#: ../admin/view/import.php:13
+msgid "UberChart - Import"
+msgstr "UberChart - Importa"
+
+#: ../admin/view/import.php:107
+msgid "charts have been added."
+msgstr "grafici sono stati aggiunti."
+
+#: ../admin/view/import.php:107
+msgid "Dismiss this notice."
+msgstr "Nascondi questa notifica."
+
+#: ../admin/view/import.php:116
+msgid ""
+"Import the charts stored in your XML file by clicking the Upload file and "
+"import button."
+msgstr ""
+"Importa i grafici archiviati nel tuo file XML cliccando il pulsante Carica "
+"file e Importa"
+
+#: ../admin/view/import.php:119
+msgid "Choose a file from your computer:"
+msgstr "Scegli un file dal tuo computer:"
+
+#: ../admin/view/import.php:123
+msgid "Upload file and import"
+msgstr "Carica file e importa"
+
+#: ../admin/view/options.php:4
+msgid "You do not have sufficient capabilities to access this page."
+msgstr "Non hai i permessi necessari per accedere a questa pagina."
+
+#: ../admin/view/options.php:11
+msgid "UberChart - Options"
+msgstr "UberChart - Opzioni"
+
+#: ../admin/view/options.php:33
+msgid "General"
+msgstr "Generale"
+
+#: ../admin/view/options.php:51
+msgid "Save Changes"
+msgstr "Salva Cambiamenti"
+
+#: ../public/class-dauc-public.php:69
+msgid "There is no chart associated with this shortcode."
+msgstr "Non c'è alcun grafico associato con questo shortcode."
+
+#: ../public/class-dauc-public.php:73
+msgid "You can't use multiple time the same shortcode."
+msgstr "Non puoi utilizzare più volte lo stesso shortcode"
+
+#~ msgid ""
+#~ "To avoid performance issues it's not allowed to create more than 100 rows "
+#~ "in a single step."
+#~ msgstr ""
+#~ "Per evitare problemi di performance non è permesso creare più di 100 "
+#~ "righe in un singolo step."
+
+#~ msgid ""
+#~ "To avoid performance issues it's not allowed to create more than 100 "
+#~ "columns in a single step."
+#~ msgstr ""
+#~ "Per evitare problemi di performance non è permesso creare più di 100 "
+#~ "colonne in un singolo step."
+
+#~ msgid ""
+#~ "This option determines if the javascript code used to create the charts "
+#~ "in the front-end should be compressed."
+#~ msgstr ""
+#~ "Questa opzione determina se il codice JavaScript utilizzato per creare i "
+#~ "grafici nel front-end deve essere compresso."
+
+#~ msgid "Default Font Size (Misc)"
+#~ msgstr "Dimensione Font Predefinita (Titolo)"
+
+#~ msgid "Default Font Color (Misc)"
+#~ msgstr "Colore Font Predefinito (Titolo)"
+
+#~ msgid "Default Font Family (Misc)"
+#~ msgstr "Famiglia Font Predefinita (Misc)"
+
+#~ msgid "Default Font Size"
+#~ msgstr "Dimensione Font Predefinita"
+
+#~ msgid ""
+#~ "The default font size. When more specific options are available this "
+#~ "value will be ignored."
+#~ msgstr ""
+#~ "La dimensione font predefinita. Quando opzioni più specifiche sono "
+#~ "disponibili questo valore verrà ignorato."
+
+#~ msgid "Default Font Color"
+#~ msgstr "Colore Font Predefinito"
+
+#~ msgid ""
+#~ "The default font color. When more specific options are available this "
+#~ "value will be ignored."
+#~ msgstr ""
+#~ "Il colore del font predefinito. Quando opzioni più specifiche sono "
+#~ "disponibili questo valore verrà ignorato."
+
+#~ msgid "Default Font Family"
+#~ msgstr "Famiglia Font Predefinita"
+
+#~ msgid ""
+#~ "The default font family. When more specific options are available this "
+#~ "value will be ignored."
+#~ msgstr ""
+#~ "La famiglia font predefinita. Quando opzioni più specifiche sono "
+#~ "disponibili questo valore verrà ignorato."
+
+#~ msgid "Default Font Style"
+#~ msgstr "Stile Font Predefinito"
+
+#~ msgid ""
+#~ "The default font styling. When more specific options are available this "
+#~ "value will be ignored."
+#~ msgstr ""
+#~ "Lo stile font predefinito. Quando opzioni più specifiche sono disponibili "
+#~ "questo valore verrà ignorato."
+
+#~ msgid ""
+#~ "If enabled, the scale will include 0 if it is not already included. This "
+#~ "option is applied only to the Radar and Polar Area chart."
+#~ msgstr ""
+#~ "Se abilitato, la scala includerà 0 se 0 non è già incluso. Questa opzione "
+#~ "è applicata solo a grafici di tipo Radar e Area Polare."
+
+#~ msgid ""
+#~ "Reverse the order of the tick labels. This option is applied only to the "
+#~ "Radar and Polar Area chart."
+#~ msgstr ""
+#~ "Inverti l&apos;ordine delle etichette dei tick. Questa opzione è "
+#~ "applicata solo a grafici di tipo Radar e Area Polare."
+
+#~ msgid "The labels of the chart."
+#~ msgstr "Le etichette del grafico."
+
+#~ msgid "The name of the chart"
+#~ msgstr "Il nome del grafico"
+
+#~ msgid "The description of the chart"
+#~ msgstr "La descrizione del grafico"
+
+#~ msgid "The rows of the chart"
+#~ msgstr "Le righe del grafico"
+
+#~ msgid "The columns of the chart"
+#~ msgstr "Le colonne del grafico"
+
+#~ msgid "The labels of the chart"
+#~ msgstr "Le etichette del grafico"
+
+#~ msgid ""
+#~ "Fixed step size for the scale. If set, the scale ticks will be enumerated "
+#~ "by multiple of Step Size, having one tick per increment. If not set, the "
+#~ "ticks are labeled automatically using the nice numbers algorithm. This "
+#~ "option is applied only to the Linear scale."
+#~ msgstr ""
+#~ "Dimensione step fisso. Se impostato, la scala verrà enumerata con "
+#~ "multipli del valore fisso, e verrà utilizzato un tick per incremento. Se "
+#~ "non impostato, i tick verranno generati automaticamente utilizzando "
+#~ "l'algoritmo dei nice numbers. Questa opzione è applicata solo alla scala "
+#~ "lineare."
+
+#~ msgid "Bezier curve tension of the line. Set to 0 to draw straightlines."
+#~ msgstr ""
+#~ "Tensione della curva di Bézier della linea. Se impostato a zero verranno "
+#~ "generate linee rette."
+
+#~ msgid "top"
+#~ msgstr "alto"
+
+#~ msgid "bottom"
+#~ msgstr "basso"
+
+#~ msgid "Body font Size"
+#~ msgstr "Dimensione Font Corpo"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid ""
+#~ "The ID is used to link datasets and scale axes together. This identifier "
+#~ "have to match the identifier used in the X ID value of a dataset."
+#~ msgstr ""
+#~ "L'ID è utilizzato per collegare i dataset alle scale. Questo "
+#~ "identificativo deve corrispondere all'identificativo utilizzato nel campo "
+#~ "X ID associato con un dataset."
+
+#~ msgid ""
+#~ "This option determines how the time should be formatted and is applied "
+#~ "only to the time scale."
+#~ msgstr ""
+#~ "Questa opzione determina come il tempo deve essere formattato ed è "
+#~ "applicata solamente alla scala temporale."
+
+#~ msgid ""
+#~ "The ID is used to link datasets and scale axes together. This identifier "
+#~ "have to match the identifier used in the Y ID value of a dataset."
+#~ msgstr ""
+#~ "L'ID è utilizzato per collegare assieme dataset e scale. Questo "
+#~ "identificativo deve corrispondere all'identificativo utilizzato nel campo "
+#~ "Y ID associato con un dataset."
+
+#~ msgid "X ID"
+#~ msgstr "X ID"
+
+#~ msgid "The ID of the X axis to plot this dataset on."
+#~ msgstr "L'ID dell'asse su cui disegnare questo dataset."
+
+#~ msgid "Y ID"
+#~ msgstr "Y ID"
+
+#~ msgid "The ID of the Y axis to plot this dataset on."
+#~ msgstr "L'ID dell'asse su cui disegnare questo dataset."
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "This option determines if this chart can be used as a template."
+#~ msgstr ""
+#~ "Questa opzione determina se il grafico può essere utilizzato come modello."
+
+#~ msgid ""
+#~ "This option determines if the legend should take the full width of the "
+#~ "canvas.."
+#~ msgstr ""
+#~ "Questa opzione determina se la legenda può assumere l'intera larghezza "
+#~ "dell'elemento canvas."
+
+#~ msgid "The width of colored box."
+#~ msgstr "La larghezza del box colorato."
+
+#~ msgid ""
+#~ "Padding between the tick label and the axis. Note: Only applicable to "
+#~ "horizontal scales."
+#~ msgstr ""
+#~ "Padding tra le etichette dei tick e gli assi. Questa opzione è "
+#~ "applicabile solo alle scale orizzontali."
+
+#~ msgid "The font color for tooltip title."
+#~ msgstr "Il colore del font del titolo del tooltip."
+
+#~ msgid "Easing function to use.."
+#~ msgstr "Funzione easing da utilizzare."
+
+#~ msgid ""
+#~ "if true, the scale will include 0 if it is not already included. This "
+#~ "option is applied to the Linear scale."
+#~ msgstr ""
+#~ "Se abilitato, la scala includerà 0 se non è gia incluso. Questa opzione è "
+#~ "applicata solo alla scala lineare."
+
+#~ msgid ""
+#~ "if true,the scale will include 0 if it is not already included. This "
+#~ "option is applied to the Linear scale."
+#~ msgstr ""
+#~ "Se abilitato, la scala includerà 0 se non è già incluso. Questa opzione è "
+#~ "applicata solamente alla scala lineare."
+
+#~ msgid "The ID of the y axis to plot this dataset on."
+#~ msgstr "L'ID dell'asse su cui disegnare questo dataset."
+
+#~ msgid "Stepped Line"
+#~ msgstr " Linea a Step"
+
+#~ msgid ""
+#~ "If true, the line is shown as a steeped line and 'lineTension' will be "
+#~ "ignored."
+#~ msgstr ""
+#~ "Se abilitato, la linea verrà rappresentata come un linea a step e la "
+#~ "tensione della linea verrà ignorata"
+
+#~ msgid "Enable Default Card"
+#~ msgstr "Abilita Card Predefinita"
+
+#~ msgid "Fallback Image"
+#~ msgstr "Immagine Ricaduta"
+
+#~ msgid "Image"
+#~ msgstr "Immagine"
+
+#~ msgid "Image Alt"
+#~ msgstr "Immagine Alt"
+
+#~ msgid "Creator"
+#~ msgstr "Creator"
+
+#~ msgid "Site"
+#~ msgstr "Site"
+
+#~ msgid "Use Post Title"
+#~ msgstr "Utilizza Titolo Articolo"
+
+#~ msgid "Use Post Excerpt"
+#~ msgstr "Utilizza Riassunto Articolo"
+
+#~ msgid "Auto Description"
+#~ msgstr "Descrizione Automatica"
+
+#~ msgid "Post Type Priority"
+#~ msgstr "Priorità Post Type"
+
+#~ msgid "Tag Priority"
+#~ msgstr "Priorità Tag"
+
+#~ msgid "Items in Pagination"
+#~ msgstr "Record in Paginazione"
+
+#~ msgid "Meta Box Post Types"
+#~ msgstr "Post Type Meta Box"
+
+#~ msgid ""
+#~ "With this option enabled a card will be generated for any page that "
+#~ "doesn't have a card manually specified."
+#~ msgstr ""
+#~ "Con questa opzione abilitata una card verrà generata per ogni pagina che "
+#~ "non ha una card specificata manualmente."
+
+#~ msgid "Summary Card"
+#~ msgstr "Summary Card"
+
+#~ msgid "Summary Card with Large Image"
+#~ msgstr "Summary Card with Large Image"
+
+#~ msgid ""
+#~ "Please enter the URL of an image that should be used as a fallback when "
+#~ "more specific alternatives are not available."
+#~ msgstr ""
+#~ "Per favore inserisci l'URL di una immagine che deve essere utilizzata "
+#~ "come ricaduta quando alternative più specifiche non sono disponibili."
+
+#~ msgid "Post Thumbnail"
+#~ msgstr "Thumbnail Articolo"
+
+#~ msgid "First Image in Post Content"
+#~ msgstr "Prima Immagine in Articolo"
+
+#~ msgid "Last Image in Post Content"
+#~ msgstr "Ultima Immagine in Articolo"
+
+#~ msgid ""
+#~ "A text description of the image conveying the essential nature of an "
+#~ "image to users who are visually impaired. It's recommended to leave this "
+#~ "field empty if the default image is dynamically generated from the post "
+#~ "thumbnails or from the first or the last image of the post."
+#~ msgstr ""
+#~ "Una descrizione testuale dell'immagine in grado di convogliare la natura "
+#~ "dell'immage agli utenti con disabilità visive. Si raccomanda di lasciare "
+#~ "questo campo vuoto se l'immagine predefinita è dinamicamente generata "
+#~ "dalla thumbnail dell'articolo o dalla prima o ultima immagine "
+#~ "dell'articolo."
+
+#~ msgid "A concise title for the related content."
+#~ msgstr "Un titolo conciso del contenuto relativo alla card."
+
+#~ msgid ""
+#~ "A description that concisely summarizes the content as appropriate for "
+#~ "presentation within a Tweet. You should not re-use the title as the "
+#~ "description or use this field to describe the general services provided "
+#~ "by the website."
+#~ msgstr "Una descrizione che riassume il contenuto della card."
+
+#~ msgid "The Twitter @username of content creator."
+#~ msgstr "Il Twitter @username del creatore del contenuto."
+
+#~ msgid "Please enter a valid Twitter username in the Creator field."
+#~ msgstr ""
+#~ "Per favore inserisci un username di Twitter valido nel campo Creator."
+
+#~ msgid "The Twitter @username the card should be attributed to."
+#~ msgstr "Il Twitter @username al quale la card deve essere attribuita."
+
+#~ msgid "Please enter a valid Twitter username in the Site field."
+#~ msgstr "Per favore inserisci un username di Twitter valido nel campo Site."
+
+#~ msgid ""
+#~ "With this option enabled the default cards generated for posts, pages or "
+#~ "custom post types will make use of the post title for the card title."
+#~ msgstr ""
+#~ "Con questa opzione abilitata la card predefinita generata per articoli, "
+#~ "pagine o custom post types farà uso del titolo dell'articolo come titolo "
+#~ "della card."
+
+#~ msgid ""
+#~ "With this option enabled the default cards generated for posts, pages or "
+#~ "custom post types will make use of the post excerpt for the card "
+#~ "description."
+#~ msgstr ""
+#~ "Con questa opzione abilitata le card predefinite generate per articoli, "
+#~ "pagine e custom post types faranno uso del riassunto dell'articolo per la "
+#~ "descrizione della card."
+
+#~ msgid ""
+#~ "With this option enabled when the title of a manually created card is not "
+#~ "specified the post title will be used."
+#~ msgstr ""
+#~ "Con questa opzione abilitata quando il titolo di una card creata "
+#~ "manualmente non è specificato il titolo dell'articolo verrà utilizzato."
+
+#~ msgid ""
+#~ "With this option enabled when the description of a manually created card "
+#~ "is not specified the post excerpt will be used."
+#~ msgstr ""
+#~ "Con questa opzione abilitata quando la descrizione di una card creata "
+#~ "manualmente non è specificata il riassunto dell'articolo verrà utilizzato."
+
+#~ msgid ""
+#~ "This option determines the default value of the creator in the \"Cards\" "
+#~ "menu and in the \"Twitter Card\" meta box."
+#~ msgstr ""
+#~ "Questa opzione determina il valore predefinito di creator nel menu \"Cards"
+#~ "\" e nel meta box \"Twitter Card\""
+
+#~ msgid ""
+#~ "This option determines the default value of the site in the \"Cards\" "
+#~ "menu and in the \"Twitter Card\" meta box."
+#~ msgstr ""
+#~ "Questa opzione determina il valore predefinito di site nel menu \"Cards\" "
+#~ "e nel meta box \"Twitter Card\"."
+
+#~ msgid ""
+#~ "This option determines the priority of the \"Post Type\" target. The "
+#~ "priority of a target will be used to determine which card should be "
+#~ "generated in case of an overlap of more than one target."
+#~ msgstr ""
+#~ "Questa opzione determina la priorità del target \"Post Type\". La "
+#~ "priorità di un target verrà utilizzata per determinare quale card deve "
+#~ "essere generate in caso di sovrapposizione di più di un target."
+
+#~ msgid "Please enter a numeric value included between 1 and 3."
+#~ msgstr "Per favore inserisci un valore numerico compreso tra 1 e 3."
+
+#~ msgid ""
+#~ "This option determines the priority of the \"Category\" target. The "
+#~ "priority of a target will be used to determine which card should be "
+#~ "generated in case of an overlap of more than one target."
+#~ msgstr ""
+#~ "Questa opzione determina la priorita del target \"Categoria\". La "
+#~ "priorità di un target verrà utilizzata per determinare quale card deve "
+#~ "essere generate in caso di sovrapposizione di più di un target."
+
+#~ msgid ""
+#~ "This option determines the priority of the \"Tag\" target. The priority "
+#~ "of a target will be used to determine which card should be generated in "
+#~ "case of an overlap of more than one target."
+#~ msgstr ""
+#~ "Questa opzione determina la priorità del target \"Tag\". La priorità di "
+#~ "un target verrà utilizzata per determinare quale card deve essere "
+#~ "generate in caso di sovrapposizione di più di un target."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the \"Twitter Card\" meta "
+#~ "box should be loaded."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove il meta box \"Twitter "
+#~ "Card\" deve essere caricato."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Meta Box Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nell'opzione \"Meta Box Post Types\"."
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Post Type"
+#~ msgstr "Post Type"
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#, fuzzy
+#~ msgid "defaultFontChart"
+#~ msgstr "Card Predefinita"
+
+#~ msgid "Default Card"
+#~ msgstr "Card Predefinita"
+
+#~ msgid "Twitter Cards"
+#~ msgstr "Twitter Card"
+
+#~ msgid "Cards"
+#~ msgstr "Card"
+
+#~ msgid "Set image"
+#~ msgstr "Imposta immagine"
+
+#~ msgid "Remove Image"
+#~ msgstr "Rimuovi immagine"
+
+#~ msgid "The Image Description"
+#~ msgstr "La descrizione dell'immagine"
+
+#~ msgid "The Card Title"
+#~ msgstr "Il titolo della card"
+
+#~ msgid "A Twitter Username"
+#~ msgstr "Un Twitter Username"
+
+#~ msgid ""
+#~ "Please enter a valid URL, Post Type, Category or Tag in the \"Value\" "
+#~ "field."
+#~ msgstr ""
+#~ "Per favore inserisci un URL valido, un Post Type, una Categoria o un Tag "
+#~ "nel campo \"Valore\"."
+
+#~ msgid "Please enter a valid image."
+#~ msgstr "Per favore inserisci una immagine valida."
+
+#~ msgid "Please enter a valid site."
+#~ msgstr "Per favore inserisci un site valido."
+
+#~ msgid "Please enter a valid creator."
+#~ msgstr "Per favore inserisci un creator valido."
+
+#~ msgid "A card with the same target and the same value already exists."
+#~ msgstr "Una card con lo stesso target e valore esiste già."
+
+#~ msgid "The card has been successfully added."
+#~ msgstr "La card è stata aggiunta con successo."
+
+#~ msgid "TCM - Cards"
+#~ msgstr "TCM - Cards"
+
+#~ msgid "Target"
+#~ msgstr "Target"
+
+#~ msgid ""
+#~ "The target option determines if this card should be applied with a "
+#~ "specific URL, with posts of a specific post type, with posts that belong "
+#~ "to a specific category or with posts that have a specific tag."
+#~ msgstr ""
+#~ "Questa opzione determina se la card deve essere applicata a uno specifico "
+#~ "URL, agli articoli di uno specifico post type, agli articoli che "
+#~ "appartengono a una specifica categoria o agli articoli che hanno uno "
+#~ "specifico tag."
+
+#~ msgid "Value"
+#~ msgstr "Valore"
+
+#~ msgid ""
+#~ "An URL, a post type, the name of a category or the name of a tag. The "
+#~ "actual data included in this field is strictly related with the target of "
+#~ "the card."
+#~ msgstr ""
+#~ "Un URL, un post type, il nome della categoria o il nome del tag. "
+#~ "L'effettivo dato incluso in questo campo è strettamente correlato con il "
+#~ "target della card."
+
+#~ msgid "URL, Post Type, Category or Tag"
+#~ msgstr "URL, Post Type, Categoria o Tag"
+
+#~ msgid ""
+#~ "Enter an URL, a post type, the name of a category or the name of a tag. "
+#~ "The actual data included in this field should be strictly related with "
+#~ "the target of the card."
+#~ msgstr ""
+#~ "Inserisci un URL, un post type, il nome di una categoria o il nome di un "
+#~ "tag. L'effettivo dato incluso in questo campo è strettamente correlato "
+#~ "con il target della card."
+
+#~ msgid "Use the media uploader to associate this card with an image."
+#~ msgstr ""
+#~ "Utilizza il media uploader per associare questa card con una immagine"
+
+#~ msgid ""
+#~ "A text description of the image conveying the essential nature of an "
+#~ "image to users who are visually impaired."
+#~ msgstr ""
+#~ "Una descrizione testuale dell'immagine che convoglia la natura "
+#~ "dell'immagine per gli utenti con disabilità visive."
+
+#~ msgid "The image alternative text."
+#~ msgstr "Il testo alternativo dell'immagine."

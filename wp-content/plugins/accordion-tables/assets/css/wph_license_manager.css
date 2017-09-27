@@ -1,0 +1,71 @@
+/*License activation*/
+.wph_license_manager, .wph_activate_license_why {
+margin-left: 5px;
+padding: 3px 4px 5px;
+color: rgb(255, 255, 255);
+background-color: rgb(92, 184, 92);
+border-color: rgb(76, 174, 76);
+border-radius: 3px;
+border-width: 2px 0 0 2px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.wph_activate_license_why {
+background-color: #4E8FAB;
+font-weight: bold;
+}
+
+.wph_activate_license {
+display: block!important;
+}
+
+/*--display choice*/
+.wph_activate_license .wph_license_manager[data-wph-action="deactivate"], 
+.wph_deactivate_license .wph_license_manager[data-wph-action="activate"] {  
+display:none!important;
+}
+
+/*--correct input fields*/
+.wph_license_form input[name="license key"] { /*hidden normally*/
+  display: none;
+}
+
+.wph_license_mode_wph input { /*hiding all inputs in wph mode*/
+  display: none;
+}
+
+.wph_license_mode_wph.wph_activate_license input[name="license key"] { /*only reveal license key*/
+  display: inline-block;
+  width: 270px;
+}
+
+/*--deactivate*/
+.wph_license_manager[data-wph-action="deactivate"] {
+background-color: rgb(211, 94, 94);
+border-color: rgb(199, 72, 72);
+font-weight: bold;
+}
+
+.wph_deactivate_license p{
+  display:inline-block;
+  padding:0;
+  margin:0;
+  height: 17px;
+}
+
+.wph_deactivate_license h2{
+  display: inline-block;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.wph_deactivate_license button{
+  float: right;
+  line-height: 1.1em;
+}
+
+.wph_deactivate_license input, .wph_deactivate_license p.wph_description {
+  display:none;
+}

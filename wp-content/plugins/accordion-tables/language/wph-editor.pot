@@ -1,0 +1,520 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distrubuted under the GPL-2.0+
+msgid ""
+msgstr ""
+"Project-Id-Version: WPH Editor v1.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2014-11-21 16:30+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: WordPressaHolic <kartikgahlaut86@gmail.com>\n"
+"Language-Team: WPH <noideaboy@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: wph-editor/common\n"
+
+#: wph-editor/common/common.php:2
+msgid "Width:"
+msgstr ""
+
+#: wph-editor/common/common.php:3
+msgid "Height:"
+msgstr ""
+
+#: wph-editor/common/common.php:4
+msgid "Max width:"
+msgstr ""
+
+#: wph-editor/common/common.php:5
+msgid "Max height:"
+msgstr ""
+
+#: wph-editor/common/common.php:6
+msgid "Min width:"
+msgstr ""
+
+#: wph-editor/common/common.php:7
+msgid "Min height:"
+msgstr ""
+
+#: wph-editor/common/common.php:8
+msgid "Padding top:"
+msgstr ""
+
+#: wph-editor/common/common.php:9
+msgid "Padding right:"
+msgstr ""
+
+#: wph-editor/common/common.php:10
+msgid "Padding bottom:"
+msgstr ""
+
+#: wph-editor/common/common.php:11
+msgid "Padding left:"
+msgstr ""
+
+#: wph-editor/common/common.php:12
+msgid "Padding:"
+msgstr ""
+
+#: wph-editor/common/common.php:13
+msgid "Font size:"
+msgstr ""
+
+#: wph-editor/common/common.php:14
+msgid "Line Height:"
+msgstr ""
+
+#: wph-editor/common/common.php:15
+msgid "Color:"
+msgstr ""
+
+#: wph-editor/common/common.php:16
+msgid "Font family:"
+msgstr ""
+
+#: wph-editor/common/common.php:17
+msgid "Font weight:"
+msgstr ""
+
+#: wph-editor/common/common.php:18
+msgid "Normal"
+msgstr ""
+
+#: wph-editor/common/common.php:19
+msgid "Bold"
+msgstr ""
+
+#: wph-editor/common/common.php:20
+msgid "Bolder"
+msgstr ""
+
+#: wph-editor/common/common.php:21
+msgid "Light"
+msgstr ""
+
+#: wph-editor/common/common.php:22
+msgid "100"
+msgstr ""
+
+#: wph-editor/common/common.php:23
+msgid "200"
+msgstr ""
+
+#: wph-editor/common/common.php:24
+msgid "300"
+msgstr ""
+
+#: wph-editor/common/common.php:25
+msgid "400"
+msgstr ""
+
+#: wph-editor/common/common.php:26
+msgid "500"
+msgstr ""
+
+#: wph-editor/common/common.php:27
+msgid "600"
+msgstr ""
+
+#: wph-editor/common/common.php:28
+msgid "700"
+msgstr ""
+
+#: wph-editor/common/common.php:29
+msgid "800"
+msgstr ""
+
+#: wph-editor/common/common.php:30
+msgid "900"
+msgstr ""
+
+#: wph-editor/common/common.php:31
+msgid "Text align:"
+msgstr ""
+
+#: wph-editor/common/common.php:32
+msgid "Left"
+msgstr ""
+
+#: wph-editor/common/common.php:33
+msgid "Right"
+msgstr ""
+
+#: wph-editor/common/common.php:34
+msgid "Center"
+msgstr ""
+
+#: wph-editor/common/common.php:35
+msgid "Justify"
+msgstr ""
+
+#: wph-editor/common/common.php:36
+msgid "Text decoration:"
+msgstr ""
+
+#: wph-editor/common/common.php:37
+msgid "None"
+msgstr ""
+
+#: wph-editor/common/common.php:38
+msgid "Underline"
+msgstr ""
+
+#: wph-editor/common/common.php:39
+msgid "Overline"
+msgstr ""
+
+#: wph-editor/common/common.php:40
+msgid "Font style:"
+msgstr ""
+
+#: wph-editor/common/common.php:41
+msgid "Italic"
+msgstr ""
+
+#: wph-editor/common/common.php:42
+msgid "Text transform:"
+msgstr ""
+
+#: wph-editor/common/common.php:43
+msgid "Capitalize"
+msgstr ""
+
+#: wph-editor/common/common.php:44
+msgid "Uppercase"
+msgstr ""
+
+#: wph-editor/common/common.php:45
+msgid "Lowercase"
+msgstr ""
+
+#: wph-editor/common/common.php:46
+msgid "Margin top:"
+msgstr ""
+
+#: wph-editor/common/common.php:47
+msgid "Margin right:"
+msgstr ""
+
+#: wph-editor/common/common.php:48
+msgid "Margin bottom:"
+msgstr ""
+
+#: wph-editor/common/common.php:49
+msgid "Margin left:"
+msgstr ""
+
+#: wph-editor/common/common.php:50
+msgid "Margin:"
+msgstr ""
+
+#: wph-editor/common/common.php:51
+msgid "Display:"
+msgstr ""
+
+#: wph-editor/common/common.php:52
+msgid "Inline-block"
+msgstr ""
+
+#: wph-editor/common/common.php:53
+msgid "Inline"
+msgstr ""
+
+#: wph-editor/common/common.php:54
+msgid "Block"
+msgstr ""
+
+#: wph-editor/common/common.php:55
+msgid "Float:"
+msgstr ""
+
+#: wph-editor/common/common.php:56
+msgid "Clear:"
+msgstr ""
+
+#: wph-editor/common/common.php:57
+msgid "Both"
+msgstr ""
+
+#: wph-editor/common/common.php:58
+msgid "Border:"
+msgstr ""
+
+#: wph-editor/common/common.php:59
+msgid "Border top width:"
+msgstr ""
+
+#: wph-editor/common/common.php:60
+msgid "Border right width:"
+msgstr ""
+
+#: wph-editor/common/common.php:61
+msgid "Border bottom width:"
+msgstr ""
+
+#: wph-editor/common/common.php:62
+msgid "Border left width:"
+msgstr ""
+
+#: wph-editor/common/common.php:63
+msgid "Border radius:"
+msgstr ""
+
+#: wph-editor/common/common.php:64
+msgid "Border top left radius:"
+msgstr ""
+
+#: wph-editor/common/common.php:65
+msgid "Border top right radius:"
+msgstr ""
+
+#: wph-editor/common/common.php:66
+msgid "Border bottom right radius:"
+msgstr ""
+
+#: wph-editor/common/common.php:67
+msgid "Border bottom left radius:"
+msgstr ""
+
+#: wph-editor/common/common.php:68
+msgid "Border color:"
+msgstr ""
+
+#: wph-editor/common/common.php:69
+msgid "Border style:"
+msgstr ""
+
+#: wph-editor/common/common.php:70
+msgid "Solid"
+msgstr ""
+
+#: wph-editor/common/common.php:71
+msgid "Dotted"
+msgstr ""
+
+#: wph-editor/common/common.php:72
+msgid "Dashed"
+msgstr ""
+
+#: wph-editor/common/common.php:73
+msgid "Double"
+msgstr ""
+
+#: wph-editor/common/common.php:74
+msgid "Background color:"
+msgstr ""
+
+#: wph-editor/common/common.php:75
+msgid "Background image:"
+msgstr ""
+
+#: wph-editor/common/common.php:76
+msgid "Opacity:"
+msgstr ""
+
+#: wph-editor/common/common.php:77
+msgid "Background position:"
+msgstr ""
+
+#: wph-editor/common/common.php:78
+msgid "center center"
+msgstr ""
+
+#: wph-editor/common/common.php:79
+msgid "left top"
+msgstr ""
+
+#: wph-editor/common/common.php:80
+msgid "left center"
+msgstr ""
+
+#: wph-editor/common/common.php:81
+msgid "left bottom"
+msgstr ""
+
+#: wph-editor/common/common.php:82
+msgid "right top"
+msgstr ""
+
+#: wph-editor/common/common.php:83
+msgid "right center"
+msgstr ""
+
+#: wph-editor/common/common.php:84
+msgid "right bottom"
+msgstr ""
+
+#: wph-editor/common/common.php:85
+msgid "center top"
+msgstr ""
+
+#: wph-editor/common/common.php:86
+msgid "center bottom"
+msgstr ""
+
+#: wph-editor/common/common.php:87
+msgid "Background repeat:"
+msgstr ""
+
+#: wph-editor/common/common.php:88
+msgid "repeat"
+msgstr ""
+
+#: wph-editor/common/common.php:89
+msgid "repeat-x"
+msgstr ""
+
+#: wph-editor/common/common.php:90
+msgid "repeat-y"
+msgstr ""
+
+#: wph-editor/common/common.php:91
+msgid "no-repeat"
+msgstr ""
+
+#: wph-editor/common/common.php:92
+msgid "Background attachment:"
+msgstr ""
+
+#: wph-editor/common/common.php:93
+msgid "scroll"
+msgstr ""
+
+#: wph-editor/common/common.php:94
+msgid "fixed"
+msgstr ""
+
+#: wph-editor/common/common.php:95
+msgid "local"
+msgstr ""
+
+#: wph-editor/common/common.php:96
+msgid "Shadow color:"
+msgstr ""
+
+#: wph-editor/common/common.php:97
+msgid "Shadow offset x:"
+msgstr ""
+
+#: wph-editor/common/common.php:98
+msgid "Shadow offset y:"
+msgstr ""
+
+#: wph-editor/common/common.php:99
+msgid "Shadow blur:"
+msgstr ""
+
+#: wph-editor/common/common.php:100
+msgid "Shadow radius:"
+msgstr ""
+
+#: wph-editor/common/common.php:101
+msgid "Shadow inset:"
+msgstr ""
+
+#: wph-editor/common/common.php:102
+msgid "No"
+msgstr ""
+
+#: wph-editor/common/common.php:103
+msgid "Yes"
+msgstr ""
+
+#: wph-editor/common/common.php:104
+msgid "Shadow:"
+msgstr ""
+
+#: wph-editor/common/common.php:105
+msgid "Settings:"
+msgstr ""
+
+#: wph-editor/common/common.php:106
+msgid "Style"
+msgstr ""
+
+#: wph-editor/common/common.php:107
+msgid "Content"
+msgstr ""
+
+#: wph-editor/common/common.php:108
+msgid "Type"
+msgstr ""
+
+#: wph-editor/common/common.php:109
+msgid "Overall"
+msgstr ""
+
+#: wph-editor/common/common.php:110
+msgid "Other"
+msgstr ""
+
+#: wph-editor/common/common.php:111
+msgid "Target"
+msgstr ""
+
+#: wph-editor/common/common.php:112
+msgid "Components:"
+msgstr ""
+
+#: wph-editor/common/common.php:113
+msgid "Title"
+msgstr ""
+
+#: wph-editor/common/common.php:114
+msgid "Icon"
+msgstr ""
+
+#: wph-editor/common/common.php:115
+msgid "Value"
+msgstr ""
+
+#: wph-editor/common/common.php:116
+msgid "Details"
+msgstr ""
+
+#: wph-editor/common/common.php:117
+msgid "Idle"
+msgstr ""
+
+#: wph-editor/common/common.php:118
+msgid "Hover"
+msgstr ""
+
+#: wph-editor/common/common.php:119
+msgid "Active"
+msgstr ""
+
+#: wph-editor/common/common.php:120
+msgid "Font"
+msgstr ""
+
+#: wph-editor/common/common.php:121
+msgid "Dimensions"
+msgstr ""
+
+#: wph-editor/common/common.php:122
+msgid "Placement"
+msgstr ""
+
+#: wph-editor/common/common.php:123
+msgid "Border"
+msgstr ""
+
+#: wph-editor/common/common.php:124
+msgid "Background"
+msgstr ""
+
+#: wph-editor/common/common.php:125
+msgid "Shadow"
+msgstr ""

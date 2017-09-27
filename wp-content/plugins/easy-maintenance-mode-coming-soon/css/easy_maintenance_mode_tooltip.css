@@ -1,0 +1,72 @@
+/* =Tooltips style
+========================================================================*/
+
+.icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	padding: 0 4px 0 0;
+	margin-right:5px;
+	background: url(../images/icons.png) no-repeat;
+}
+
+.tooltip {
+	display: none;
+	width: 274px;
+	position: absolute;
+	padding: 10px;
+	margin: 4px 0 0 4px;
+	top: 0;
+	right: 16px;
+	border: 1px solid #76B6D7;
+	border-radius: 0 8px 8px 8px;
+	background: #bedffe;
+	font-size: 13px;
+	box-shadow: 0 1px 2px -1px #21759B;
+	z-index: 999;
+}
+
+/* Icons Sprite Position */
+
+.help {
+	background-position: 0 0;
+	margin-right:20px;
+	
+}
+
+.warning {
+	background-position: -20px 0;
+}
+
+.error {
+	background-position: -40px 0;
+}
+
+/* Tooltip Colors */
+
+.help .tooltip {
+	border-color: #76B6D7;
+	background-color: #bedffe;
+	box-shadow-color: #21759B;
+	
+}
+
+.warning .tooltip {
+	border-color: #cca863;
+	background-color: #ffff70;
+	box-shadow-color: #ac8c4e;
+}
+
+.error .tooltip {
+	border-color: #b50d0d;
+	background-color: #e44d4e;
+	box-shadow-color: #810606;
+}
+
+.icon:hover .tooltip {
+	display: block;
+	box-shadow: 0 10px 20px -1px rgba(0,0,0,0.5);
+	
+	
+}

@@ -1,0 +1,674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head lang="en">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Template Documentation Template</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700"
+      rel="stylesheet" type="text/css">
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css"
+      media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css"
+      media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css"
+      type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+p, table, hr, .box { margin-bottom:25px; }
+.box p { margin-bottom:10px; }
+</style> </head>
+  <body>
+    <div class="container">
+      <h3 class="center alt">“UberChart” Documentation by “DAEXT” v1.10</h3>
+      <hr>
+      <h1 class="center">“UberChart”</h1>
+      <div class="borderTop">
+        <div class="span-6 colborder info prepend-1">
+          <p class="prepend-top">Created: 2017/11/03 (ISO 8601)<br>
+            By: Danilo Andreini<br>
+            Email: andreini.danilo@gmail.com </p>
+        </div>
+        <!-- end div .span-6 -->
+        <div class="span-12 last">
+          <p class="prepend-top append-0">Thank you for purchasing my plugin. If
+            you have any questions that are beyond the scope of this help file,
+            please feel free to email via my user page contact form <a href="http://codecanyon.net/user/daext">here</a>.
+            Thanks so much!</p>
+        </div>
+      </div>
+      <!-- end div .borderTop -->
+      <hr>
+      <h2 id="toc" class="alt">Table of Contents</h2>
+      <ol class="alpha">
+        <li><a href="#video-tutorials">Video Tutorials<br>
+          </a></li>
+        <li><a href="#installation-single-site">Installation (Single Site)</a></li>
+        <li><a href="#installation-multisite">Installation (Multisite)</a></li>
+        <li><a href="#charts-menu">Charts Menu</a></li>
+        <li><a href="#import-menu"><span style="color: #000099;">Import Menu</span></a></li>
+        <li><span style=" color: #000099;"><a href="#export-menu">Export Menu</a></span></li>
+        <li><span style="  color: #000099;"><a href="#options-menu">Options Menu</a></span></li>
+        <li><span style="   color: #000099;"><a href="#include-a-chart-in-a-post">Include
+              a chart in a post</a></span></li>
+        <li><span style="    color: #000099;"><a href="#duplicate-a-chart">Duplicate
+              a chart</a></span></li>
+        <li><span style="     color: #000099;"><a href="#set-a-time-format">Set
+              a time format</a></span></li>
+        <li><span style="      color: #000099;"><a href="#load-a-model">Load a
+              model</a></span></li>
+        <li><span style="       color: #000099;"><a href="#import-the-default-models">Import
+              the default models</a></span></li>
+        <li><span style="        color: #000099;"><a href="#convert-a-chart-to-a-model">Convert
+              a chart to a model</a></span></li>
+        <li><span style="         color: #000099;"><a href="#convert-a-model-to-a-chart">Convert
+              a model to a chart</a></span></li>
+        <li><span style="          color: #000099;"><a href="#plot-a-dataset-on-the-y2-axis">Plot
+              a dataset on the Y2 axis</a></span></li>
+        <li><span style="           color: #000099;"><a href="#create-scatter-and-bubble-charts">Create
+              scatter and bubble charts</a></span></li>
+        <li><span style="            color: #000099;"><a href="#credits">Credits</a></span></li>
+        <li><span style="             color: #000099;"><a href="#faq">FAQ</a><br>
+          </span></li>
+      </ol>
+      <hr>
+      <h3 id="video-tutorials">A) Video Tutorials</h3>
+      <p>This video series covers the functionalities of the UberChart plugin.</p>
+      <p>Please note that not all the aspects and implications are covered in
+        this section, it's recommended that you read the entire documentation
+        (FAQ included) before using this plugin in a production environment or
+        asking for support to the plugin author.</p>
+      <ul>
+        <li> <a href="https://www.youtube.com/watch?v=8QOUICNOWfM">Import the
+            default models</a></li>
+        <li><a href="https://www.youtube.com/watch?v=afbEbyWzJKI"><span style="color: #000099;">Create
+              a chart from a model</span></a></li>
+        <li><span style=" color: #000099;"><a href="https://www.youtube.com/watch?v=V67XHpDZIyY">Create
+              a chart from scratch</a></span></li>
+        <li><span style="  color: #000099;"><span style=" color: #222222;"><a href="https://www.youtube.com/watch?v=hv1ANGWwMow">Include
+                a chart in a post</a></span></span></li>
+        <li><span style="   color: #000099;"><span style="  color: #222222;"><a
+                href="https://www.youtube.com/watch?v=rzC3-eBPuXw">Modify the
+                properties of the datasets</a></span></span></li>
+        <li><span style="    color: #000099;"><span style="   color: #222222;"><a
+                href="https://www.youtube.com/watch?v=VSwtqJSY7pw">Use the
+                included spreadsheet editor</a></span></span></li>
+        <li><span style="     color: #000099;"><span style="    color: #222222;"><a
+                href="https://www.youtube.com/watch?v=UJYZYLylo4c">Convert a
+                chart to a model (and vice versa)</a></span></span></li>
+        <li><span style="      color: #000099;"><span style="     color: #222222;"><a
+                href="https://www.youtube.com/watch?v=DPcI32bZU14">Plot a
+                dataset on the Y2 axis</a></span></span></li>
+        <li><span style="       color: #000099;"><span style="      color: #222222;"><a
+                href="https://www.youtube.com/watch?v=tHzGjkGlRzk">Use the color
+                picker</a><br>
+            </span></span></li>
+      </ul>
+      <hr>
+      <h3 id="installation-single-site">B) Installation (Single Site)</h3>
+      <p>With this procedure you will be able to install the UberChart plugin on
+        your WordPress website.</p>
+      <ol>
+        <li> Visit the <span style="font-weight: bold;">Plugins -&gt; Add New</span>
+          menu</li>
+        <li>Click on the <span style="font-weight: bold;" class="aa-highlighter">Upload
+            Plugin</span> button and select the zip file you just downloaded<span
+            style="font-style: italic;"></span></li>
+        <li>Click on <span style="font-weight: bold;">Install Now</span></li>
+        <li>Click on <span style="font-weight: bold;">Activate Plugin</span></li>
+      </ol>
+      <hr>
+      <h3 id="installation-multisite">C) Installation (Multisite)</h3>
+      <p>This plugin supports both a <span style="font-weight: bold;">Network
+          Activation</span> (the plugin will be activated on all the sites of
+        your WordPress Network) and a <span style="font-weight: bold;">Single
+          Site Activation</span> in a <span style="font-weight: bold;">WordPress
+          Network</span> environment (your plugin will be activated on a single
+        site of the network).</p>
+      <p>With this procedure you will be able to perform a <span style="font-weight: bold;">Network
+          Activation</span>:</p>
+      <ol>
+        <li> Visit the <span style="font-weight: bold;">Plugins -&gt; Add New</span>
+          menu</li>
+        <li>Click on the <span style="font-weight: bold;" class="aa-highlighter">Upload
+            Plugin</span> button and select the zip file you just downloaded<span
+            style="font-style: italic;"></span></li>
+        <li>Click on <span style="font-weight: bold;">Install Now</span></li>
+        <li>Click on <span style="font-weight: bold;">Network Activate</span></li>
+      </ol>
+      <p>With this procedure you will be able to perform a <span style="font-weight: bold;">Single
+          Site Activation</span> in a <span style="font-weight: bold;">WordPress
+          Network</span> environment:</p>
+      <ol>
+        <li>Visit the specific site of the <span style="font-weight: bold;">WordPress
+            Network</span> where you want to install the plugin<br>
+        </li>
+        <li>Visit the <span style="font-weight: bold;">Plugins</span> menu</li>
+        <li>Click on the <span style="font-weight: bold;" class="aa-highlighter">Activate</span>
+          button (just below the name of the plugin)</li>
+      </ol>
+      <hr>
+      <h3 id="charts-menu">D) Charts Menu</h3>
+      <p>The <span style="font-weight: bold;">Charts Menu</span> allows you to
+        create and customize your charts with 240 options per chart and 30
+        options per dataset. The main source of information when you are using
+        this menu should be the tooltips associated with each option. To
+        activate the tooltip of an option simply hover over the black question
+        mark icon.</p>
+      Here I'm going to introduce you to the various sections available in this
+      menu:<br>
+      <br>
+      <h4><span style="font-weight: bold;">Preview</span></h4>
+      <p>This section should be used to preview the chart, so you can verify
+        every aspect of the chart during its creation. Note that each time this
+        section is opened or refreshed through the green button the chart is
+        also saved (or updated in case you are editing an existing chart.</p>
+      <p>If the chart can't be generated you will receive the message "Preview
+        not available" instead of the actual rendering of the chart. This
+        message is generated when one of these two conditions occurs:</p>
+      <ul>
+        <li>If the validation system detects an error in the chart data. For
+          example if you leave a required field empty, if you enter alphanumeric
+          characters where numbers are required, etc.</li>
+        <li>If the library used to plot the chart is not able to generated the
+          chart. This occurs when invalid combination of data not detected by
+          the validation system are used to plot the chart.</li>
+      </ul>
+      <p>If you receive the "Preview not available" message please review each
+        input field you recently modified and correct the errors. If this
+        message is generated by the validation system you can receive more
+        details about the issue by clicking the <span style="font-weight: bold;">Add
+          Chart</span> button or the <span style="font-weight: bold;">Update
+          Chart</span> button.</p>
+      <h4><span style="font-weight: bold;">Common</span></h4>
+      <p>This section includes unrelated common options. Please refer to the
+        tooltips on the right of the options for more details.</p>
+      <h4><span style="font-weight: bold;">Title</span></h4>
+      <p>This section gives you the ability to display or not the title of the
+        chart and to customize the aspect of the title.</p>
+      <h4><span style="font-weight: bold;">Legend</span></h4>
+      <p>This section gives you the ability to display or not the legend of the
+        chart and to customize the aspect of the legend.</p>
+      <h4><span style="font-weight: bold;">Tooltip</span></h4>
+      <p>This section gives you the ability to display or not the tooltips of
+        the chart and to customize the aspect of the tooltips. Tooltips are
+        displayed when the user hover the mouse cursor over data points.</p>
+      <h4><span style="font-weight: bold;">Animation</span></h4>
+      <p>This section should be used to enable, disable or customize the
+        animations performed by the chart.</p>
+      <h4><span style="font-weight: bold;">Misc</span></h4>
+      <p>In this section you can find unrelated uncommon options. Please refer
+        to the tooltips on the right of the options for more details.</p>
+      <h4><span style="font-weight: bold;">X Scale (Common, Grid Line, Title,
+          Tick, Options, Time)<br>
+        </span></h4>
+      <p>The X Scale should be used in the following situations:</p>
+      <ul>
+        <li>To represent the categories of a <span style="font-weight: bold;">Line</span>
+          or <span style="font-weight: bold;">Bar</span> chart</li>
+        <li>To represent the time intervals of a <span style="font-weight: bold;">Line</span>
+          or <span style="font-weight: bold;">Bar</span> chart</li>
+        <li>To represent the values of the data points of an <span style="font-weight: bold;">Horizontal
+            Bar</span> chart</li>
+        <li>To represent the values of the first variable of a <span style="font-weight: bold;">Scatter</span>
+          or <span style="font-weight: bold;">Bubble</span> chart</li>
+      </ul>
+      <p>It's recommended to disable the X Scale (by using the <span style="font-weight: bold;">X
+          Scale Common -&gt; Display</span> option) with the following types of
+        chart:</p>
+      <ul>
+        <li>Radar</li>
+        <li>Polar Area</li>
+        <li>Pie</li>
+        <li>Doughnut</li>
+      </ul>
+      <h4><span style="font-weight: bold;">Y Scale (Common, Grid Line, Title,
+          Tick, Options, Time)<br>
+        </span></h4>
+      <p>The Y Scale should be used in the following situations:</p>
+      <ul>
+        <li>To represent the categories of an <span style="font-weight: bold;">Horizontal
+            Bar</span> chart</li>
+        <li>To represent the values of the data points of a <span style="font-weight: bold;">Line</span>
+          or <span style="font-weight: bold;">Bar</span> chart</li>
+        <li>To represent the values of the second variable of a <span style="font-weight: bold;">Scatter</span>
+          or <span style="font-weight: bold;">Bubble</span> chart<br>
+        </li>
+      </ul>
+      <p>It's recommended to disable the Y Scale (by using the <span style="font-weight: bold;">Y
+          Scale Common -&gt; Display</span> option) with the following types of
+        chart:</p>
+      <ul>
+        <li>Radar</li>
+        <li>Polar Area</li>
+        <li>Pie</li>
+        <li>Doughnut</li>
+      </ul>
+      <h4><span style="font-weight: bold;">Y2 Scale (Common, Grid Line, Title,
+          Tick, Options, Time)<br>
+        </span></h4>
+      <p>The Y2 Scale should be used to represent the values of the data points
+        of a dataset (or multiple datasets) that has the <span style="font-weight: bold;">Plot
+          Y2</span> option enabled.<span style="      color: #000099;"><span style="     color: #222222;"></span></span><span
+          style="font-weight: bold;"></span></p>
+      <p>It's recommended to disable the Y2 Scale (by using the <span style="font-weight: bold;">Y2
+          Scale Common -&gt; Display</span> option) with the following types of
+        chart:</p>
+      <ul>
+        <li>Radar</li>
+        <li>Polar Area</li>
+        <li>Pie</li>
+        <li>Doughnut</li>
+      </ul>
+      <h4><span style="font-weight: bold;">RL Scale (Common, Grid Line, Title,
+          Tick, Options, Time)<br>
+        </span></h4>
+      <p>The RL Scale should be used with the <span style="font-weight: bold;">Radar</span>
+        and <span style="font-weight: bold;">Polar Area</span> chart types.</p>
+      <p>It's recommended to disable the RL Scale (by using the <span style="font-weight: bold;">RL
+          Scale Common -&gt; Display</span> option) with the following types of
+        chart:</p>
+      <ul>
+        <li>Line</li>
+        <li>Bar</li>
+        <li>Horizontal Bar</li>
+        <li>Pie</li>
+        <li>Doughnut</li>
+        <li>Scatter</li>
+        <li>Bubble</li>
+      </ul>
+      <h4><span style="font-weight: bold;">Datasets</span></h4>
+      <p>This section, available on the right side of the menu, should be used
+        to customize the options associated with the datasets.</p>
+      <p>To modify the options associated with a dataset follow this procedure:</p>
+      <ol>
+        <li>Click the <span style="font-weight: bold;">Data</span> spreadsheet
+          on a specific row (each row is associated with a dataset)</li>
+        <li>Customize the options in the <span style="font-weight: bold;">Dataset</span>
+          section</li>
+        <li>Click the <span style="font-weight: bold;">Update</span> button to
+          save your changes</li>
+      </ol>
+      <p>To modify the option associated with all the datasets of the chart
+        please follow this procedure:</p>
+      <ol>
+        <li>Click the <span style="font-weight: bold;">Data</span> spreadsheet
+          on a specific row (each row is associated with a dataset)</li>
+        <li>Customize the options in the <span style="font-weight: bold;">Dataset</span>
+          section</li>
+        <li>Click the <span style="font-weight: bold;">Update and Globalize</span>
+          button to apply the options of the edited dataset to all the datasets
+          of the chart (all the options except <span style="font-weight: bold;">Label</span>,
+          which is the name of the specific dataset, will be globalized)</li>
+      </ol>
+      <p>Fore more information on the two procedures above please watch the <span
+          style="   color: #000099;"><span style="  color: #222222;"><a href="https://www.youtube.com/watch?v=rzC3-eBPuXw">Modify
+              the properties of the datasets</a> video.<br>
+          </span></span></p>
+      <ol>
+      </ol>
+      <ol>
+      </ol>
+      <ul>
+      </ul>
+      <hr>
+      <h3 id="import-menu">E) Import Menu</h3>
+      <p>The <span style="font-weight: bold;">Import Menu</span> should be used
+        to import collections of charts previously stored inside XML files
+        generated with the <span style="font-weight: bold;">Export Menu</span>.</p>
+      <p>Import your charts with this procedure:</p>
+      <ol>
+        <li>Visit the <span style="font-weight: bold;">UberChart -&gt; Import</span>
+          menu</li>
+        <li>Click the <span style="font-weight: bold;">Choose File</span>
+          button and select the XML file that includes the charts</li>
+        <li>Click the <span style="font-weight: bold;">Upload file and import</span>
+          button to start the process</li>
+        <li>Verify the number of charts actually imported by reading the message
+          provided at the end of the procedure</li>
+      </ol>
+      <ol>
+      </ol>
+      <ul>
+      </ul>
+      <hr>
+      <h3 id="export-menu">F) Export Menu</h3>
+      The <span style="font-weight: bold;">Export Menu</span> gives you the
+      ability to generate an XML file with included all your charts.<br>
+      <br>
+      Export your charts by following this procedure:<br>
+      <br>
+      <ol>
+        <li>Visit the <span style="font-weight: bold;">UberChart -&gt; Export </span>menu</li>
+        <li>Click the <span style="font-weight: bold;">Export</span> button</li>
+        <li>You can now access to the generated XML file from your downloads
+          folder</li>
+      </ol>
+      <ul>
+      </ul>
+      <ul>
+      </ul>
+      <hr><br>
+      <h3 id="options-menu">G) Options Menu</h3>
+      The <span style="font-weight: bold;">Options Menu</span> includes general
+      plugin options. Please refer to the tooltips on the right of the options
+      for more details.<br>
+      <br>
+      <hr>
+      <h3 id="include-a-chart-in-a-post">H) Include a chart in a post</h3>
+      Please follow this procedure to include a chart in a post:<br>
+      <br>
+      <ol>
+        <li>Edit a post, page or custom post type</li>
+        <li>Select the <span style="font-weight: bold;">Visual</span> mode of
+          the TinyMCE editor</li>
+        <li>Click the <span style="font-weight: bold;">UberChart</span> button</li>
+        <li>Search or select a chart with the provided select box</li>
+        <li>Click the <span style="font-weight: bold;">Add Chart</span> button</li>
+      </ol>
+      <p>Note that you are free to include multiple charts in the same post and
+        also to include the generated shortcodes inside custom containers, so
+        that you can achieve your desired layout for your charts.</p>
+      <p>For more information on the procedure please watch the video <span style="  color: #000099;"><span
+            style=" color: #222222;"><a href="https://www.youtube.com/watch?v=hv1ANGWwMow">Include
+              a chart in a post</a>.</span></span><span style="  color: #000099;"><span
+            style=" color: #222222;"></span></span> </p>
+      <hr>
+      <h3 id="duplicate-a-chart">I) Duplicate a chart<br>
+      </h3>
+      If you purpose is to experiment new changes on an existing chart you
+      should considered creating a backup copy of the chart by using the <span
+        style="font-weight: bold;">Clone</span> button.<br>
+      <br>
+      To duplicate a chart please follow this procedure:<br>
+      <br>
+      <ol>
+        <li>Visit the <span style="font-weight: bold;">UberChart -&gt; Charts</span>
+          menu</li>
+        <li>Click on the <span style="font-weight: bold;">Clone</span> button
+          associated with the chart that you want to duplicate</li>
+      </ol>
+      <hr>
+      <h3 id="set-a-time-format">J) Set a time format</h3>
+      <p>Inside the <span style="font-weight: bold;">X Scale Time</span>
+        section available in the <span style="font-weight: bold;">UberChart
+          -&gt; Charts</span> menu you have the ability to define a time format
+        that will be used when the <span style="font-weight: bold;">X Scale</span>
+        is a time scale (in other words when the <span style="font-weight: bold;">X
+          Scale Common -&gt; Type</span> option is set to <span style="font-weight: bold;">Time</span>).</p>
+      <p>When you create a new format please use the tokens accepted by <a href="http://momentjs.com/docs/#/displaying/format/">Moment.js</a>,
+        here you can find a list of common supported formats:</p>
+      <ul>
+        <li>DD MM YYYY (Example: "25 05 1980")</li>
+        <li>MMM D hA (Example: "Sep 22 4PM")</li>
+        <li>MMMM (Example: "April")</li>
+        <li>DD MMM YYYY (Example: "15 Sep 1988")</li>
+        <li>YYYY MM DD (Example: "2005 05 18")</li>
+        <li>dddd (Example: "Tuesday")</li>
+        <li>h:mm:ss a (Example: "8:32:06 am")</li>
+        <li>MMM YYYY (Example: "Sep 2017")</li>
+        <li>MMM (Example: "Aug")</li>
+        <li>YYYY (Example: "2016")</li>
+      </ul>
+      <hr>
+      <h3 id="load-a-model">K) Load a model</h3>
+      <p>If you want to save the time required to configure a chart it's a good
+        idea to start from a model.</p>
+      <p>Follow this procedure to load a model:</p>
+      <ol>
+        <li>Create or edit a chart with the <span style="font-weight: bold;">UberChart
+            -&gt; Charts</span> menu</li>
+        <li>Click the <span style="font-weight: bold;">Load Model</span> select
+          box</li>
+        <li>Search for a model or select a model</li>
+        <li>The data of the current chart will be replaced with the data of the
+          loaded model</li>
+        <li>Use the <span style="font-weight: bold;">Data</span> spreadsheet
+          and the <span style="font-weight: bold;">Rows</span> and <span style="font-weight: bold;">Columns</span>
+          input fields to alter the data points</li>
+        <li>Before previewing or publishing your chart make sure that the loaded
+          model doesn't apply any limit to the axes configuration that is not
+          compatible with the new data points</li>
+      </ol>
+      <p>For more information on the procedure please watch the video <a href="https://www.youtube.com/watch?v=afbEbyWzJKI"><span
+            style="color: #000099;">Create a chart from a model</span></a>.</p>
+      <ol>
+      </ol>
+      <hr>
+      <h3 id="import-the-default-models">L) Import the default models<br>
+      </h3>
+      Inside the main plugin folder you will find a file named <span style="font-weight: bold;">models.xml</span>,
+      which includes 34 ready to use models.<br>
+      <br>
+      To import the default models simply apply the procedure described in the <a
+        href="#import-menu">Import Menu</a> section with the <span style="font-weight: bold;">models.xml</span>
+      file.<br>
+      <br>
+      For more information on the procedure please watch the video <a href="https://www.youtube.com/watch?v=8QOUICNOWfM">Import
+        the default models</a>.<br>
+      <br>
+      <hr>
+      <h3 id="convert-a-chart-to-a-model">M) Convert a chart to a model</h3>
+      <p>To convert a chart to a model please follow this procedure:</p>
+      <ol>
+        <li>Edit the chart that you want to convert to a model</li>
+        <li>Select <span style="font-weight: bold;">Model</span> with the <span
+            style="font-weight: bold;">Common -&gt; Status</span> option</li>
+        <li>Update the chart with the <span style="font-weight: bold;">Update
+            Chart</span> button</li>
+      </ol>
+      <p>For more information on the procedure please watch the video <span style="     color: #000099;"><span
+            style="    color: #222222;"><a href="https://www.youtube.com/watch?v=UJYZYLylo4c">Convert
+              a chart to a model (and vice versa)</a>.</span></span></p>
+      <ol>
+      </ol>
+      <hr>
+      <h3 id="convert-a-model-to-a-chart">N) Convert a model to a chart</h3>
+      <p>To convert a model to a chart please follow this procedure:</p>
+      <ol>
+        <li>Edit the model that you want to convert to a chart</li>
+        <li>Select <span style="font-weight: bold;">Chart</span> with the <span
+            style="font-weight: bold;">Common -&gt; Status</span> option</li>
+        <li>Update the chart with the <span style="font-weight: bold;">Update
+            Chart</span> button</li>
+      </ol>
+      <p>For more information on the procedure please watch the video <span style="     color: #000099;"><span
+            style="    color: #222222;"><a href="https://www.youtube.com/watch?v=UJYZYLylo4c">Convert
+              a chart to a model (and vice versa)</a>.</span></span></p>
+      <hr>
+      <h3 id="plot-a-dataset-on-the-y2-axis">O) Plot a dataset on the Y2 axis<br>
+      </h3>
+      Follow this procedure to plot a dataset on the Y2 axis:<br>
+      <br>
+      <ol>
+        <li>Enable the Y2 axis by selecting <span style="font-weight: bold;">Yes</span>
+          on the <span style="font-weight: bold;">Y2 Scale Common -&gt; Display</span>
+          option</li>
+        <li>Select a dataset by clicking on a row of the <span style="font-weight: bold;">Data</span>
+          spreadsheet</li>
+        <li>Select <span style="font-weight: bold;">Yes</span> on the<span style="font-weight: bold;">
+            Plot Y2</span> option associated with the edited dataset</li>
+        <li>Click the <span style="font-weight: bold;">Update</span> button</li>
+      </ol>
+      <p>Note that you are free to plot more than one dataset on the Y2 axis
+        simply by repeating the procedure above. (each time with a different
+        dataset)</p>
+      <p>For more information on the procedure please watch the video <span style="      color: #000099;"><span
+            style="     color: #222222;"><a href="https://www.youtube.com/watch?v=DPcI32bZU14">Plot
+              a dataset on the Y2 axis</a>.</span></span></p>
+      <hr>
+      <h3 id="create-scatter-and-bubble-charts">P) Create Scatter and Bubble
+        charts<br>
+      </h3>
+      The creation of Scatter and Bubble charts requires that you include
+      multiple values in the cells of the <span style="font-weight: bold;">Data</span>
+      spreadsheet.<br>
+      <br>
+      <span style="font-weight: bold;">Scatter Chart</span><br>
+      <br>
+      A scatter chart requires two values per cell, the first value or "variable
+      1" will be plotted on the X axis and the second value or "variable 2" will
+      be plotted on the Y axis. A slash character should be used to separate the
+      two values, for this reason you have to enter your data in this format:<br>
+      <br>
+      <span style="text-decoration: underline;">variable 1/variable 2</span>
+      (Examples: <span style="text-decoration: underline;">14/25</span>, <span
+        style="text-decoration: underline;">1200/800</span>, <span style="text-decoration: underline;">0.32/7.44</span>,
+      etc.)<br>
+      <br>
+      Please note that in the <span style="font-weight: bold;">UberChart -&gt;
+        Charts</span> menu there isn't a chart type named "Scatter" available in
+      the <span style="font-weight: bold;">Type</span> option. To create a
+      Scatter chart simply create a line chart and then set a linear or
+      logarithmic scale for the X axis and a linear or logarithmic scale for the
+      Y axis.<br>
+      <br>
+      If you want to create a scatter chart without spending time with its
+      configuration I recommend you to start from one of the following two
+      models:<br>
+      <br>
+      <ul>
+        <li>Scatter Chart with linear scale on X axis and linear scale on Y axis</li>
+        <li>Scatter Chart with linear scale on X axis and logarithmic scale on Y
+          axis </li>
+      </ul>
+      <span style="font-weight: bold;">Bubble Chart</span><br>
+      <br>
+      A bubble chart requires three values per cell, the first value or
+      "variable 1" will be plotted on the X axis, the second value or "variable
+      2" will be plotted on the Y axis, and the third value or "variable 3" will
+      be used to determine the bubble area. A slash character should be used to
+      separate the three values, for this reason you have to enter your data in
+      this format:<br>
+      <br>
+      <span style="text-decoration: underline;">variable 1/variable 2/variable 3</span>
+      (Examples: <span style="text-decoration: underline;">24/25/60</span>, <span
+        style="text-decoration: underline;">1200/800/2400</span>, <span style="text-decoration: underline;">0.32/7.44/5.26</span>,
+      etc.)<br>
+      <br>
+      If you want to create a bubble chart without spending time with its
+      configuration I recommend you to start from one of the following two
+      models:<br>
+      <br>
+      <ul>
+        <li>Bubble chart with linear scale on X axis and linear scale on Y axis</li>
+        <li>Bubble chart with linear scale on X axis and logarithmic scale on Y
+          axis</li>
+      </ul>
+      <hr>
+      <h3 id="credits">Q) Credits</h3>
+      <p>This plugin makes use of the following resources:</p>
+      <ul>
+        <li><a href="https://getcomposer.org/">Composer</a> licensed under the <a
+            href="http://www.opensource.org/licenses/mit-license.php" target="_blank"
+            rel="nofollow">MIT License</a></li>
+        <li><a href="https://github.com/harvesthq/chosen"><span style="color: #000099;">Chosen</span></a>
+          licensed under the <a href="http://www.opensource.org/licenses/mit-license.php"
+            target="_blank" rel="nofollow">MIT License</a></li>
+        <li><a href="https://github.com/handsontable/handsontable">Handsontable</a><a
+            href="https://github.com/harvesthq/chosen"><span style="color: #000099;"></span></a>
+          licensed under the <a href="http://www.opensource.org/licenses/mit-license.php"
+            target="_blank" rel="nofollow">MIT License</a></li>
+        <li><a href="https://github.com/bgrins/spectrum">Spectrum</a><a href="https://github.com/harvesthq/chosen"><span
+              style="color: #000099;"></span></a> licensed under the <a href="http://www.opensource.org/licenses/mit-license.php"
+            target="_blank" rel="nofollow">MIT License</a></li>
+        <li><a href="http://www.chartjs.org/">Chart.js</a><a href="https://github.com/harvesthq/chosen"><span
+              style="color: #000099;"></span></a> licensed under the <a href="http://www.opensource.org/licenses/mit-license.php"
+            target="_blank" rel="nofollow">MIT License</a></li>
+        <li><a href="https://github.com/tedious/JShrink">JShrink</a> license
+          under the <a href="https://opensource.org/licenses/BSD-3-Clause">BSD
+            3 Clause License</a></li>
+      </ul>
+      <p>For each library you can find the actual copy of the license inside the
+        folder used to store the library files.</p>
+      <hr>
+      <h3 id="faq">R) FAQ</h3>
+      <h4><span style="font-weight: bold;">How to improve the mobile version of
+          a responsive chart?</span><br>
+      </h4>
+      <p>To improve the mobile version of a responsive chart consider the
+        following changes:</p>
+      <ul>
+        <li>Set the <b>Common -&gt; Maintain Aspect Ratio</b> option to "No"</li>
+        <li>Use the <b>Common -&gt; Fixed Height</b> option to set a fixed
+          height in pixels (for example 400, 600, 1000). This value should be
+          determined based on the complexity of the chart. </li>
+      </ul>
+      <h4><span style="font-weight: bold;">How to increase the maximum number of
+          rows and columns?</span><br>
+      </h4>
+      <p>In the <b>UberChart -&gt; Charts</b> menu the maximum number of rows
+        and columns is limited based on the value of the "post_max_size" PHP
+        directive. You can use this table to determine the exact limit applied
+        in your UberChart installation:</p>
+      <table border="1" width="100%">
+        <tbody>
+          <tr>
+            <td><b>Value of the "post_max_size" directive</b></td>
+            <td><b>Rows</b></td>
+            <td><b>Columns</b></td>
+            <td><b>Cells</b></td>
+          </tr>
+          <tr>
+            <td>&lt;= 8M</td>
+            <td>100</td>
+            <td>100</td>
+            <td>10,000</td>
+          </tr>
+          <tr>
+            <td>&gt; 8M and &lt;= 16M</td>
+            <td>200</td>
+            <td>200</td>
+            <td>40,000</td>
+          </tr>
+          <tr>
+            <td>&gt; 16M and &lt;= 32M</td>
+            <td>400</td>
+            <td>400</td>
+            <td>160,000</td>
+          </tr>
+          <tr>
+            <td>&gt; 32M and &lt;= 64M</td>
+            <td>600</td>
+            <td>600</td>
+            <td>360,000</td>
+          </tr>
+          <tr>
+            <td>&gt; 64M and &lt;= 128M</td>
+            <td>800</td>
+            <td>800</td>
+            <td>640,000</td>
+          </tr>
+          <tr>
+            <td>&gt; 128M</td>
+            <td>1000</td>
+            <td>1000</td>
+            <td>1,000,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Please note that you can, at any time, change these limits by altering
+        the value of the "post_max_size" PHP directive. Ask to your server
+        administrator or to your hosting provider how to modify this value.</p>
+      <h4><span style="font-weight: bold;">How to decrease the width of the
+          textual elements of the chart?</span><br>
+      </h4>
+      <p>If there isn't enough space to include a long chart title, a long axis
+        title, or long labels, consider the following changes:</p>
+      <ul>
+        <li>Use a condensed font</li>
+        <li>Decrease the font size</li>
+        <li>Use abbreviations</li>
+        <li>Convert text with uppercase letters to lowercase letters</li>
+      </ul>
+      <p></p>
+      <h4><span style="font-weight: bold;">Which versions of PHP are supported?</span><br>
+      </h4>
+      <p>PHP 5.3 and later versions are supported.</p>
+      <h4 id="which-links-are-considered-internal-links-in-a-site-of-a-wordpress-network"><span
+          style="font-weight: bold;">Which versions of WordPress are supported?</span><br>
+      </h4>
+      <p>WordPress 4.0 and later versions are supported.</p>
+      <hr class="space"> </div>
+    <!-- end div .container -->
+  </body>
+</html>

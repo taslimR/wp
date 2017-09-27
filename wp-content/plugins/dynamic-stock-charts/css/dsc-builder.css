@@ -1,0 +1,96 @@
+#ui-datepicker-div {
+  z-index: 100 !important;
+}
+
+.chart-type-options,
+#navigation-options,
+.ui.form .inline.fields .wide.field.indicator-settings,
+#i-show-html,
+#f-error-msg {
+  display: none;
+}
+
+#indicators-container {
+  text-align: left !important;
+}
+
+#indicators-container .label {
+  margin-bottom: 5px;
+}
+
+#snippet {
+  word-wrap: break-word;
+  background: #E4E4E4;
+  padding: 1em;
+}
+
+.sp-replacer {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+  box-shadow: 0em 0em 0em 0em transparent inset;
+  background: #fff;
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.dsc-colors .ui.input {
+  margin-right: 10px;
+}
+
+/*
+ * Message
+ */
+.dsc-err-message {
+  font-size: 1em;
+  background-color: #fff6f6;
+  color: #9f3a38;
+  box-shadow: 0px 0px 0px 1px #e0b4b4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);  
+  position: relative;
+  min-height: 1em;
+  margin: 1em 0em;
+  padding: 1em 1.5em;
+  line-height: 1.4285em;
+  -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+  transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+  border-radius: 0.28571429rem;
+}
+
+/*
+ * Dropdown autocomplete
+ */
+.symbol-search-dropdown {
+  z-index: 50;
+  width: 100%;
+  background: #fff;
+  list-style: none;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  overflow: hidden;
+  text-align: left;
+  border-radius: 0.28571429rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  display: none;
+}
+
+.symbol-search-dropdown-item {
+  font-size: 1.1em;
+  padding: 5px 10px;
+}
+
+.symbol-search-dropdown-item .symbol-exchange {
+  float: right;
+  font-size: 0.9em;
+  color: #555555;
+}
+
+.symbol-search-dropdown-item .symbol-type {
+  margin-left: 5px;
+  font-size: 0.9em;
+  color: #6435C9;
+}
+
+.symbol-search-dropdown-item:hover {
+  background-color: #F1F1F1;
+  cursor: pointer;
+}

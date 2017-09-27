@@ -1,0 +1,17 @@
+// source --> http://www.bristolgate.com/wp-content/plugins/accordion-tables/assets/js/jquery.color.min.js?ver=4.8.1 
+/**!
+ * @preserve Color animation 1.6.0
+ * http://www.bitstorm.org/jquery/color-animation/
+ * Copyright 2011, 2013 Edwin Martin
+ * Released under the MIT and GPL licenses.
+ */
+
+(function($) {
+	/**
+	 * Check whether the browser supports RGBA color mode.
+	 *
+	 * Author Mehdi Kabab <http://pioupioum.fr>
+	 * @return {boolean} True if the browser support RGBA. False otherwise.
+	 */
+function isRGBACapable(){var r=$("script:first"),e=r.css("color"),o=!1;if(/^rgba/.test(e))o=!0;else try{o=e!=r.css("color","rgba(0, 0, 0, 0.5)").css("color"),r.css("color",e)}catch(a){}return o}function calculateColor(r,e,o){e||(e=r);var a="rgb"+($.support.rgba?"a":"")+"("+parseInt(r[0]+o*(e[0]-r[0]),10)+","+parseInt(r[1]+o*(e[1]-r[1]),10)+","+parseInt(r[2]+o*(e[2]-r[2]),10);return $.support.rgba&&(a+=","+(r&&e?parseFloat(r[3]+o*(e[3]-r[3])):1)),a+=")"}function parseColor(r){var e,o;return o=(e=/#([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})/.exec(r))?[parseInt(e[1],16),parseInt(e[2],16),parseInt(e[3],16),1]:(e=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/.exec(r))?[17*parseInt(e[1],16),17*parseInt(e[2],16),17*parseInt(e[3],16),1]:(e=/rgb\(\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*\)/.exec(r))?[parseInt(e[1]),parseInt(e[2]),parseInt(e[3]),1]:(e=/rgba\(\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*,\s*([0-9\.]*)\s*\)/.exec(r))?[parseInt(e[1],10),parseInt(e[2],10),parseInt(e[3],10),parseFloat(e[4])]:colors[r]}$.extend(!0,$,{support:{rgba:isRGBACapable()}});var properties=["color","backgroundColor","borderBottomColor","borderLeftColor","borderRightColor","borderTopColor","outlineColor"];$.each(properties,function(r,e){$.Tween.propHooks[e]={get:function(r){return $(r.elem).css(e)},set:function(r){var o=r.elem.style,a=parseColor($(r.elem).css(e)),s=parseColor(r.end);r.run=function(r){o[e]=calculateColor(a,s,r)}}}}),$.Tween.propHooks.borderColor={set:function(r){var e=r.elem.style,o=[],a=properties.slice(2,6);$.each(a,function(e,a){o[a]=parseColor($(r.elem).css(a))});var s=parseColor(r.end);r.run=function(r){$.each(a,function(a,t){e[t]=calculateColor(o[t],s,r)})}}};var colors={aqua:[0,255,255,1],azure:[240,255,255,1],beige:[245,245,220,1],black:[0,0,0,1],blue:[0,0,255,1],brown:[165,42,42,1],cyan:[0,255,255,1],darkblue:[0,0,139,1],darkcyan:[0,139,139,1],darkgrey:[169,169,169,1],darkgreen:[0,100,0,1],darkkhaki:[189,183,107,1],darkmagenta:[139,0,139,1],darkolivegreen:[85,107,47,1],darkorange:[255,140,0,1],darkorchid:[153,50,204,1],darkred:[139,0,0,1],darksalmon:[233,150,122,1],darkviolet:[148,0,211,1],fuchsia:[255,0,255,1],gold:[255,215,0,1],green:[0,128,0,1],indigo:[75,0,130,1],khaki:[240,230,140,1],lightblue:[173,216,230,1],lightcyan:[224,255,255,1],lightgreen:[144,238,144,1],lightgrey:[211,211,211,1],lightpink:[255,182,193,1],lightyellow:[255,255,224,1],lime:[0,255,0,1],magenta:[255,0,255,1],maroon:[128,0,0,1],navy:[0,0,128,1],olive:[128,128,0,1],orange:[255,165,0,1],pink:[255,192,203,1],purple:[128,0,128,1],violet:[128,0,128,1],red:[255,0,0,1],silver:[192,192,192,1],white:[255,255,255,1],yellow:[255,255,0,1],transparent:[255,255,255,0]};
+})(jQuery);

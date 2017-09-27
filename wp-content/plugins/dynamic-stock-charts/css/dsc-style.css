@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+
+/*
+ * General
+ */
+
+
+/* 
+ * Loader 
+ */
+.dsc-loader {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0px;
+  text-align: center;
+  z-index: 1000;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 2.2585em;
+  height: 2.2585em;
+  font-size: 1em;
+}
+
+.dsc-loader:before, .dsc-loader:after {
+  width: 2.2585em;
+  height: 2.2585em;
+  margin: 0em 0em 0em -1.12925em;
+}
+
+.dsc-loader:before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 500rem;
+  border: 0.2em solid rgba(0, 0, 0, 0.1);
+}
+
+.dsc-loader:after {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: dscloader 0.6s linear;
+  animation: dscloader 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #aaaaaa transparent transparent;
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0px 0px 0px 1px transparent;
+}
+
+@-webkit-keyframes dscloader {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dscloader {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.dsc-loader.active {
+  display: block;
+}
+
+.dsc-loader.disabled {
+  display: none;
+}
+
+/*
+ * Tooltips
+ */
+.dsc-tooltip {
+  width: 150px !important;
+  margin: 5px;
+  border: 0;
+}
+
+.dsc-tooltip caption {
+  white-space: nowrap;
+  text-align: left;
+  font-weight: bold;
+}
+
+.dsc-tooltip td {
+  font-size: 1em;
+  text-align: left;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.dsc-tooltip td.label {
+  font-weight:bold;
+}

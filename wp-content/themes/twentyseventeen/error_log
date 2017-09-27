@@ -1,0 +1,2 @@
+[06-Aug-2017 05:24:42 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/bristo31/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[23-Sep-2017 00:15:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/bricommains/public_html/wp-content/themes/twentyseventeen/404.php on line 13

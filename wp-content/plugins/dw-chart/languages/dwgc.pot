@@ -1,0 +1,419 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DW Chart\n"
+"POT-Creation-Date: 2016-05-13 11:17+0700\n"
+"PO-Revision-Date: 2016-05-13 11:17+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: dw-chart.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dw-chart.php:24 dw-chart.php:28
+msgid "Are you cheating huh?"
+msgstr ""
+
+#: dw-chart.php:109
+msgid "Area"
+msgstr ""
+
+#: dw-chart.php:110
+msgid "Bar"
+msgstr ""
+
+#: dw-chart.php:111
+msgid "Column"
+msgstr ""
+
+#: dw-chart.php:112
+msgid "Geo"
+msgstr ""
+
+#: dw-chart.php:113
+msgid "Line"
+msgstr ""
+
+#: dw-chart.php:114
+msgid "Pie"
+msgstr ""
+
+#: dw-chart.php:115
+msgid "Combo"
+msgstr ""
+
+#: dw-chart.php:117
+msgid "Waterfall"
+msgstr ""
+
+#: dw-chart.php:118
+msgid "Scatter"
+msgstr ""
+
+#: dw-chart.php:119
+msgid "Trendlines"
+msgstr ""
+
+#: dw-chart.php:125
+msgid "Use Global"
+msgstr ""
+
+#: dw-chart.php:126
+msgid "Arial"
+msgstr ""
+
+#: dw-chart.php:127
+msgid "SansSerif"
+msgstr ""
+
+#: dw-chart.php:128
+msgid "Serif"
+msgstr ""
+
+#: dw-chart.php:129
+msgid "Wide"
+msgstr ""
+
+#: dw-chart.php:130
+msgid "Narrow"
+msgstr ""
+
+#: dw-chart.php:131
+msgid "Comic Sans MS"
+msgstr ""
+
+#: dw-chart.php:132
+msgid "Courier New"
+msgstr ""
+
+#: dw-chart.php:133
+msgid "Garamond"
+msgstr ""
+
+#: dw-chart.php:134
+msgid "Georgia"
+msgstr ""
+
+#: dw-chart.php:135
+msgid "Tahoma"
+msgstr ""
+
+#: dw-chart.php:136
+msgid "Verdana"
+msgstr ""
+
+#: inc/Editor.php:35
+msgid "Select"
+msgstr ""
+
+#: inc/Editor.php:38
+#, php-format
+msgid "Please create your chart %shere%s"
+msgstr ""
+
+#: inc/Metabox.php:37
+msgid "Chart Preview"
+msgstr ""
+
+#: inc/Metabox.php:38
+msgid "Chart Settings"
+msgstr ""
+
+#: inc/Metabox.php:39
+msgid "Chart Data"
+msgstr ""
+
+#: inc/Metabox.php:40
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/Metabox.php:41
+msgid "Other"
+msgstr ""
+
+#: inc/Metabox.php:53
+#, php-format
+msgid ""
+"You can insert the shortcode <code>[dw_chart id=\"%1$s\"]</code> into your "
+"posts by using either hand or editor button.<br><br> You can find "
+"%2$sDocuments%3$s. We provide support on our %4$ssupport page%3$s on "
+"DesignWall."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/Post.php:17 inc/Post.php:18 inc/Post.php:19 inc/Post.php:20
+msgid "DW Chart"
+msgstr ""
+
+#: inc/Post.php:21
+msgid "Add New"
+msgstr ""
+
+#: inc/Post.php:22
+msgid "Add New Chart"
+msgstr ""
+
+#: inc/Post.php:23
+msgid "New Chart"
+msgstr ""
+
+#: inc/Post.php:24
+msgid "Edit Chart"
+msgstr ""
+
+#: inc/Post.php:25
+msgid "View Chart"
+msgstr ""
+
+#: inc/Post.php:26
+msgid "All Charts"
+msgstr ""
+
+#: inc/Post.php:27
+msgid "Search Charts"
+msgstr ""
+
+#: inc/Post.php:28
+msgid "Parent Charts:"
+msgstr ""
+
+#: inc/Post.php:29
+msgid "No charts found."
+msgstr ""
+
+#: inc/Post.php:30
+msgid "No charts found in trash"
+msgstr ""
+
+#: inc/Post.php:35
+msgid "Description."
+msgstr ""
+
+#: inc/Post.php:58
+msgid "Shortcode"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:15
+msgid "Container Width"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:21
+msgid "Container Height"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:27
+msgid "Legend Position"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:30
+msgid "Right"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:31
+msgid "Above The Chart"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:32
+msgid "Below The Chart"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:33
+msgid "Inside the chart, by the top left corner"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:34
+msgid "No legend is displayed"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:42 inc/metabox/chart-setting.php:73
+#: inc/metabox/chart-setting.php:82 inc/metabox/chart-setting.php:125
+#: inc/metabox/chart-setting.php:188
+msgid "Yes"
+msgstr ""
+
+#: inc/metabox/advanced-setting.php:43 inc/metabox/chart-setting.php:74
+#: inc/metabox/chart-setting.php:83 inc/metabox/chart-setting.php:126
+#: inc/metabox/chart-setting.php:189
+msgid "No"
+msgstr ""
+
+#: inc/metabox/chart-data.php:14
+msgid "Data"
+msgstr ""
+
+#: inc/metabox/chart-data.php:18
+msgid "View example data"
+msgstr ""
+
+#: inc/metabox/chart-data.php:22
+msgid "Upload your CSV file"
+msgstr ""
+
+#: inc/metabox/chart-data.php:27
+#, php-format
+msgid "%sDownload sample file%s"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:16
+msgid "Chart Type"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:44
+msgid "Display Mode"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:47
+msgid "Auto - choose based on the formart of the data"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:48
+msgid "Region Map"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:49
+msgid "Marker Map"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:54
+msgid "Region"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:60
+msgid "Resolution"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:63
+msgid "Countries"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:64
+msgid "Provinces"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:65
+msgid "Metros"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:70
+msgid "Enable region interactivity"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:79
+msgid "Keep aspect ratio"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:88
+msgid "Marker opacity"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:107
+msgid "pieHole"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:110
+msgid "Value from 0.1 to 1"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:122
+msgid "3d Chart"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:131
+msgid "Slice text"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:134
+msgid "Percentage"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:135
+msgid "Value"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:136
+msgid "Label"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:137
+msgid "None"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:148
+msgid "Point Shape"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:151
+msgid "Circle"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:152
+msgid "Triangle"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:153
+msgid "Square"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:154
+msgid "Diamond"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:155
+msgid "Star"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:156
+msgid "Polygon"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:167
+msgid "Type"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:170
+msgid "Linear"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:171
+msgid "Exponential"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:172
+msgid "Polynomial"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:185
+msgid "Remove space"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:194
+msgid "Rising Color"
+msgstr ""
+
+#: inc/metabox/chart-setting.php:200
+msgid "Falling Color"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"DW Chart is a WordPress plugin which helps you easily build Google Charts "
+"based on the available data imported."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DesignWall"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.designwall.com"
+msgstr ""

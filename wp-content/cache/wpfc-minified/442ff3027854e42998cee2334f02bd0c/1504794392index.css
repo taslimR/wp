@@ -1,0 +1,19 @@
+#wp-preloader-container {
+position: fixed; 
+left: 0; 
+top: 0; 
+z-index: 9999;
+width: 100%; 
+height: 100%; 
+overflow: visible;
+background-color: #fff; } #wp-preloader-animation {
+width: 200px;
+height: 200px;
+position: absolute;
+left: 50%;
+top: 50%;
+background-image: url(//www.bristolgate.com/wp-content/plugins/wp-preloader/images/preloader-1.gif);
+background-repeat: no-repeat;
+background-position: center;
+margin: -100px 0 0 -100px;
+}
